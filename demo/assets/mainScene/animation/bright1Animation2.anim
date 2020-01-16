@@ -1,0 +1,156 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bright1Animation2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": "1",
+  "curveData": {
+    "paths": {
+      "bright1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            },
+            {
+              "frame": 0.4,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.2,
+              "value": 1
+            },
+            {
+              "frame": 0.4,
+              "value": 3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.2,
+              "value": 1
+            },
+            {
+              "frame": 0.4,
+              "value": 3
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.24,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "bright2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.04,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.24,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.04,
+              "value": 1.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.04,
+              "value": 1.3
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.04,
+              "value": [
+                -8,
+                0
+              ]
+            },
+            {
+              "frame": 0.08,
+              "value": [
+                8,
+                0
+              ]
+            },
+            {
+              "frame": 0.12,
+              "value": [
+                -8,
+                0
+              ]
+            },
+            {
+              "frame": 0.16,
+              "value": [
+                8,
+                0
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

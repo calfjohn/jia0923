@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "6b543ffc-f1df-4149-b692-1b1eda163975",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "PortalPumpkin": {
+      "ver": "1.0.4",
+      "uuid": "8f0b7273-f7e5-4fdf-a899-0984bf53a476",
+      "rawTextureUuid": "6b543ffc-f1df-4149-b692-1b1eda163975",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -111,
+      "offsetY": 8,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 286,
+      "height": 236,
+      "rawWidth": 512,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+Windows系统（以64位系统为例）：
+下载工具。
+将工具解压到指定的文件夹，并双击运行ossutil.bat文件。
+生成配置文件，配置参数参考Linux系统的配置参数：
+D:\ossutil>ossutil64.exe config
+Mac系统（以64位系统为例）：
+下载工具。
+curl -o ossutilmac64 http://gosspublic.alicdn.com/ossutil/1.6.9/ossutilmac64
+修改文件执行权限：
+chmod 755 ossutilmac64
+生成配置文件，配置参数参考Linux系统的配置参数：
+./ossutilmac64 config
+
+
+小狮子OSS配置信息
+
+[Credentials]
+language=CH
+endpoint=oss-cn-hangzhou.aliyuncs.com
+accessKeyID=LTAIDylvcxYTmvWn
+accessKeySecret=jtwrickkxgvsL7FNkN3o0q9CrPCIXj

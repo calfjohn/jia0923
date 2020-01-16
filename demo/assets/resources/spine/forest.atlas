@@ -1,0 +1,48 @@
+
+forest.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lchushou
+  rotate: true
+  xy: 185, 59
+  size: 59, 120
+  orig: 59, 120
+  offset: 0, 0
+  index: -1
+Lmen
+  rotate: false
+  xy: 321, 164
+  size: 101, 190
+  orig: 101, 190
+  offset: 0, 0
+  index: -1
+Rchushou
+  rotate: true
+  xy: 185, 2
+  size: 55, 118
+  orig: 55, 118
+  offset: 0, 0
+  index: -1
+Rmen
+  rotate: true
+  xy: 2, 4
+  size: 114, 181
+  orig: 114, 181
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 321, 356
+  size: 150, 143
+  orig: 150, 143
+  offset: 0, 0
+  index: -1
+men
+  rotate: false
+  xy: 2, 120
+  size: 317, 379
+  orig: 317, 379
+  offset: 0, 0
+  index: -1

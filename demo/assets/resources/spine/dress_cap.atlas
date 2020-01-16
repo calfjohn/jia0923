@@ -1,0 +1,20 @@
+
+dress_cap.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hat1
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+hat2
+  rotate: false
+  xy: 130, 0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

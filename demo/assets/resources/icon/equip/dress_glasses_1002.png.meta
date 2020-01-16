@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "38243ba4-38e2-429e-bd1f-be7ae55ef728",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "dress_glasses_1002": {
+      "ver": "1.0.4",
+      "uuid": "013c1e8a-11de-4763-b919-598ce4189cfe",
+      "rawTextureUuid": "38243ba4-38e2-429e-bd1f-be7ae55ef728",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -9,
+      "trimX": 10,
+      "trimY": 31,
+      "width": 62,
+      "height": 36,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

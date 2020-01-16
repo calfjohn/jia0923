@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "lGlowAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.875,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "29b5c1dc-978a-4e87-a399-f53adcdf7d63"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "2dd21caf-3692-40ea-bef1-9a4190ff0f32"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "add58833-d69f-4d67-a21c-656d1a67e6d2"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "29b5c1dc-978a-4e87-a399-f53adcdf7d63"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "9858ed67-444d-48e6-814c-0eac4bca3c70"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.125,
+          "value": 255
+        },
+        {
+          "frame": 0.5,
+          "value": 255
+        },
+        {
+          "frame": 0.625,
+          "value": 0
+        },
+        {
+          "frame": 1.875,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

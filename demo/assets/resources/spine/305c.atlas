@@ -1,0 +1,90 @@
+
+305c.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lshou
+  rotate: false
+  xy: 98, 7
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+Lyan
+  rotate: false
+  xy: 76, 9
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+Rshou
+  rotate: false
+  xy: 219, 34
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+miao
+  rotate: false
+  xy: 219, 47
+  size: 34, 15
+  orig: 34, 15
+  offset: 0, 0
+  index: -1
+mogu1
+  rotate: true
+  xy: 194, 27
+  size: 13, 22
+  orig: 13, 22
+  offset: 0, 0
+  index: -1
+mogu2
+  rotate: false
+  xy: 2, 10
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+mogu3
+  rotate: true
+  xy: 124, 2
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 76, 22
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+tie
+  rotate: false
+  xy: 124, 29
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 169, 28
+  size: 23, 12
+  orig: 23, 12
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 169, 42
+  size: 48, 20
+  orig: 48, 20
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 114, 9
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1

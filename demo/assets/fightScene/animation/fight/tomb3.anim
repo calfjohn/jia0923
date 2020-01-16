@@ -1,0 +1,191 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "tomb1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "somke1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "8f837cb2-6e1f-4f85-ad08-a20dd77aecf9"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "05e3cd6a-c441-4457-a5b8-a7b664ea148f"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "7fd0566d-fadd-47d6-81a6-dfd07386b672"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "33e22e03-90fe-4724-9bdd-252db9040ada"
+                }
+              },
+              {
+                "frame": 0.25,
+                "value": {
+                  "__uuid__": "7b54cfc5-fe24-4cb9-ae12-559fdcd65084"
+                }
+              },
+              {
+                "frame": 0.3,
+                "value": {
+                  "__uuid__": "0e4d24df-401d-4191-8fce-843956fb6540"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.05,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.35,
+              "value": 255
+            },
+            {
+              "frame": 0.4,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.2,
+              "value": [
+                0,
+                96
+              ]
+            }
+          ]
+        }
+      },
+      "tombstone": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.15,
+              "value": [
+                0,
+                29
+              ]
+            },
+            {
+              "frame": 0.35,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.05,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "soul": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.15,
+              "value": 2
+            },
+            {
+              "frame": 0.25,
+              "value": 1.5999999999999999
+            },
+            {
+              "frame": 0.4,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.15,
+              "value": 0.8
+            },
+            {
+              "frame": 0.25,
+              "value": 0.88
+            },
+            {
+              "frame": 0.4,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.15,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 191.25
+            },
+            {
+              "frame": 0.4,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.15,
+              "value": [
+                -5,
+                49
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -5,
+                63
+              ]
+            },
+            {
+              "frame": 0.4,
+              "value": [
+                -5,
+                122
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

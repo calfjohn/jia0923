@@ -1,0 +1,41 @@
+
+403b.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lian
+  rotate: false
+  xy: 148, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+pingzi
+  rotate: false
+  xy: 2, 36
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+shenti1
+  rotate: false
+  xy: 148, 54
+  size: 60, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 79, 44
+  size: 67, 65
+  orig: 67, 65
+  offset: 0, 0
+  index: -1
+shenti3
+  rotate: false
+  xy: 2, 6
+  size: 56, 28
+  orig: 56, 28
+  offset: 0, 0
+  index: -1

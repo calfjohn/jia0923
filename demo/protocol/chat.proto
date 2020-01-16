@@ -1,0 +1,77 @@
+package protocol;
+import "base.proto";
+
+////////////////////////////////  消息结构体 ////////////////////////////////////
+
+message Chat_Info_{//邮件信息
+  optional int32 Type = 1;//类型 0:系统信息 1：世界聊天 2:私聊
+  optional int64 Time = 2;//时间戳
+  optional int64 Uid = 3; //用户ID
+  optional string Name = 4;//用户昵称
+  optional string Content = 5;//内容
+  optional int32 Icon = 6;  // 头像
+}
+
+message Marquee_Info_{//系统公告
+  optional int32 Type = 1; //类型 0x00:普通公告 0x01:充值活动公告
+  optional string Content = 2;//内容
+}
+
+message GamePush_Info_ {
+    optional int32 Type = 1; //类型 0x00:普通公告 0x01:充值活动公告
+    optional string Content = 2;//内容
+    repeated string Args = 3;   // 客户端用参数
+}
+
+message Resp_Marquee_{
+  repeated Marquee_Info_ MarqueeInfos = 1;//系统公告
+  repeated GamePush_Info_ PushInfos = 2;    // 游戏内消息推送
+}
+
+message Req_Chat_Info_{//请求聊天历史信息
+  optional int64 Uid = 1;//用户 ID 【服务器专用】
+  optional int32 Type = 2; // 0:系统信息 1:世界聊天 2:私聊历史记录
+}
+
+message Req_Chat_Send_{//请求发送聊天数据
+  optional int64 Uid = 1;//用户ID【服务器专用】
+  optional string Name = 2;//用户昵称【服务器专用】
+  optional int64 DecUid = 3;//目标用过户ID 0:表示世界聊天 n:表示对应的用户ID
+  optional string DecName = 4;//目标的用户昵称
+  optional string Content = 5;//聊天内容
+  optional int32 Icon = 6;  // 头像
+}
+
+// 请求发送聊天结果
+message Resp_Update_Player_ChatInfo_ {
+    optional int64 NextChatTime = 1;    // 下次可发送聊天时间
+    optional Reward_Info_ Cost = 2;   // 聊天花费
+}
+
+message Resp_Chat_Info_{
+  optional int64 Uid = 1;//用户ID 【服务器专用】
+  optional int32 Type = 2;//类型 0:系统信息 1：世界聊天 2:私聊
+  repeated Chat_Info_ ChatInfos = 3;//聊天数据
+}
+
+message Resp_Chat_Send_{//注：这条是推送下去的
+  optional int64 DecUid = 1;//目标 0：群发 n:目标用户【服务器专属字段 客户端勿用！！！】
+  repeated Chat_Info_ ChatInfos = 2;//聊天数据
+}
+
+message Resp_Chat_PriSend_{//注: 这里是服务器专属消息
+  repeated int64 DecUid = 1;//目标id
+  repeated Chat_Info_ ChatInfos = 2;//聊天信息
+}
+
+// 请求 竞技场聊天
+message Req_Battle_Chat_Send_ {
+    optional int64 Uid = 1;//用户ID【服务器专用】
+    optional string Name = 2;//用户昵称【服务器专用】
+    optional int64 DecUid = 3;//目标用过户ID 0:表示世界聊天 n:表示对应的用户ID
+    optional string Content = 4;//聊天内容
+}
+message Resp_Battle_Chat_Info_{
+  repeated int64 DecUid = 1;//用户ID 【服务器专用】
+  repeated Chat_Info_ ChatInfos = 2;//聊天数据
+}

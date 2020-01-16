@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "c9da2972-4099-401f-986f-ae6f7a4e0a2d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "dress_cap_1002": {
+      "ver": "1.0.4",
+      "uuid": "dee7b796-8693-4601-a818-ea8fd8b41d88",
+      "rawTextureUuid": "c9da2972-4099-401f-986f-ae6f7a4e0a2d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": 2.5,
+      "trimX": 6,
+      "trimY": 28,
+      "width": 65,
+      "height": 19,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

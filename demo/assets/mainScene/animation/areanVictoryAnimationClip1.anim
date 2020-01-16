@@ -1,0 +1,313 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "areanVictoryAnimationClip1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.08,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "iconWinRibbon": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "skewX": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "skewY": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "iconWinWord": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "iconWinWingLeft": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "anchorX": [],
+          "anchorY": [],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -55,
+                -66
+              ]
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 20
+            }
+          ]
+        }
+      },
+      "iconWinWingRight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "anchorX": [],
+          "anchorY": [],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                37,
+                -75
+              ]
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -20
+            }
+          ]
+        }
+      },
+      "iconWinTrumpetLeft": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -58,
+                -26
+              ]
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "anchorY": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "iconWinTrumpetRight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "position": [],
+          "anchorX": [],
+          "anchorY": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "iconWinStar3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -93.2,
+                51.5
+              ]
+            }
+          ]
+        }
+      },
+      "iconWinStar1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                110.1
+              ]
+            }
+          ]
+        }
+      },
+      "iconWinStar2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                114.1,
+                76.2
+              ]
+            }
+          ]
+        }
+      },
+      "iconWinCrown": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "position": []
+        }
+      },
+      "mask/iconWinLight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.56,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 50
+            },
+            {
+              "frame": 5.08,
+              "value": 410
+            }
+          ]
+        }
+      },
+      "ribbon1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "position": [],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "mask": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

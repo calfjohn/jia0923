@@ -1,0 +1,41 @@
+
+105a.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 2, 8
+  size: 49, 52
+  orig: 49, 52
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 81, 7
+  size: 24, 16
+  orig: 24, 16
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 53, 2
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+yezi1
+  rotate: false
+  xy: 53, 25
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1
+yezi2
+  rotate: false
+  xy: 103, 26
+  size: 20, 34
+  orig: 20, 34
+  offset: 0, 0
+  index: -1

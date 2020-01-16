@@ -1,0 +1,51 @@
+﻿{
+
+    "serverIdx":7,
+    "showNotice":false,
+    "LOGIN_LIST": [
+        {"ip": "ae-global.hihogame.com", "name": "正式服务器", "port": 0, "isHttps":true},
+        {"ip": "zcode.aliensidea.com", "name": "外网", "port": 0, "isHttps":true},
+        {"ip": "119.23.245.55", "name": "widnwos", "port": 17002, "isHttps":false},
+        {"ip": "qa.game.aliensidea.com/zcode-wx", "name": "wx", "port": 0, "isHttps":true},
+        {"ip": "39.108.220.37", "name": "linux", "port": 17002,  "isHttps":false},
+        {"ip": "10.15.1.41", "name": "以燊服务器", "port": 17002, "isHttps":false},
+        {"ip": "211.159.154.40", "name": "闪电玩", "port": 17002, "isHttps":false},
+        {"ip": "127.0.0.1", "name": "本机", "port": 17002, "isHttps":false}
+    ],
+    "loginMode":1,
+
+    "sdwLoginUrl":"https://qa.game.aliensidea.com/zcode-login/sdw/login",
+
+    "sdwShareInfo":{
+            "title":"消除怪物，享受快乐！",
+            "desc":"站着完，躺着玩，坐车玩，吃饭玩，消除停不下来！",
+            "link":"http://www.shandw.com/mi/game/2072737999.html",
+            "imgUrl":"http://www.alienidea.com/public/ZCodeShare.png"
+    },
+
+    "noticeUrl":"https://qa.game.aliensidea.com/summon/",
+
+    "shareTitle": "召唤啊啊 啊 啊",
+
+    "shareUrl": "http://www.alienidea.com/GodOfKid/index.html",
+
+    "shareIcon": "http://www.alienidea.com/favicon.ico",
+
+    "fbShareBackUrl":"https://zcode.aliensidea.com:18003/summon/share",
+
+    "ruleUrl":"https://www.hihogame.com/rules",
+
+    "privacyUrl":"https://www.hihogame.com/privacy",
+
+    "fbGroupUrl": "https://www.facebook.com/295707987957671",
+
+    "shareAndroidUrl":"https://play.google.com/store/apps/details?id=com.hiho.google.pm",
+
+    "shareIosUrl": "https://itunes.apple.com/app/id1457306330",
+
+    "h5PhotoUrl":"http://global-ae.hihogame.com/H5",
+
+    "strategyUrl":"https://www.facebook.com/notes/295714164623720/",
+
+    "cookieName": "ssGame"
+}

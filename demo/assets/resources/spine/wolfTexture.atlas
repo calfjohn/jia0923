@@ -1,0 +1,174 @@
+
+wolfTexture.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozi
+  rotate: false
+  xy: 261, 14
+  size: 37, 29
+  orig: 37, 29
+  offset: 0, 0
+  index: -1
+dizuo
+  rotate: false
+  xy: 132, 95
+  size: 136, 31
+  orig: 136, 31
+  offset: 0, 0
+  index: -1
+er
+  rotate: true
+  xy: 443, 82
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+er2
+  rotate: false
+  xy: 487, 96
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+fangzi
+  rotate: true
+  xy: 2, 13
+  size: 113, 128
+  orig: 113, 128
+  offset: 0, 0
+  index: -1
+quan1
+  rotate: false
+  xy: 132, 2
+  size: 66, 25
+  orig: 66, 25
+  offset: 0, 0
+  index: -1
+quan2
+  rotate: false
+  xy: 270, 93
+  size: 68, 33
+  orig: 68, 33
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 205, 16
+  size: 77, 54
+  orig: 77, 54
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 132, 29
+  size: 71, 64
+  orig: 71, 64
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: false
+  xy: 322, 20
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+tui10
+  rotate: false
+  xy: 339, 51
+  size: 26, 24
+  orig: 26, 24
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: false
+  xy: 322, 2
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+tui3
+  rotate: true
+  xy: 369, 78
+  size: 17, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+tui4
+  rotate: false
+  xy: 290, 46
+  size: 24, 45
+  orig: 24, 45
+  offset: 0, 0
+  index: -1
+tui5
+  rotate: false
+  xy: 412, 102
+  size: 73, 24
+  orig: 73, 24
+  offset: 0, 0
+  index: -1
+tui6
+  rotate: true
+  xy: 412, 81
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+tui7
+  rotate: false
+  xy: 343, 33
+  size: 20, 16
+  orig: 20, 16
+  offset: 0, 0
+  index: -1
+tui8
+  rotate: false
+  xy: 345, 16
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+tui9
+  rotate: true
+  xy: 340, 77
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 261, 45
+  size: 27, 46
+  orig: 27, 46
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 316, 51
+  size: 40, 21
+  orig: 40, 21
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 200, 2
+  size: 38, 10
+  orig: 38, 10
+  offset: 0, 0
+  index: -1
+zui1
+  rotate: false
+  xy: 340, 97
+  size: 70, 29
+  orig: 70, 29
+  offset: 0, 0
+  index: -1
+zui2
+  rotate: true
+  xy: 300, 6
+  size: 38, 20
+  orig: 38, 20
+  offset: 0, 0
+  index: -1

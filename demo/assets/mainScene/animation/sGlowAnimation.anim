@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "sGlowAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.875,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "9f232657-ec03-4b59-8d53-00db5a76d5cf"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "5c073d7c-2164-4c0c-9eba-1ccd0ed2a5c5"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "1d36758c-2d38-42b9-b826-65715985be2a"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "c03b7b43-2e30-4ad7-a841-5508f237622f"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.125,
+          "value": 255
+        },
+        {
+          "frame": 0.5,
+          "value": 255
+        },
+        {
+          "frame": 0.625,
+          "value": 0
+        },
+        {
+          "frame": 1.875,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

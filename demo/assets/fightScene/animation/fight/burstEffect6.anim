@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "burstEffect6",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.14,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "burstEffect/burstEffect1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.02,
+                "value": {
+                  "__uuid__": "8d091342-dbc2-4782-85be-f62e84de41e8"
+                }
+              },
+              {
+                "frame": 0.04,
+                "value": {
+                  "__uuid__": "f847836e-84cf-41c0-ac02-307edd4c8f1e"
+                }
+              },
+              {
+                "frame": 0.06,
+                "value": {
+                  "__uuid__": "b3ee484b-0e9e-4d6e-8ade-c6f7c7514634"
+                }
+              },
+              {
+                "frame": 0.08,
+                "value": {
+                  "__uuid__": "ae3e99b7-5b87-468b-b6b7-88c576bdcce3"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "6287e19a-1acd-4339-a5cb-644f57ba6cc5"
+                }
+              },
+              {
+                "frame": 0.12,
+                "value": {
+                  "__uuid__": "d1f4899b-cfec-463f-9349-ddacdc72c196"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.02,
+              "value": 255
+            },
+            {
+              "frame": 0.1,
+              "value": 255
+            },
+            {
+              "frame": 0.12,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

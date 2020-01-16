@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "70e5009d-4562-47d1-a96a-0de1ca332d86",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "desertPortal3": {
+      "ver": "1.0.4",
+      "uuid": "e0edf893-1d70-40c5-8134-61cfbc461190",
+      "rawTextureUuid": "70e5009d-4562-47d1-a96a-0de1ca332d86",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": 2,
+      "trimX": 5,
+      "trimY": 2,
+      "width": 115,
+      "height": 112,
+      "rawWidth": 120,
+      "rawHeight": 120,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

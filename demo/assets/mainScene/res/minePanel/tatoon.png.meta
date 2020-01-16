@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "1e7345d1-1604-4cd3-917b-600c9f905bd4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "tatoon": {
+      "ver": "1.0.4",
+      "uuid": "89588bc9-f2ee-4517-83fe-f9d72d9600e2",
+      "rawTextureUuid": "1e7345d1-1604-4cd3-917b-600c9f905bd4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 55,
+      "height": 21,
+      "rawWidth": 55,
+      "rawHeight": 21,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

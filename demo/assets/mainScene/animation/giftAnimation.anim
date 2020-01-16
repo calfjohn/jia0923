@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "giftAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.4833333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "scaleX": [
+        {
+          "frame": 1.4833333333333334,
+          "value": 1
+        }
+      ],
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.1,
+          "value": 15
+        },
+        {
+          "frame": 0.2,
+          "value": -15
+        },
+        {
+          "frame": 0.3,
+          "value": 15
+        },
+        {
+          "frame": 0.4,
+          "value": -15
+        },
+        {
+          "frame": 0.5,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,181 @@
+
+507e.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lshou2
+  rotate: false
+  xy: 936, 81
+  size: 34, 45
+  orig: 34, 45
+  offset: 0, 0
+  index: -1
+Lshou3
+  rotate: true
+  xy: 536, 2
+  size: 31, 36
+  orig: 31, 36
+  offset: 0, 0
+  index: -1
+Ltui1
+  rotate: true
+  xy: 372, 4
+  size: 22, 39
+  orig: 22, 39
+  offset: 0, 0
+  index: -1
+Ltui2
+  rotate: true
+  xy: 816, 46
+  size: 25, 41
+  orig: 25, 41
+  offset: 0, 0
+  index: -1
+Ltui3
+  rotate: true
+  xy: 859, 45
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1
+Rshou2
+  rotate: false
+  xy: 972, 88
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+Rshou3
+  rotate: false
+  xy: 184, 40
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: true
+  xy: 972, 70
+  size: 16, 36
+  orig: 16, 36
+  offset: 0, 0
+  index: -1
+Rtui2
+  rotate: true
+  xy: 413, 3
+  size: 23, 39
+  orig: 23, 39
+  offset: 0, 0
+  index: -1
+Rtui3
+  rotate: true
+  xy: 574, 8
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+huangguan
+  rotate: false
+  xy: 88, 11
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+jizhui
+  rotate: true
+  xy: 372, 28
+  size: 22, 98
+  orig: 22, 98
+  offset: 0, 0
+  index: -1
+kuagu
+  rotate: false
+  xy: 472, 2
+  size: 62, 31
+  orig: 62, 31
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: false
+  xy: 492, 35
+  size: 95, 91
+  orig: 95, 91
+  offset: 0, 0
+  index: -1
+maozi3
+  rotate: false
+  xy: 668, 47
+  size: 75, 79
+  orig: 75, 79
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: true
+  xy: 217, 11
+  size: 115, 153
+  orig: 115, 153
+  offset: 0, 0
+  index: -1
+qunbai
+  rotate: false
+  xy: 816, 73
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 589, 40
+  size: 77, 86
+  orig: 77, 86
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: false
+  xy: 880, 74
+  size: 54, 52
+  orig: 54, 52
+  offset: 0, 0
+  index: -1
+shou3
+  rotate: false
+  xy: 143, 16
+  size: 39, 52
+  orig: 39, 52
+  offset: 0, 0
+  index: -1
+shou8
+  rotate: false
+  xy: 184, 12
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 745, 47
+  size: 69, 79
+  orig: 69, 79
+  offset: 0, 0
+  index: -1
+weijing
+  rotate: true
+  xy: 372, 52
+  size: 74, 118
+  orig: 74, 118
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: true
+  xy: 2, 70
+  size: 56, 213
+  orig: 56, 213
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: false
+  xy: 2, 5
+  size: 84, 63
+  orig: 84, 63
+  offset: 0, 0
+  index: -1

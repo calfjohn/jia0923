@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "magnifierAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -80,
+            -50
+          ],
+          "motionPath": [
+            [
+              -78.7,
+              -40.7,
+              -76.2,
+              -43.3,
+              -81.4,
+              -37.9
+            ]
+          ]
+        },
+        {
+          "frame": 0.5,
+          "value": [
+            -86.9,
+            -38.6
+          ],
+          "motionPath": [
+            [
+              -89.9,
+              -48.3,
+              -94.5,
+              -43.5,
+              -85.2,
+              -53.3
+            ]
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            -78.7,
+            -50
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}

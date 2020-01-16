@@ -1,0 +1,76 @@
+
+403e.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti1
+  rotate: false
+  xy: 87, 47
+  size: 73, 79
+  orig: 73, 79
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 2, 11
+  size: 83, 115
+  orig: 83, 115
+  offset: 0, 0
+  index: -1
+shenti3
+  rotate: false
+  xy: 87, 20
+  size: 63, 25
+  orig: 63, 25
+  offset: 0, 0
+  index: -1
+shenti4
+  rotate: true
+  xy: 211, 24
+  size: 31, 14
+  orig: 31, 14
+  offset: 0, 0
+  index: -1
+shuijin1
+  rotate: true
+  xy: 315, 67
+  size: 59, 70
+  orig: 59, 70
+  offset: 0, 0
+  index: -1
+shuijin2
+  rotate: true
+  xy: 242, 62
+  size: 64, 71
+  orig: 64, 71
+  offset: 0, 0
+  index: -1
+shuijin3
+  rotate: false
+  xy: 162, 57
+  size: 78, 69
+  orig: 78, 69
+  offset: 0, 0
+  index: -1
+shuijin4
+  rotate: false
+  xy: 387, 96
+  size: 63, 30
+  orig: 63, 30
+  offset: 0, 0
+  index: -1
+shuijin5
+  rotate: false
+  xy: 387, 68
+  size: 17, 26
+  orig: 17, 26
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 162, 2
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1

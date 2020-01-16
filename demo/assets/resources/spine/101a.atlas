@@ -1,0 +1,76 @@
+
+101a.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lshou1
+  rotate: false
+  xy: 158, 111
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+Lshou2
+  rotate: true
+  xy: 36, 2
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+Ltui
+  rotate: false
+  xy: 36, 13
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+Rshou2
+  rotate: false
+  xy: 147, 105
+  size: 9, 21
+  orig: 9, 21
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: false
+  xy: 51, 15
+  size: 11, 14
+  orig: 11, 14
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: false
+  xy: 2, 31
+  size: 75, 95
+  orig: 75, 95
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 3
+  size: 26, 32
+  orig: 26, 32
+  offset: 0, 0
+  index: -1
+tou3
+  rotate: false
+  xy: 79, 53
+  size: 66, 73
+  orig: 66, 73
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 79, 34
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+zuiba
+  rotate: false
+  xy: 98, 40
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1

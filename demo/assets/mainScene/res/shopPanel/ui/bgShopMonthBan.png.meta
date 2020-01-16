@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "4dd33ba9-6445-47c3-a3c1-2da6d3ba5b52",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "bgShopMonthBan": {
+      "ver": "1.0.4",
+      "uuid": "89c5eaef-008e-4463-9594-1ef2f08544c2",
+      "rawTextureUuid": "4dd33ba9-6445-47c3-a3c1-2da6d3ba5b52",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 60,
+      "height": 60,
+      "rawWidth": 60,
+      "rawHeight": 60,
+      "borderTop": 26,
+      "borderBottom": 26,
+      "borderLeft": 24,
+      "borderRight": 25,
+      "subMetas": {}
+    }
+  }
+}

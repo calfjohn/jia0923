@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "editAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.18333333333333332,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "edit": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 24
+            },
+            {
+              "frame": 0.18333333333333332,
+              "value": -193
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

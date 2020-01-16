@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "processEffect13",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "processEffect/processEffect": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "618b8edf-7f83-4dff-9b36-5fb553ee1da2"
+                }
+              },
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "1621db16-f82e-404f-8b8e-e9f5db28019e"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "db09a5e8-26fe-404b-92cb-d6ef5224a739"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "8953f2ca-2993-4e41-96fb-49136d2c685a"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 2555
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": []
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

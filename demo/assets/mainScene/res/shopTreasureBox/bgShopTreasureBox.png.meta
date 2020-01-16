@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "4bc9e624-59cc-4a59-a709-f55dadc1e1a7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "bgShopTreasureBox": {
+      "ver": "1.0.4",
+      "uuid": "c8307be1-7d05-48f9-bddd-2b3fd702ed94",
+      "rawTextureUuid": "4bc9e624-59cc-4a59-a709-f55dadc1e1a7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 676,
+      "height": 255,
+      "rawWidth": 676,
+      "rawHeight": 255,
+      "borderTop": 114,
+      "borderBottom": 117,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

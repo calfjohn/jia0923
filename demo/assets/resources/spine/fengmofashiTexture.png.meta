@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "79c6c96d-2f04-462a-86ad-613b15dac03e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "fengmofashiTexture": {
+      "ver": "1.0.4",
+      "uuid": "14bbc048-13be-4aab-8021-ba2096211609",
+      "rawTextureUuid": "79c6c96d-2f04-462a-86ad-613b15dac03e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -48.5,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 923,
+      "height": 124,
+      "rawWidth": 1024,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "glowAniamtion",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6666666666666666,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "5eb56d30-8d77-4f5e-af14-a38fc9a3f541"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "b27ce714-52eb-4524-9319-094cad366ad8"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "57b864d3-e6c1-4669-a812-4b3f210dde6a"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "f0a879a3-5fdd-433f-a25b-3c43caf26768"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "cab7bb73-97b0-43db-9b28-01cfce48ce62"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "3a3bf65e-ec6d-4017-8add-0ef9f8b66ced"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "ce43e966-7e76-4e35-ba56-4d4c8f5ee16b"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "e3a90cac-c7f6-415b-a534-36d8386f7989"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "a6b3b4e3-14b9-4562-b8e5-4e79f718df0f"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "56a130f7-a279-4ca4-933c-b0ad0f3d102f"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 0.6,
+          "value": 255
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": 0
+        }
+      ],
+      "position": [
+        {
+          "frame": 0.2,
+          "value": [
+            -346.4,
+            207.7
+          ]
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0.26666666666666666,
+          "value": 0.86
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0.26666666666666666,
+          "value": 0.86
+        }
+      ]
+    }
+  },
+  "events": []
+}

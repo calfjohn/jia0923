@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "857afacb-9e9b-4d42-b613-1eb75dba30bc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "passiveskill_icon_1030": {
+      "ver": "1.0.4",
+      "uuid": "bea45837-2472-40be-98d9-1e15210d8361",
+      "rawTextureUuid": "857afacb-9e9b-4d42-b613-1eb75dba30bc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 80,
+      "height": 80,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

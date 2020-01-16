@@ -1,0 +1,293 @@
+package protocol;
+import "base.proto";
+// 活动数据
+message Activity_Info_ {
+    optional int32 ID = 1;
+    optional int64 OpenTime = 2;
+    optional int64 EndTime = 3;
+    optional int32 ActType = 4; // 客户端用
+    optional int32 Type = 5;    // 客户端用
+    optional int32 Priority = 6;    // 客户端用
+    optional int32 ActName = 7; // 客户端用
+    optional string ActResource = 8;    // 客户端用
+    repeated Reward_Info_ Rewards = 9;  // 首充
+    repeated Activity_Reward_Info_ ActRewards = 10;
+    optional int64 ShowEndTime = 11; // 客户端界面展示截至时间
+    repeated int32 ItemID = 12; // 客户端用
+
+}
+
+// 活动奖励数据
+message Activity_Reward_Info_ {
+    optional int32 Value = 1;    // 条件指，七日签到为日期，每日礼包为礼包id，补充体力为时间
+    repeated Reward_Info_ Rewards = 2;  // 奖励
+    optional int32 BuyLimit = 3;  // 购买次数
+    optional string Desc = 4;  // 描述
+}
+
+// 更新活动静态数据
+message Resp_Data_Activity_Update_ {
+    optional int32 ActID = 1;
+    optional Activity_Info_ Activity = 2;
+    optional int32 RemActID = 3;
+}
+
+// 请求 活动数据（静态表现数据）
+message Req_Data_Activity_ {}
+
+// 响应 活动数据（静态表现数据）
+message Resp_Data_Activity_ {
+    repeated int32 IDList = 1;    // id
+    repeated Activity_Info_ Activities = 2;
+    repeated int64 MonCardLimitDay = 3;// 周月卡到期前N天可继续购买，为0无限制 iddex 0为周卡 1为月卡
+    optional Reward_Info_ SupplySignCost = 4;   // 补签花费，签到结束后为 null
+}
+
+// 请求 活动奖励领取
+message Req_Activity_Reward_Rec_ {
+    optional int32 ID = 1;
+    optional int32 Value = 2;// 条件指，七日签到为日期，每日礼包为礼包id，补充体力为时间，等级礼包为Lv
+    optional string Args = 3;    // 额外参数 时区
+}
+
+// 响应 活动奖励领取
+message Resp_Activity_Reward_Rec_ {
+    repeated Reward_Info_ Rewards = 1;  // 奖励
+    optional int32 ChestIcon = 2;	// 宝箱icon
+	repeated Reward_Info_ ChestRewards = 3;// 宝箱展示
+}
+
+// 成长基金数据
+message GrowthCapital_ {
+    optional int32 ID = 1;          // 对应shopID
+    repeated int32 RecValue = 2;    // 已领取的奖励
+}
+
+// 响应 玩家活动数据
+message Resp_PlayerData_Activity_ {
+    optional int32 FirstChargeTag = 1;  // 首充标识 0：不可领 1：可领 2：已领
+    repeated int32 NewSign = 2; // 新手签到标识 0：不可领 1：可领 2：已领
+    optional Reward_Info_ WeekJackpot = 3; // 周卡奖池
+    repeated Reward_Info_ MonJackpot = 4;	// 月卡奖池
+	optional int64 MonExpiryTime = 5;// 月卡到期时间 0表无
+    optional int64 WeekExpiryTime = 6;  // 周卡到期时间
+	repeated int32 ChargeRewardID = 7;	// 充值奖励id
+    optional int32 Dinner = 8;  // 午晚餐
+    repeated int32 NewGift = 9; // 新手特惠礼包
+    repeated int32 DailyGift = 10;//每日礼包
+    repeated int32 LvGift = 11; // 已领的等级礼包对应的等级
+    optional int32 FreeDraw = 12;// 免费抽卡次数（单抽)
+    optional int64 FreeNext = 13;// 下次免费时间
+    optional int32 DrawScore = 14;// 抽卡积分
+    repeated int32 ScoreRewardState = 15;//积分奖励状态 0：不可领 1：可领 2：已领
+    repeated int32 SpendRewardID = 18;	// 累消奖励id
+    repeated int32 LimitGiftTimes = 19;  // 限时礼包已购买次数
+    repeated int32 LimitDrawShopTimes = 20;// 限时抽卡商店次数
+    optional int32 LimitDrawMustBe = 21;    // 限时抽卡几抽后必中
+    repeated GrowthCapital_ GCInfo = 22;    // 成长基金玩家数据
+    optional int32 FreePrizeWheel = 23; // 大转盘免费次数
+    optional int64 FreePrizeWheelNext = 24; // 大转盘下次免费时间
+    optional int32 PrizeWheelScore = 25;    // 大转盘积分
+    optional int32 NewSingleChargeState = 26;   // 新首充 单充满额 领取状态 0：不可领 1：可领 2：已领
+    repeated Reward_Info_ ForeverJackpot = 27;	// 年卡奖池
+    optional int64 ForeverExpiryTime = 28;  // 永久卡到期时间
+    repeated int32 ContinueChargeState = 29;    // 连续充值状态
+    repeated int32 ContinueChargeNum = 30;  // 充值次数
+    repeated int32 ContinueChargeReward = 31;   // 充值奖励领取
+    optional int32 SumPay = 32;  // 累计充值（金额）
+    repeated int32 NewContinueChargeState = 33;    // 新手7日充值状态
+    repeated int32 NewContinueChargeNum = 34;  // 新手7日充值次数
+    repeated int32 NewContinueChargeReward = 35;   // 新手7日充值奖励领取
+    repeated int32 FixedDateSignState = 36; // 固定日期签到
+    repeated int32 ExchangeItem = 37;   // 兑换道具数据 e.g. 兑换道具id * 1000 + 已兑换的次数
+}
+
+// 更新 玩家活动数据
+message Resp_PlayerUpdate_Activity_ {
+    optional int32 FirstChargeTag = 1;  // 首充标识 0：不可领 1：可领 2：已领
+    repeated int32 NewSign = 2; // 新手签到标识 0：不可领 1：可领 2：已领
+    optional Reward_Info_ WeekJackpot = 3; // 周卡奖池
+    repeated Reward_Info_ MonJackpot = 4;	// 月卡奖池
+    optional int64 MonExpiryTime = 5;// 月卡到期时间 0表无
+    optional int64 WeekExpiryTime = 6;  // 周卡到期时间
+	repeated int32 ChargeRewardID = 7;	// 充值奖励id
+    optional int32 Dinner = 8;  // 午晚餐
+    repeated int32 NewGift = 9; // 新手特惠礼包
+    repeated int32 DailyGift = 10;//每日礼包
+    repeated int32 LvGift = 11; // 已领的等级礼包对应的等级
+    optional int32 FreeDraw = 12;// 免费抽卡次数（单抽)
+    optional int64 FreeNext = 13;// 下次免费时间
+    optional int32 DrawScore = 14;// 抽卡积分
+    repeated int32 ScoreRewardState = 15;//积分奖励状态 0：不可领 1：可领 2：已领
+    repeated int32 SpendRewardID = 18;	// 累消奖励id
+    repeated int32 LimitGiftTimes = 19;  // 限时礼包已购买次数
+    repeated int32 LimitDrawShopTimes = 20;// 限时抽卡商店次数 107 * 1000 + nowBuyTimes
+    optional int32 LimitDrawMustBe = 21;    // 限时抽卡几抽后必中
+    repeated GrowthCapital_ GCInfo = 22;    // 成长基金玩家数据
+    optional int32 FreePrizeWheel = 23; // 大转盘免费次数
+    optional int64 FreePrizeWheelNext = 24; // 大转盘下次免费时间
+    optional int32 PrizeWheelScore = 25;    // 大转盘积分
+    optional int32 NewSingleChargeState = 26;   // 新首充 单充满额 领取状态 0：不可领 1：可领 2：已领
+    repeated Reward_Info_ ForeverJackpot = 27;	// 年卡奖池
+    optional int64 ForeverExpiryTime = 28;  // 永久卡到期时间
+    repeated int32 ContinueChargeState = 29;    // 连续充值状态
+    repeated int32 ContinueChargeNum = 30;  // 充值次数
+    repeated int32 ContinueChargeReward = 31;   // 充值奖励领取
+    optional int32 SumPay = 32;  // 累计充值（金额）
+    repeated int32 NewContinueChargeState = 33;    // 新手7日充值状态
+    repeated int32 NewContinueChargeNum = 34;  // 新手7日充值次数
+    repeated int32 NewContinueChargeReward = 35;   // 新手7日充值奖励领取
+    repeated int32 FixedDateSignState = 36; // 固定日期签到
+    repeated int32 ExchangeItem = 37;   // 兑换道具数据 e.g. 兑换道具id * 1000 + 已兑换的次数
+}
+
+// 请求 礼包领取
+message Req_Gift_{
+	optional int64 UserID = 1;//用户ID
+	optional string Code = 2;//礼包码
+}
+
+// 响应 礼包领取
+message Resp_Gift_{
+	optional int64 UserID = 1;//用户ID(服务端专用)
+	optional string Gift = 2;//礼包内容(服务端专用)
+	optional int32 Err = 3;//错误码 0x00 正常, 0x01:礼包码不存在, 0x02:领取数量超出上限, 0x03:已经领取过了，0x04已经领取过同类型的了, 0x05:还未到领取时间 0x06:领取时间已过期 0xFF 未知错误
+	repeated Reward_Info_ Rewards = 4;//奖励内容
+}
+
+// 积分奖励
+message Score_Reward_ {
+    repeated Reward_Info_ Rewards = 1;
+}
+
+// 响应 连续充值活动（静态数据）
+message Resp_Continue_Charge_ {
+    repeated Activity_Reward_Info_ ContinueCharge = 1;  // 连续充值
+    repeated Activity_Reward_Info_ ChargeReward = 2;    // 连续充值达成奖励
+}
+
+// 响应 新手7日充值活动（静态数据）
+message Resp_New_Continue_Charge_ {
+    repeated Activity_Reward_Info_ NewContinueCharge = 1;  // 新手连续充值
+    repeated Activity_Reward_Info_ NewChargeReward = 2;    // 新手连续充值达成奖励
+}
+
+// 请求 连续充值活动奖励领取
+message Req_Continue_Charge_Rec_ {
+    optional int32 Type = 1;    // 1：连续充值奖励 2：连续充值次数奖励
+    optional int32 ID = 2;      // 第几天的充值奖励 | 充值次数奖励
+    optional bool IsNewCharge = 3;  // 是否是新手7日签到
+}
+
+// 响应 连续充值活动奖励领取
+message Resp_Continue_Charge_Rec_ {
+    repeated Reward_Info_ Rewards = 1;  // 奖励
+    optional int32 ChestIcon = 2;	// 宝箱icon
+	repeated Reward_Info_ ChestRewards = 3;// 宝箱展示
+}
+
+// 抽卡商店
+message LimitDraw_Shop_ {
+    optional int32 ID = 1;
+    repeated Reward_Info_ Goods = 2; //
+    optional int32 Limit = 3; // 限购次数 -1 表示不限
+}
+// 响应 限时抽卡(静态数据)
+message Resp_Limit_Draw_ {
+    repeated int32 ScoreIcon = 1;
+    repeated int32 Score = 2;
+    repeated Score_Reward_ Rewards = 3;
+    optional Reward_Info_ One = 4; // 一抽
+    optional Reward_Info_ Ten = 5; // 十抽
+    repeated int32 FamilyID = 6;
+    repeated LimitDraw_Shop_ Shop = 7;
+}
+
+// 请求 抽卡
+message Req_Draw_ {
+    optional int32 Num = 1;   // 1 or 10
+}
+
+// 响应 抽卡
+message Resp_Draw_ {
+    repeated Reward_Info_ Rewards = 1;
+    repeated Reward_Info_ ExtraReward = 2;  // 额外奖励
+}
+
+// 请求 大转盘
+message Req_PrizeWheel_ {
+    optional int32 Num = 1; // 单抽 十抽
+}
+
+// 响应 大转盘
+message Resp_PrizeWheel_ {
+    repeated Activity_Reward_Info_ Rewards = 1;
+}
+
+// 请求 领取抽卡积分奖励
+message Req_Rec_Draw_ {
+    optional int32 Score = 1;   // 领取那个积分奖励
+}
+
+// 响应 领取抽卡积分奖励
+message Resp_Rec_Draw_ {
+    repeated Reward_Info_ Rewards = 1;
+}
+
+// 响应 成长基金（静态数据）
+message Resp_GrowthCapital_ {
+    repeated GrowthCapital_Info_ Infos = 1; // 基金奖励
+}
+
+message GrowthCapital_Info_ {
+    optional int32 GCShopID = 1;    // 成长基金对应商店id
+    optional int32 BuyLv = 2;   // 可购买等级
+    repeated Activity_Reward_Info_ Rewards = 3; // 基金奖励
+}
+
+// 道具兑换
+message Resp_Exchange_Item_Data_ {
+    repeated Exchange_Item_Data_ ExchangeData = 1;
+
+}
+message Exchange_Item_Data_ {
+    optional int32 ExchangeID = 1;
+    repeated Reward_Info_ Cost = 2;     // 花费的道具
+    optional Reward_Info_ Reward = 3;	// 兑换的物品
+    optional int32 Limit = 4;   // 兑换限制
+}
+
+// 更新玩家特权
+message Resp_Update_Player_Privileges_ {
+    optional int32 Step = 1;    // 副本额外加步数
+    optional int32 VitBuyTimes = 2; // 体力购买次数
+    optional int32 DrawHighFree = 3;    // 高级抽免费次数
+    optional int32 VitBuyTimesLimit = 4;	// 体力购买次数
+    optional int32 DrawEquipHighFree = 5;    // 高级装备抽免费次数
+}
+
+// 领取红包
+message Req_Receive_RedPacket_ {
+}
+message Resp_Receive_RedPacket_ {
+    optional int32 Result = 1;  // 结果 0：success 1：没抢到 2：没次数了
+    repeated RedPacketReceiver_ Receivers = 2;  // 红包领取人
+    optional int32 Amount = 3;  // 我获得的金额
+    optional int32 ReceNum = 4; // 今日领取次数
+    optional string SourceName = 5;// 来源
+    optional int32 SourceIcon = 6;
+    optional int32 Total = 7;   // 总次数
+    optional int32 ReceLimit = 8; // 今日领取上限
+}
+message RedPacketReceiver_ {
+    optional int32 Icon = 1;
+    optional string Name = 2;
+    optional int32 Amount = 3;
+}
+
+// 请求 是否有红包
+message Req_Get_RedPacket_ {}
+
+message Resp_Get_RedPacket_ {
+    optional int32 Result = 1;  // 结果 0：有 1：没 2：没次数 3：非活动时间 4：等级未达到
+}

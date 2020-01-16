@@ -1,0 +1,374 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "icon11Animation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "limitPack1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0.7,
+                -32
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": [
+                0,
+                -26
+              ]
+            },
+            {
+              "frame": 0.4,
+              "value": [
+                0.7,
+                -24.3
+              ]
+            },
+            {
+              "frame": 0.6,
+              "value": [
+                0,
+                -29.9
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                0.7,
+                -32
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 0.95
+            },
+            {
+              "frame": 0.4,
+              "value": 0.95
+            },
+            {
+              "frame": 0.6,
+              "value": 0.95
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.1
+            },
+            {
+              "frame": 0.4,
+              "value": 1.1
+            },
+            {
+              "frame": 0.6,
+              "value": 1.1
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "limitPack2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -14.7
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": [
+                0,
+                -12
+              ]
+            },
+            {
+              "frame": 0.4,
+              "value": [
+                0,
+                -10
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                0,
+                -14.7
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 0.95
+            },
+            {
+              "frame": 0.4,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.1
+            },
+            {
+              "frame": 0.4,
+              "value": 1.1
+            },
+            {
+              "frame": 0.72,
+              "value": 0.9
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "limitPack4": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -45.7,
+                27.7
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": [
+                -45.3,
+                39.8
+              ]
+            },
+            {
+              "frame": 0.46,
+              "value": [
+                -46.5,
+                47.9
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                -45.7,
+                27.7
+              ]
+            }
+          ]
+        }
+      },
+      "limitPack6": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -3.2,
+                12
+              ]
+            },
+            {
+              "frame": 0.3,
+              "value": [
+                -3.2,
+                19.8
+              ]
+            },
+            {
+              "frame": 0.42,
+              "value": [
+                -3.2,
+                26
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                -3.2,
+                12
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ]
+        }
+      },
+      "limitPack5": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1.6,
+                29.1
+              ]
+            },
+            {
+              "frame": 0.34,
+              "value": [
+                -1.6,
+                41.5
+              ]
+            },
+            {
+              "frame": 0.48,
+              "value": [
+                -1.6,
+                50
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                -1.6,
+                29.1
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "limitPack3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                41,
+                29.1
+              ]
+            },
+            {
+              "frame": 0.26,
+              "value": [
+                41,
+                42.3
+              ]
+            },
+            {
+              "frame": 0.44,
+              "value": [
+                41,
+                46.2
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                41,
+                29.1
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

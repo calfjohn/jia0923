@@ -1,0 +1,127 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "accumulation3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.26666666666666666,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": 255
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.03333333333333333,
+              "value": 2
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0.03333333333333333,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.03333333333333333,
+              "value": 2
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.03333333333333333,
+                "value": {
+                  "__uuid__": "e357b043-a97a-4b3a-94fd-caf35e764421"
+                }
+              },
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__uuid__": "64bc32e7-2c23-4755-8069-fdc5e8b35728"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "0191ed41-7f0a-4f05-a56c-25e5f311a2cb"
+                }
+              },
+              {
+                "frame": 0.13333333333333333,
+                "value": {
+                  "__uuid__": "7362f5ad-8179-4672-b89d-244beece4d31"
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__uuid__": "7362f5ad-8179-4672-b89d-244beece4d31"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "83024b01-b6c2-4042-930f-88291665a8ba"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,32 @@
+{
+"skeleton": { "hash": "Rmsy1o3VZf7/sc1qG4dxXMzXya4", "spine": "3.5.51", "width": 204.3, "height": 130.49, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "jian", "bone": "bone", "attachment": "jian" },
+	{ "name": "jian1", "bone": "bone", "attachment": "jian1" },
+	{ "name": "jian2", "bone": "bone", "attachment": "jian2" },
+	{ "name": "jian3", "bone": "bone", "attachment": "jian3" }
+],
+"skins": {
+	"default": {
+		"jian": {
+			"jian": { "x": 69.59, "y": 12.27, "rotation": 10, "width": 138, "height": 37 }
+		},
+		"jian1": {
+			"jian1": { "x": 69.59, "y": 12.27, "rotation": 10, "width": 147, "height": 27 }
+		},
+		"jian2": {
+			"jian2": { "x": 34.73, "y": 4.6, "rotation": 10, "width": 100, "height": 34 }
+		},
+		"jian3": {
+			"jian3": { "x": 29.72, "y": 4.22, "rotation": 10, "width": 93, "height": 33 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

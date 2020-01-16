@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stoneCarAnimation1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.12,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "stone": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "stone1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "b3ccfa21-df8c-4123-a3d7-6a4bf51c1851"
+                }
+              },
+              {
+                "frame": 0.04,
+                "value": {
+                  "__uuid__": "2ffb9ce3-0dcd-4437-a72e-d7b356087632"
+                }
+              },
+              {
+                "frame": 0.08,
+                "value": {
+                  "__uuid__": "2ffb9ce3-0dcd-4437-a72e-d7b356087632"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.04,
+              "value": 255
+            },
+            {
+              "frame": 0.08,
+              "value": 255
+            },
+            {
+              "frame": 0.12,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

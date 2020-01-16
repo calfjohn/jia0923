@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "874d7ef8-ad82-4f1f-8c7e-78abbf61c594",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "womenOne": {
+      "ver": "1.0.4",
+      "uuid": "4dc4411d-7107-4c2b-9ae4-cbd79b810ff1",
+      "rawTextureUuid": "874d7ef8-ad82-4f1f-8c7e-78abbf61c594",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 2.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 147,
+      "height": 264,
+      "rawWidth": 147,
+      "rawHeight": 269,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

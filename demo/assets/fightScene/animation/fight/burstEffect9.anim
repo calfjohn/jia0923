@@ -1,0 +1,121 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "burstEffect9",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.175,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "burstEffect/burstEffect1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.025,
+                "value": {
+                  "__uuid__": "8d319b2f-f399-4a1f-acfd-465c5a348229"
+                }
+              },
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "aba7f3e9-716d-431c-ba14-5ce3b6c421cf"
+                }
+              },
+              {
+                "frame": 0.075,
+                "value": {
+                  "__uuid__": "7f7ad551-c57d-49f1-95f9-6a87dd879de5"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "2fbd2348-5751-4c90-a1dd-144b7722cb7b"
+                }
+              },
+              {
+                "frame": 0.125,
+                "value": {
+                  "__uuid__": "675042a1-f178-447f-89d4-7dc9d04be47a"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "3ab4baa5-38b4-4135-9b07-3079762b037e"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.025,
+              "value": 255
+            },
+            {
+              "frame": 0.15,
+              "value": 255
+            },
+            {
+              "frame": 0.175,
+              "value": 0
+            }
+          ],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

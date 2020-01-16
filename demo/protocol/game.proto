@@ -1,0 +1,1144 @@
+package protocol;
+
+import "base.proto";
+////////////////////////////////  消息结构体 ////////////////////////////////////
+// 请求 服务端打点
+message Req_Client_Dot_ {
+	optional int32 Key = 1;
+	optional int32 Arg1 = 2;	// 打点记录的id
+	optional int32 Arg2 = 3;
+}
+// 请求 获取服务器时间
+message Req_Get_Server_Time_ {}
+message Resp_Get_Server_Time_ {
+	optional int64 ServerTime = 1;
+}
+message TimeDiamond_Info_{//时间转化为钻石的信息
+	optional int32 Time = 1;//时间下限
+	optional int32 Diamond = 2;//每隔 30分钟需要消耗的钻石
+}
+
+message Formation_Info_{//阵容信息
+    repeated int32 FamilyIDs = 1; //英雄的家族id
+}
+
+message Hero_Info_ {//英雄信息
+    optional int32 FamilyID = 1;//家族ID
+    optional int32 Num = 2; //碎片数量
+    optional int32 Lv = 3;//英雄等级( 0:表示未存在 )
+    optional int32 ProNum = 4;//英雄熟练度
+    repeated int32 SkillLv = 5;//技能等级( id + lv 组合 )id *1000+lv
+    // repeated int32 TalentLv = 6;//天赋等级( id + lv 组合 )
+	repeated Hero_Talent_Info_ Talents = 6;// 英雄天赋
+	repeated int32 SkillMaxLv = 7;	// 技能最大等级
+	optional int32 Quality = 8;	// 已合出的最高品质
+	optional int32 TalentUpCount = 9;// 觉醒升级的次数
+	optional int32 UpgradeExp = 10;	// 升级获得经验
+	optional int32 Clip = 11;	// 升级需要碎片数
+	optional int32 Gold = 12;	// 升级所需金币
+	repeated int32 SkillUpGold = 13;	// 被动技能升级消耗金币
+	optional int32 TalentUpProb = 14;	// 觉醒升级消耗熟练度
+	optional int32 TalentUpGold = 15;	// 觉醒升级消耗金币
+	repeated int32 SkillUpExp = 16;	// 被动技能升级获得的经验
+	optional int32 TalentUpExp = 17;	// 觉醒升级获得经验
+}
+
+// 英雄 天赋
+message Hero_Talent_Info_ {
+	optional int32 TalentID = 1;
+	optional int32 CurLv = 2;
+	optional int32 MaxLv = 3;
+}
+// game server请求同号在线踢人
+ message Req_KillOff_ {
+	 optional int64 UserID = 1;
+ }
+// 踢人
+message Resp_KillOff_ {
+	repeated int64 UserID = 1;
+	optional int32 Type = 2;	// 踢人的原因啊 1 同号 2 封号 3 全服更新
+}
+
+message Chapter_CurInfo_{//章节当前的信息
+}
+
+message Chapter_StateInfo_{//章节状态信息
+    optional int32 ID = 1;//章节ID
+    optional int32 State = 2;//章节状态
+}
+
+message Achievement_Info_{//成就的标识数据
+    optional int32 ID = 1;
+	optional int32 Lv = 2;//当前成就的等级
+	optional int32 Cur = 3;//当前值
+	optional int32 Max = 4;//最大值
+	optional int32 NameID = 5;//名称ID
+	optional int32 DecID = 6;//描述ID
+	optional int32 IconID = 7;//iconID
+	optional bool Received = 8;//0x00:未领取, 0x01:已领取
+	repeated Reward_Info_ Rewards = 9;//奖励的信息内容
+}
+
+message Task_Info_{//任务数据
+    optional int32 ID = 1;
+    optional int32 MaxValue = 2; //最大值
+    optional int32 Value = 3; //当前值
+    optional int32 Status = 4;//是否已经领取
+	optional string Icon = 5;
+	optional int32 Desc = 6;
+	optional int32 NameID = 7;
+    repeated Reward_Info_ Rewards = 8;//奖励内容
+	optional int32 Jump = 9;	// 任务跳转
+	optional int32 Chapter = 10;	// 开启章节
+}
+
+// 每日任务积分奖励数据
+message DailyTask_Score_Info_ {
+	optional int32 Score = 1;
+    optional int32 MaxValue = 2; //最大值
+	optional int32 Status = 3;//是否已经领取
+	repeated Reward_Info_ Rewards = 4;//奖励内容
+}
+
+message Talent_Info_{//天赋数据
+	optional int32 ID = 1;//ID
+	optional int32 Lv = 2;//等级
+	optional int64 Time = 3;//预留字段( 升级等待的时间 )
+}
+
+message Vip_Info_{//vip 数据
+	optional int32 Lv = 1;//vip等级
+	optional int32 Diamond = 2;//累计需要达到的钻石数量
+	repeated int32 Rights = 3;//vip特权
+	repeated Reward_Info_ Gifts = 4;//vip礼包数据
+}
+
+////////////////////////////////  消息结构体 ////////////////////////////////////
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 系统
+message Req_Sys_Friend_Apply_{
+    optional int64 UserID = 1;//请求申请的用户ID
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 基础
+
+//回复 玩家 基础更新
+message Resp_PlayerUpdate_Base_{
+    optional int32 Gold = 1; //金钱
+    optional int32 Diamond = 2;//钻石
+    optional int32 Vit = 3;//体力值
+    optional int32 MaxVit = 4;//体力上限
+    optional int64 VitTime = 5;//体力的恢复时间
+	optional int32 HeroKeep = 6;//保留英雄的数量
+	optional int32 Leader = 7;//领导力
+	optional int32 Hp = 8;//血量
+	optional int32 Damage = 9;//伤害
+	optional int32 PhyAtk = 10;//物理强度
+	optional int32 PhyDef = 11;//物理防御
+	optional int32 MagAtk = 12;//魔法强度
+	optional int32 MagDef = 13;//魔法防御
+	optional int32 Badge = 14;	// 矿山的徽章
+	optional int32 Exp = 15;// 主角经验
+	optional int32 Step = 16;///副本步数
+	optional int32 RefineNum = 17;// 剩余指定熔炼次数
+	optional int32 GrowthValue = 18;// 成长值
+	optional int32 DamageEx = 19;//伤害额外
+	optional int32 HpEx = 20;//血量【额外】
+	optional int32 PhyAtkEx = 21;//物理强度【额外】
+	optional int32 MagAtkEx = 22;//魔法强度【额外】
+	optional int32 PhyDefEx = 23;//物理防御【额外】
+	optional int32 MagDefEx = 24;//魔法防御【额外】
+	optional int32 AtkRang = 25;//攻击范围
+    optional int32 AtkFeq = 26;//攻击频率
+    optional int32 Speed = 27;//移动速度
+	repeated int32 FlagKey = 28;	// 红点标识
+	repeated int32 FlagValue = 29;	// 红点值
+	optional int32 VitBuyTimes = 30;	// 体力购买次数
+	optional int32 ChestHelpTimes = 31;	// 宝箱助力次数
+	optional int32 Atk = 32;	// 主角攻击力（show）
+	optional int32 Def = 33;	// 主角防御力（show）
+	optional int32 HeroKeepEx = 34;	// 英雄最大可以保留的数量【额外】
+	optional int32 VitShareTimes = 35;	// 体力分享次数
+	optional int32 ChapterShareTimes = 36;	// 关卡分享次数
+	optional int32 ChangeNameCost = 37;	// 改名花费 为0免费
+	optional int32 AtkSpeed = 38;	// 攻速千分比
+	optional int32 CritAtkEx = 39;	// 暴击率【额外】
+	optional int32 ChargeDiamond = 40;  // 累计充值钻石数
+	optional int32 SpendDiamond = 41;   // 累计消费钻石数
+	optional int32 LeaderExt = 42;	// 领导力【额外】
+	optional int32 VitBuyTimesLimit = 43;	// 体力购买次数
+}
+
+//回复 玩家 英雄更新
+message Resp_PlayerUpdate_Hero_{
+    repeated Hero_Info_ Heroes = 1;//英雄信息数据
+	optional int32 PubHeroPro = 2;	// 公用英雄熟练度
+	optional int32 PubHeroClip = 3;	// 公用英雄碎片
+}
+
+//回复 玩家 道具更新
+message Resp_PlayerUpdate_Item_{
+	repeated int32 Type = 1;
+    repeated int32 ID = 2;
+	repeated int32 Num = 3;
+}
+
+//回复 玩家 装备更新
+message Resp_PlayerUpdate_Equip_{
+    repeated int32 Type = 1;//0x00:删除 0x01:更新/新增
+    repeated Equip_Info_ Equip = 2;//装备数据
+	repeated int32 Sort = 3;	// 装备ID排序
+}
+
+//回复 玩家 卷轴更新
+message Resp_PlayerUpdate_Reel_{
+	repeated Reel_Info_ Reel = 1;//卷轴数据
+}
+
+// 响应 玩家 邮件更新
+message Resp_PlayerUpdate_Mail_ {
+	repeated int64 MailID = 1;
+	repeated int32 Status = 2;
+}
+
+// 响应 玩家 成就更新
+message Resp_PlayerUpdate_Achieve_{
+	repeated int32 IDs = 1;//ID 列表
+	repeated int32 Values = 2;//数值 列表
+}
+
+
+// 响应 玩家 免费宝箱更新
+message Resp_PlayerUpdate_ChestFree_{
+    optional int32 ReceiveNum = 1;//可领取的次数
+    optional int64 Time = 2;//下一次时间到达的时间【0 或者 小于 当前服务器时间 就 设置为不显示】
+}
+
+// 响应 玩家 vip 更新
+message Resp_PlayerUpdate_Vip_{
+	optional int32 PayDiamond = 1;//充值的钻石
+	optional int32 VipLv = 2;//vip 等级
+	optional int32 Cash = 3;// 充值金额 /100 保留两位小数
+	repeated int32 RecMonCard = 4;	// 月卡奖励是否可领
+	optional int64 MonCardExpiryTime = 5;// 月卡到期时间，-1表永久 0表无
+	repeated int32 Status = 6;	// 状态 0：不可领 1：未领 2：已领
+	repeated int32 ChargeRewardID = 7;	// 充值奖励id
+	optional int32 FirstRewardTag = 8;	// 首充奖励标识
+}
+
+//回复主句升级成功
+message Resp_Player_LvUp_{
+	optional int32 Lv = 1;//等级
+	optional int32 Exp = 2;//当前经验
+	optional int32 MaxExp = 3;//经验上限
+	optional int32 Leader = 4;//领导力上限
+	optional int32 MaxVit = 5;//体力上限
+	optional int32 HeroKeep = 6;//怪物的保留数量
+	optional int32 Hp = 7;//血量
+	optional int32 Damage = 8;//伤害值
+	optional int32 PhyAtk = 9;//物理强度
+	optional int32 PhyDef = 10;//物理防御
+	optional int32 MagAtk = 11;//魔法强调
+	optional int32 MagDef = 12;//魔方防御
+	optional int32 Step = 13;//副本步数
+	optional int32 TalentPoint = 14;// 天赋点
+	optional int32 Atk = 15;	// 攻
+	optional int32 Def = 16;	// 防
+}
+
+// 请求 更新红点标识
+message Req_Update_Flag_ {
+	repeated int32 FlagKey = 1;	// 红点标识
+	repeated int32 FlagValue = 2;	// 红点值
+}
+
+// 请求 游客登陆账号绑定
+message Req_Account_Binding_ {
+	optional string Account = 1;	// 绑定账号
+	optional int32 Channel = 2;		// 渠道 1：google 2:ios 3:facebook
+}
+
+// 响应 游客登陆账号绑定
+message Resp_Account_Binding_ {
+	optional int32 Result = 1;
+	optional string BindAccount = 2;	// 绑定账号
+}
+
+// 请求 获取跳转url
+message Req_Get_Url_ {
+	optional int32 Type = 1;	// 1:fb 2:line
+}
+
+// 响应 获取跳转url
+message Resp_Get_Url_ {
+	optional int32 Type = 1;
+	optional string Url = 2;
+}
+
+// 请求 客户端登录
+message Req_Client_Login_ {
+    optional string Account = 1;    // 账号
+	optional int32 Platform = 2;	// 平台 0：h5 1:android 2:ios
+	optional string Version = 3;	// 版本号
+	optional int32 Channel = 4;		// 渠道 1：google 2:ios 3:facebook
+	optional string Language = 5;	// 语言
+	optional string Token = 6;		// token
+}
+
+// 响应 客户端登录
+message Resp_Client_Login_ {
+    optional string Account = 1;    //账号
+    optional int64 UserID = 2;      //uid
+    optional int32 Result = 3;      //结果    0：成功 1：失败 2：封号 3：更新版本 4:服务器维护
+    optional string ErrMsg = 4;     //错误信息
+	optional int64 SevTime = 5;	// 服务器时间
+}
+
+// 请求 重置用户头像
+message Req_Reset_IconUrl_ {
+	optional int32 IconID = 1;//头像ID 0:表示使用自己的头像( facebook自带头像 )  n:表示 游戏头像
+	optional string IconUrl = 2;//facebook 头像的url
+}
+
+// 请求 客户端设置昵称
+message Req_Set_Name_{
+    optional string Name = 1;//昵称
+    optional int32 Sex = 2;//性别
+	optional int32 IconID = 3;//头像ID 0:表示使用自己的头像( facebook自带头像 )  n:表示 游戏头像
+	optional string IconUrl = 4;//facebook 头像的url
+}
+
+// 相应 客户端设置昵称
+message Resp_Set_Name_{
+    optional string Name = 1;//昵称
+    optional int32 Sex = 2;//性别
+	optional int32 IconID = 3;//头像ID 0:表示使用自己的头像( facebook自带头像 )  n:表示 游戏头像
+	optional string IconUrl = 4;//facebook 头像的url
+}
+// 请求 设置国家地区
+message Req_Set_Country_ {
+	optional int32 Country = 1;
+}
+message Resp_Set_Country_ {
+	optional int32 Country = 1;
+}
+
+// 请求 客户端更新界面标识
+message Req_Update_PanelTag_ {
+	repeated int32 Key = 1;
+	repeated PanelTag_ Value = 2;
+}
+
+//回复 用户数据标识
+message Resp_PlayerData_Flag_{
+    optional int32 Flag = 1;
+	repeated int32 Key = 2;
+	repeated PanelTag_ Value = 3;
+	optional int32 PayShopId = 4;
+}
+
+// 回复 用户基础信息
+message Resp_PlayerData_Base_ {
+    optional int64 UserID = 1;
+    optional int64 Login = 2;//登录时间
+    optional int64 Logout = 3;//登出时间
+    optional int64 Register = 4;//注册时间
+    optional string Name = 5;
+    optional int32 Sex = 6;//性别
+    optional int32 Career = 7;//职业
+    optional int32 Lv = 8;//等级
+    optional int32 MaxLvl = 9;//等级的最大值
+    optional int32 Exp = 10;//经验值
+    optional int32 MaxExp = 11;//经验值的最大值
+    optional int32 Gold = 12;//金币
+    optional int32 Diamond = 13;//钻石
+    optional int32 Vit = 14;//体力值
+    optional int32 MaxVit = 15;//体力值上限
+    optional int64 VitTime = 16;//下一次恢复体力的时间
+    optional int32 Leader = 17;//领导力上限
+    optional int32 MaxFriend = 18;//好友上限
+    repeated Chest_Info_ ChestInfos = 19;//宝箱数据
+    optional int32 Guide = 20;//新手引导数据
+    optional int32 LastLogin = 21;//连续登录天数
+    optional int32 SumLogin = 22;//累计登录天数
+    optional int32 HeroKeep = 23;//英雄最大可以保留的数量
+    optional int64 SrvTime = 24;//服务器时间
+    optional int32 Hp = 25;//血量
+    optional int32 Damage = 26;//伤害
+    optional int32 PhyAtk = 27;//物理强度
+    optional int32 MagAtk = 28;//魔法强度
+    optional int32 PhyDef = 29;//物理防御
+    optional int32 MagDef = 30;//魔法防御
+    optional int32 AtkRang = 31;//攻击范围
+    optional int32 AtkFeq = 32;//攻击频率
+    optional int32 Speed = 33;//移动速度
+	repeated TimeDiamond_Info_ TimeDiamondInfo = 34;//时间转换钻石的参数
+	optional int32 Badge = 35; // 矿战里的徽章
+	optional int32 Icon = 36;//头像ID
+	optional string IconUrl = 37;//头像网址
+	optional int32 Step = 38;//副本步数
+	optional int32 RefineNum = 39;// 剩余指定熔炼次数
+    optional int32 ChestFreeNum = 40;//免费宝箱可领取次数
+    optional int64 ChestFreeTime = 41;//免费宝箱下一次的时间【0 或者 小于 当前服务器时间 就 设置为不显示】
+	optional int32 GrowthValue = 42;// 成长值
+	optional int32 VipLv = 43;//vip等级
+	optional int32 DamageEx = 44;//伤害【额外】
+	optional int32 HpEx = 45;//血量【额外】
+	optional int32 PhyAtkEx = 46;//物理强度【额外】
+	optional int32 MagAtkEx = 47;//魔法强度【额外】
+	optional int32 PhyDefEx = 48;//物理防御【额外】
+	optional int32 MagDefEx = 49;//魔法防御【额外】
+	optional int32 TalentPoint = 50;// 天赋点
+	repeated int32 FlagKey = 51;	// 红点标识
+	repeated int32 FlagValue = 52;	// 红点值
+	optional int32 VitBuyTimes = 53;	// 体力购买次数
+	optional int32 ChestHelpTimes = 54;	// 宝箱助力次数
+	optional int32 ChestUnlockNum = 55;	// 开锁匠个数
+	optional int32 ChestHelpMax = 56;// 宝箱分享最大次数
+	optional int32 Atk = 57;	// 主角攻击力（show）
+	optional int32 Def = 58;	// 主角防御力（show）
+	optional int32 HeroKeepEx = 59;	// 英雄最大可以保留的数量【额外】
+	optional bool RecMonCard = 60; // 月卡奖励是否可领
+	optional int32 VitShareMax = 61;	// 体力分享上限次数
+	optional int32 VitShareTimes = 62;	// 体力分享次数
+	optional int32 ChapterShareMax = 63;	// 关卡分享上限次数
+	optional int32 ChapterShareTimes = 64;	// 关卡分享次数
+	optional int32 Country = 65;	// 国家
+	optional int32 ChangeNameCost = 66;	// 改名花费 为0免费
+	optional int32 ShareGetVit = 67;	// 分享获得体力
+	optional int32 BuyGetVit = 68;		// 购买获得体力
+	optional int32 VitCD = 69;			// 体力恢复间隔
+	optional string BindAccount = 70;	// 绑定账号
+	repeated string Link = 71;	// index 0 fb 1 line 2攻略
+	optional int32 AtkSpeed = 72;	// 攻速千分比
+	optional int32 CritAtkEx = 73;	// 暴击率【额外】
+	optional int32 CritAtk = 74;	// 暴击率
+	optional int32 ChargeDiamond = 75;  // 累计充值钻石数
+	optional int32 SpendDiamond = 76;   // 累计消费钻石数
+	optional int32 LeaderExt = 77;	// 领导力【额外】
+	optional int32 VitBuyTimesLimit = 78;	// 体力购买次数
+}
+
+//回复 用户英雄信息
+message Resp_PlayerData_Hero_{
+    optional int32 FormationIdx = 1;//当前的阵容索引
+    repeated Formation_Info_ Formations = 2;//阵容信息
+    repeated Hero_Info_ Heroes = 3;//英雄信息数据
+    repeated int32 ReelsFormation = 4;//卷轴阵容
+    repeated Reel_Info_ Reels = 5;//卷轴信息
+	optional int32 OldExp = 6;	// 未加的家族经验
+	optional int32 PubHeroPro = 7;	// 公用英雄熟练度
+	optional int32 PubHeroClip = 8;	// 公用英雄碎片
+}
+
+//回复 用户战斗数据信息
+message Resp_PlayerData_Battle_{
+    repeated Chapter_Info_ ChapterInfo = 1; //章节数据
+    repeated Chapter_Battle_Info_ ChapterBattleInfo = 2;//章节的战斗数据
+    optional int32 ChapterMaxID = 3;//最大章节数
+	optional int32 PrivilegesStep = 4;	// 特权步数
+}
+
+//回复 用户成就数据信息
+message Resp_PlayerData_Achievement_{
+}
+
+//回复 用户的装备数据信息
+message Resp_PlayerData_Equip_{
+	optional int32 BagMax = 1;//背包的最大数量
+    repeated int32 Equips = 2;//穿在身上的装备
+    repeated Equip_Info_ Bag = 3;//背包里面的装备
+	repeated int32 Sort = 4;	// id排序
+}
+
+//回复 玩家 道具
+message Resp_PlayerData_Item_{
+	repeated int32 Type = 1;
+    repeated int32 ID = 2;
+	repeated int32 Num = 3;
+}
+
+// 请求 点击新装备
+message Req_Click_Equip_ {
+	optional int32 ID = 1;//装备的唯一ID
+}
+
+// 请求 上下锁装备
+message Req_Equip_Lock_ {
+	optional int32 ID = 1;//装备的唯一ID
+	optional bool Lock = 2;	// 是否上锁
+}
+
+// 请求 整理背包（排序）
+message Req_Equip_Sort_ {}
+
+// 请求 装备下一等级数据
+message Req_Equip_LvAttr_ {
+	optional int32 ID = 1;	// 装备id
+	optional int32 Exp = 2;	// 加的经验
+}
+// 响应 装备下一等级数据
+message Resp_Equip_LvAttr_ {
+	optional Equip_Info_ Equip = 1;
+}
+
+
+message Req_Sign_Info_{//请求签到数据
+}
+
+message Resp_Sign_Info_{//响应签到数据
+	optional int32 Sign = 1;//签到数据
+	optional int64 SignTime = 2;//签到的时间
+	repeated Reward_Info_ Rewards = 3; //签到的奖励静态数据
+}
+
+
+message Req_Sign_{//请求签到操作
+	optional int32 Type = 1;	// 签到类型 0：普通签到 1：新手七日签到
+}
+
+message Resp_Sign_{//响应签到操作
+	optional int32 Sign = 1;//签到数据
+	optional int64 SignTime = 2;//签到的时间
+	optional Reward_Info_ Reward = 3; //签到的奖励内容
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 宝箱
+
+//客户端请求宝箱操作
+message Req_Chest_Op_{
+    optional int32 Idx = 1; //宝箱所在的位置
+    optional int32 OpType = 2;//操作类型 1：开始解锁 2：钻石加速 3：领取
+
+}
+
+//回复宝箱操作
+message Resp_Chest_Op_{
+    optional int32 Idx = 1;//宝箱所在的位置
+    optional Chest_Info_ ChestInfo = 2;//宝箱数据
+    repeated Reward_Info_ Rewards = 3;//奖励信息
+}
+
+message Req_Chest_Buy_{//客户端请求宝箱购买
+    optional int32 ID = 1;//宝箱的ID号
+}
+
+message Resp_Chest_Buy_{//客户端回复宝箱购买
+    optional int32 ID = 1;//宝箱的ID号
+    repeated Reward_Info_ Rewards = 2;//奖励信息
+}
+
+message Req_Chest_Free_{//客户端请求领取免费宝箱
+
+}
+
+message Resp_Chest_Free_{//响应客户端请求领取免费宝箱
+    optional int32 ReceiveNum = 1;//领取次数
+    optional int64 Time = 2;//时间
+    repeated Reward_Info_ Rewards = 3;//奖励信息
+}
+
+// 响应 升级开锁匠
+message Resp_Chest_Upgrade_ {
+	optional int32 ChestUnlockNum = 1;
+}
+
+// 请求宝箱静态数据
+message Req_ChestData_ {
+	repeated int32 ID = 1;	// 宝箱id
+}
+// 响应 宝箱静态数据
+message Resp_ChestData_ {
+	repeated Chest_Reward_Info_ ChestData = 1;
+}
+//>>>>>>>>>>>>>>>>>>>>>>>>> 英雄
+
+// 请求 切换阵容
+message Req_Hero_Formation_Change_ {
+	optional int32 FormationIdx = 1;//当前的阵容索引
+}
+
+//请求英雄上阵
+message Req_Hero_Formation_{
+    optional int32 FormationIdx = 1;//当前替换英雄的阵容索引
+    optional Formation_Info_ Formations = 2;//阵容信息
+    repeated int32 ReplacePos = 3;//替换的位置( 客户端专属数据 )
+}
+
+//回复英雄上阵
+message Resp_Hero_Formation_{
+    optional int32 FormationIdx = 1;//当前的阵容索引
+    optional Formation_Info_ Formations = 2;//阵容信息
+}
+
+//请求英雄创建
+message Req_Hero_Create_{
+    optional int32 FamilyID = 1;//家族ID
+}
+
+//回复英雄创建
+message Resp_Hero_Create_{
+	optional bool Result = 1;	// 创建结果
+	optional int32 Exp = 2;	// 获得经验
+}
+
+//请求英雄升级
+message Req_Hero_LvUp_{
+    optional int32 ID = 1;//对应的英雄ID
+}
+
+//回复英雄升级
+message Resp_Hero_LvUp_{
+    optional Hero_Info_ Info = 1;//怪物数据
+	optional Reward_Info_ Rewards = 2;// 奖励
+}
+
+//请求英雄技能升级
+message Req_Hero_Skill_LvUp_{
+    optional int32 FamilyID = 1;//对应的英雄家族ID
+    optional int32 SkillID = 2;//技能ID
+}
+
+//回复英雄技能升级
+message Resp_Hero_Skill_LvUp_{
+    optional int32 FamilyID = 1;//对应的英雄家族ID
+    optional int32 SkillID = 2;//技能ID
+    optional int32 SkillLv = 3;//技能等级
+	optional Reward_Info_ Rewards = 4;// 奖励
+}
+
+// 请求 熔炼卡片
+message Req_Frag_Refine_ {
+	repeated int32 PosFamilyID = 1;	// 熔炼的6个位置上的卡片id
+	optional int32 GenLv = 2;	// 生成碎片(0同级1高一级）
+	optional int32 RefineNum = 3;	// 熔炼次数
+	optional int32 GenFamilyID = 4; // 指定生成卡片id，随机为 0
+}
+
+// 响应 熔炼卡片
+message Resp_Frag_Refine_ {
+	repeated Reward_Info_ Rewards = 1;
+}
+// 请求 熔炼规则说明
+message Req_Refine_Rule_ {
+}
+// 响应 熔炼规则说明
+message Resp_Refine_Rule_ {
+	repeated int32 UseFrag = 1;	// 消耗碎片数
+	repeated int32 GenLv = 2;	// 生成碎片(0同级1高一级）
+	repeated int32 Design = 3;	// 是否指定（0随机1指定2指定随机）
+	repeated int32 Cost = 4;	// 消耗金币系数
+	repeated int32 CostBase = 5;	// 消耗基值(C->SS)
+	optional int32 DailyMax = 6;	// 每日熔炼上限
+	repeated int32 RefineNum = 7;	// 基础熔炼次数
+	repeated int32 DescID = 8;	// 描述
+}
+
+// 请求 英雄天赋升级
+message Req_Hero_Talent_Upgrade_ {
+	optional int32 FamilyID = 1;	// 英雄家族ID
+	optional int32 TalentID = 2;	// 天赋ID
+}
+
+// 响应 英雄天赋升级
+message Resp_Hero_Talent_Upgrade_ {
+	optional int32 FamilyID = 1;	// 英雄家族ID
+	optional int32 TalentID = 2;	// 天赋ID
+	optional int32 TalentLv = 3;	// 天赋等级
+	optional Reward_Info_ Rewards = 4;// 奖励
+}
+
+// 请求 英雄天赋觉醒
+message Req_Hero_Talent_Awaken_ {
+	optional int32 FamilyID = 1;	// 英雄家族ID
+}
+
+// 请求 更新英雄合成标识
+message Req_HeroQuality_Update_ {
+	repeated Hero_Compose_ ComposeInfo = 1;	// 合成信息
+}
+// 英雄合成信息
+message Hero_Compose_ {
+	optional int32 FamilyID = 1;
+	repeated int32 ComposeNum = 2;	// 合成的个数 绿蓝紫橙
+}
+
+// 请求 英雄觉醒重置
+message Req_Hero_Talent_Reset_ {
+	optional int32 FamilyID = 1;	// 英雄家族ID
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 卷轴
+message Req_Reel_Formation_{//请求卷轴阵容设置
+	repeated int32 ReelIDs = 1;//卷轴ID
+}
+
+message Resp_Reel_Formation_{//响应卷轴阵容设置
+	repeated int32 ReelIDs = 1;//卷轴ID
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 任务
+// 请求 获取每日任务
+message Req_Get_DailyTask_ {
+
+}
+// 响应 获取每日任务
+message Resp_Get_DailyTask_ {
+	repeated Task_Info_ Tasks = 1;	// 任务ID
+	optional int64 RefreshTIme = 2;	// 每日任务刷新时间
+
+	repeated DailyTask_Score_Info_ ScoreRewards = 3;	// 每日积分奖励
+	optional int32 PlayerDailyScore = 4;	// 每日积分
+	optional int32 PlayerWeekScore = 5;	// 周积分
+	optional int32 WeekStatus = 6;	// 周奖励状态 0:进行中 1：可领 2：已领
+	optional int32 WeekScoreMax = 7;	// 周积分最大值
+	repeated Reward_Info_ WeekScoreReward = 8;	// 周积分奖励
+	optional int64 WeekEndTime = 9;	// 周积分结束时间
+}
+
+message Req_Task_Receive_{
+    optional int32 Type = 1;//类型 0x00:主线任务 0x01:每日任务
+    optional int32 ID = 2;//任务ID
+}
+
+message Resp_Task_Receive_{
+    optional int32 Type = 1;//类型 0x00:主线任务 0x01:每日任务
+    optional int32 ID = 2;//任务ID
+    repeated Reward_Info_ Rewards = 3;//奖励数据
+}
+
+// 任务积分奖励领取
+message Req_Task_ScoreReward_Receive_ {
+	optional int32 Type = 1;//类型 0x00:每日积分 0x01:周积分奖励
+    optional int32 ID = 2;//积分ID
+}
+message Resp_Task_ScoreReward_Receive_{
+    optional int32 Type = 1;//类型 0x00:每日积分 0x01:周积分奖励
+    optional int32 ID = 2;//任务ID
+    repeated Reward_Info_ Rewards = 3;//奖励数据
+}
+
+
+// 任务进度更新
+message Resp_DailyTask_Update_ {
+	repeated int32 TaskID = 1;	// 任务ID
+	repeated int32 Progress = 2;// 完成进度
+	repeated int32 Status = 3;	// 任务状态 0:进行中 1：可领 2：已领
+	optional int32 PlayerDailyScore = 4;	// 每日积分
+	optional int32 PlayerWeekScore = 5;	// 周积分
+	optional int32 WeekStatus = 6;	// 周奖励状态 0:进行中 1：可领 2：已领
+	repeated int32 DailyScores = 7;	// 每日积分
+	repeated int32 ScoreStatus = 8;	// 每日积分奖励领取状态
+}
+
+// 请求 客户端发起的奖励领取
+message Req_Cli_Reward_Receive_ {
+	optional int32 FlagKey = 1;
+}
+message Resp_Cli_Reward_Receive_ {
+	repeated Reward_Info_ Rewards = 1;//奖励数据
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 成就
+message Req_Achievement_Data_{
+}
+
+message Resp_Achievement_Data_{
+    repeated Achievement_Info_ Infos = 1;//成就的所有数据
+}
+
+message Req_Achievement_Receive_{
+    optional int32 ID = 1;//成就ID
+}
+
+message Resp_Achievement_Receive_{
+    optional Achievement_Info_ Info = 1;//成就的数据
+	repeated Reward_Info_ Rewards = 2;//奖励内容
+}
+// 请求 设置成就
+message Req_Set_Achieve_ {
+	repeated int32 ID = 1;
+	repeated int32 Value = 2;
+}
+//>>>>>>>>>>>>>>>>>>>>>>>>> 装备
+
+//请求装备强化
+message Req_Equip_LvUp_{
+    optional int32 ID = 1;//装备的唯一ID
+	repeated int32 StuffIDs = 2;//作为材料的装备ID
+}
+
+//回复装备强化
+message Resp_Equip_LvUp_{
+    optional int32 ID = 1;//装备的唯一ID
+    optional int32 Lv = 2;//装备的等级
+}
+
+//请求穿装备
+message Req_Equip_Wear_{
+    optional int32 ID = 1;//装备ID
+}
+
+//回复穿装备
+message Resp_Equip_Wear_{
+    repeated int32 Equips = 1;//全量更新身上的装备
+}
+
+//请求装备丢弃
+message Req_Equip_Del_{
+    optional int32 ID = 1;//装备的唯一ID
+}
+
+//回复装备丢弃
+message Resp_Equip_Del_{
+}
+
+//请求装备脱下
+message Req_Equip_UnWear_{
+	optional int32 ID = 1;//装备ID
+}
+
+//回复装备脱下
+message Resp_Equip_UnWear_{
+    repeated int32 Equips = 1;//全量更新身上的装备
+}
+
+//请求装备出售
+message Req_Equip_Sell_{
+    repeated int32 IDs = 1;//装备ID列表
+}
+
+//响应装备出售
+message Resp_Equip_Sell_{
+    repeated int32 IDs = 1;//对应的装备列表
+    optional int32 Gold = 2;//卖出获得的金币总额
+    optional int32 Diamond = 3;//卖出获得的钻石总额
+}
+
+// 请求 装备进化
+message Req_Equip_Evolution_ {
+	optional int32 ID = 1;	// 装备ID
+}
+
+//回复装备进化
+message Resp_Equip_Evolution_{
+    optional int32 ID = 1;//装备的唯一ID
+    optional int32 Lv = 2;//装备的等级
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 玩家 天赋  转职
+message Req_Talent_Info_{//请求天赋相关数据
+}
+
+message Resp_Talent_Info_{//回复天赋相关数据
+	repeated Talent_Info_ Talents = 1;//天赋相关数据列表
+}
+
+message Req_Talent_LvUp_{//请求天赋升级
+	optional int32 ID = 1; //ID
+}
+
+message Resp_Talent_LvUp_{//回复天赋升级
+	optional int32 ID = 1; //天赋ID
+	optional int32 Lv = 2; //天赋新等级
+	optional int32 Exp = 3;//玩家获得的经验值
+	optional int32 TalentPoint = 4;	// 天赋点
+}
+
+// 请求 转职
+message Req_Change_Career_ {
+	optional int32 CareerID = 1;	//职业ID
+}
+// 响应 转职
+message Resp_Change_Career_ {
+
+}
+// 请求 天赋重置
+message Req_Talent_Reset_ {
+
+}
+// 响应 天赋重置
+message Resp_Talent_Reset_ {
+	optional int32 TalentPoint = 1;//天赋点
+}
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> 天赋
+message Req_Shop_Info_{//请求商店信息
+
+}
+
+message Resp_Shop_Info_{//响应请求商店信息
+	repeated int32 ShopID = 1;
+	repeated int32 ShopType = 2;
+	repeated int32 Icon = 3;
+	repeated int32 CurrencyType = 4;	// 货币类型
+	repeated int32 Price = 5;	// 价钱（真实货币默认为美元）
+	repeated int32 DiscountPrice = 6;
+	repeated int32 NameID = 7;
+	repeated Reward_Info_ Items = 8;
+	repeated int32 Hot = 9;	// 火热 0 false 1 true
+	repeated string PayItemName = 10;
+	repeated int32 Quality = 11;	// 品质
+	repeated int32 ExpiryDay = 12;	// 持续时间
+	repeated Reward_Info_ Week = 13;	// 周卡每日奖励
+	repeated Reward_Info_ Month = 14;	// 月卡每日奖励
+	repeated string BannerName = 15;
+	repeated string Picture = 16;
+	repeated string Url = 17;
+	repeated Reward_Info_ ExtraReward = 18;	// 额外奖励
+	repeated int32 ExtraTimes = 19;	// 额外奖励次数
+	repeated int32 TWD = 20;	// 台湾币
+	repeated int32 RMB = 21;	// 人民币
+	repeated int32 FirstPrice = 22;	// 首购价格
+	repeated Reward_Info_ Forever = 23;	// 永久卡每日奖励
+}
+
+// 更新玩家抽卡数据
+message Resp_Update_Player_DrawInfo_ {
+	optional int32 DrawNormalFree = 1;	// 普通抽免费次数
+	optional int32 DrawHighFree = 2;	// 高级抽免费次数
+	optional int64 DrawNormalFreeNext = 3;	// 普通抽下次免费时间
+	optional int32 DrawNormalFreeDailyNum = 4;	// 普通抽每日剩余次数
+	optional int32 DrawEquipNormalFree = 5;	// 装备普通抽免费次数
+	optional int32 DrawEquipHighFree = 6;	// 装备高级抽免费次数
+	optional int64 DrawEquipNormalFreeNext = 7;	// 装备普通抽下次免费时间
+	optional int32 DrawEquipNormalFreeDailyNum = 8;	// 装备普通抽每日剩余次数
+}
+
+message Req_Shop_Buy_{//请求购买商品
+	optional int32 ID = 1;//商品ID
+	optional int32 Num = 2;	// 购买数量
+}
+
+message Resp_Shop_Buy_{
+	optional int32 ShopType = 1;	//商品类型
+	repeated Reward_Info_ Items = 2;
+	optional int32 ShopScore = 3;	// 商店积分
+	optional string PlatformOrderID = 4;
+	optional float PayAmount = 5;
+	optional int32 ShopID = 6;
+}
+
+// 请求 刷新积分商店
+message Req_ScoreShop_Update_ {
+	optional int32 Type = 1;	// 0:免费刷 1:钻石刷
+}
+
+// 响应 刷新积分商店
+message Resp_ScoreShop_Update_ {
+	optional int32 ShopScore = 1;
+	optional int64 NextRefreshTime = 2;
+	repeated int32 Price = 3;	// 价格
+	repeated Reward_Info_ Goods = 4;	// 商品
+	repeated int32 State = 5;	// 购买状态 0：未买 1：已买
+	optional int32 ScoreShopUpPrice = 6;	// 积分商店刷新消耗钻石
+}
+
+// 请求 积分商店购买
+message Req_ScoreShop_Buy_ {
+	optional int32 Idx = 1;	//商品索引
+}
+
+// 响应 积分商店购买
+message Resp_ScoreShop_Buy_ {
+	repeated Reward_Info_ Goods = 1;
+	optional int32 ShopScore = 2;
+	repeated int32 State = 3;	// 状态 全量更新
+}
+
+// 请求 刷新积分商店
+message Req_EquipScoreShop_Update_ {
+	optional int32 Type = 1;	// 0:免费刷 1:钻石刷
+}
+
+// 响应 刷新积分商店
+message Resp_EquipScoreShop_Update_ {
+	optional int32 EquipScore = 1;
+	optional int64 NextRefreshTime = 2;
+	repeated int32 Price = 3;	// 价格
+	repeated Reward_Info_ Goods = 4;	// 商品
+	repeated int32 State = 5;	// 购买状态 0：未买 1：已买
+	optional int32 ScoreShopUpPrice = 6;	// 积分商店刷新消耗钻石
+}
+
+// 请求 积分商店购买
+message Req_EquipScoreShop_Buy_ {
+	optional int32 Idx = 1;	//商品索引
+}
+
+// 响应 积分商店购买
+message Resp_EquipScoreShop_Buy_ {
+	repeated Reward_Info_ Goods = 1;
+	optional int32 EquipScore = 2;
+	repeated int32 State = 3;	// 状态 全量更新
+}
+
+// 请求 购买支付商品的展示
+message Req_PayShop_Show_ {
+}
+
+// 请求 兑换道具
+message Req_Exchange_Item_ {
+	optional int32 ExchangeID = 1;	// 兑换id
+	optional int32 Num = 2;	// 兑换的数量
+}
+
+// 响应 兑换道具
+message Resp_Exchange_Item_ {
+	repeated Reward_Info_ Rewards = 1;	// 兑换的物品
+}
+
+// 请求 获取排行榜
+message Req_UserRank_ {
+	optional int32 Page = 1;	// 页数
+	optional int32 PageNum = 2;	// 每页个数
+	optional int32 Type = 3;	// 排行榜类型 默认0 成长值 1 等级 2 成就数
+}
+
+// 响应 获取排行榜
+message Resp_UserRank_ {
+	repeated int32 RankNo = 1;
+	repeated Rank_PlayerInfo_ PlayerInfo = 2;
+	optional int32 MyRank = 3;	// 玩家自身排行 没进排行榜为0
+	optional int32 Score = 4;	//
+	optional int32 Page = 5;
+	optional int32 Type = 6;	// 排行榜类型
+}
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>> vip
+message Req_Vip_Info_{
+
+}
+
+message Resp_Vip_Info_{
+	optional int32 PayDiamond = 1;//当前累计充值的钻石数量
+	optional int32 VipLv = 2;//vip 等级
+	repeated int32 VipGifts = 3;//vip 各个等级 礼品的领取情况
+	repeated Vip_Info_ VipInfos = 4;//vip的静态数据
+	optional int64 MonCardExpiryTime = 5;	// 月卡到期时间
+	repeated int32 RecMonCard = 6; // 是否可领 月卡领取状态 0：不可领 1：可领 2：已领 3：已过期
+	optional bool CanBuy = 7;	// 是否可以购买
+	optional int32 FirstRewardTag = 8;	// 首充奖励标识 0：不可领1：可领2：已领
+	repeated Reward_Info_ FirstRewards = 9;// 首充奖励
+}
+
+message Req_Vip_Receive_{
+	optional int32 Lv = 1;//领取奖励的vip等级
+}
+
+message Resp_Vip_Receive_{
+	optional int32 Lv = 1;//领取礼包的vip等级
+	repeated Reward_Info_ Rewards = 2;//领取的礼包内容
+}
+
+// 请求 玩家详情
+message Req_PlayerInfos_ {
+    optional int32 Type = 1;    // 类型 1 好友 2
+    repeated int64 UserID = 2;
+	optional int32 RankType = 3;
+	optional int32 Idx = 4;
+}
+
+// 响应 玩家详情
+message Resp_PlayerInfos_ {
+    optional int32 Type = 1;    // 类型 1 好友 2
+    repeated Player_Info_ Infos = 2;
+}
+
+// 请求 支付订单
+message Req_PayOrder_ {
+	optional int64 UserID = 1;	// 服务端用
+	optional int32 ShopID = 2;	// 商品id
+	optional string ItemName = 3;	// 商品名
+	optional int32 Platform = 4;	// 平台  0:h5 1 Google 2 ios 3 FB
+	optional float Amount = 5;	// 价格
+	optional string Account = 6;	// 账号
+	optional int32 Price = 7;	// 客户端用
+}
+// 响应 支付订单
+message Resp_PayOrder_ {
+	optional int64 UserID = 1;	// 服务端用
+	optional string ItemName = 2;	// 平台的商品名
+	optional string OrderID = 3;	// 订单号
+	optional int64 Timestemp = 4;	// 时间戳
+}
+//  请求 订单校验
+message Req_PayOrder_Check_ {
+	optional int64 UserID = 1;	// 服务端用
+	optional int32 Platform = 2;	// 平台 0:h5 1 Google 2 ios 3 FB
+	optional string OrderID = 3;
+	optional string PayData = 4;	// 订单json
+	optional string Sign = 5;
+	optional int32 PayState = 6;	// 状态
+}
+// 响应 订单校验
+message Resp_PayOrder_Check_ {
+	optional int64 UserID = 1;	// 服务端用
+	optional int32 Result = 2;	// 0:success 1:failed
+	optional int32 ShopID = 3;
+	optional string PlatformOrderID = 4;
+	optional double PayAmount = 5;
+}
+// 请求 领取充值奖励
+message Req_Receive_ChargeReward_ {
+	optional int32 Type = 1;	// 1:累计充值奖励 2：月卡 3:首充
+	optional int32 ID = 2;	// 累计充值奖励要发ID
+}
+// 响应 领取充值奖励
+message Resp_Receive_ChargeReward_ {
+	repeated Reward_Info_ Rewards = 1;
+}
+// 请求 充值奖励信息
+message Req_ChargeRewardInfo_ {}
+
+// 响应 充值奖励信息
+message Resp_ChargeRewardInfo_ {
+	repeated ChargeReward_Info_ Infos = 1;	// 奖励列表数据
+	repeated int32 Status = 2;	// 状态 0：不可领 1：未领 2：已领
+	optional int64 MonCardExpiryTime = 3;	// 月卡到期时间
+	optional bool RecMonCard = 4; // 月卡奖励是否可领
+	optional int32 ChargeDiamond = 5;	// 充值钻石
+}
+// 客户端用
+message Req_Data_Push_ {}
+message Resp_Data_Push_ {
+	optional string Data = 1;
+}
+
+// 请求 邀请码
+message Req_Invite_ {
+	optional int64 UserID = 1;	// 服务端专用
+	optional int64 Code = 2;	// 邀请码
+}
+
+// 响应 邀请码
+message Resp_Invite_ {
+	optional int64 UserID = 1;	// 服务端专用
+	repeated Reward_Info_ Rewards = 2;// 奖励
+}
+
+message Req_Rec_FamilyExp_ {}
+
+message Resp_Rec_FamilyExp_ {
+	optional int32 Exp = 1;
+}
+
+// ================   PUSH  =========================
+message Push_Issue_Code_{//返回给客户端的统一 报错码
+    optional int64 UserID = 1;//用户ID( 服务端专用 )
+    optional int32 Code = 2;//错误码
+    repeated int32 Sequence = 3;
+}
+
+// 请求 心跳
+message Req_HeartBeat_ {}
+
+// 响应 心跳
+message Resp_HeartBeat_ {}
+
+// 请求 客户端错误反馈
+message Req_Client_Feedback_ {
+	optional string ErrMsg = 1;	// 错误信息
+	optional int32 Type = 2;	// 反馈类型 1：客户端反馈 2：用户反馈
+}

@@ -1,0 +1,48 @@
+
+chuansongmenTexture.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 206, 46
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+men
+  rotate: false
+  xy: 2, 21
+  size: 110, 105
+  orig: 110, 105
+  offset: 0, 0
+  index: -1
+wenhao
+  rotate: true
+  xy: 206, 2
+  size: 42, 62
+  orig: 42, 62
+  offset: 0, 0
+  index: -1
+xuanwo
+  rotate: false
+  xy: 114, 42
+  size: 90, 84
+  orig: 90, 84
+  offset: 0, 0
+  index: -1
+zuanshi1
+  rotate: false
+  xy: 288, 89
+  size: 24, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+zuanshi2
+  rotate: false
+  xy: 288, 55
+  size: 22, 32
+  orig: 22, 32
+  offset: 0, 0
+  index: -1

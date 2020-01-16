@@ -1,0 +1,382 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "redBeltAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "position": []
+    },
+    "paths": {
+      "redBelt1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                802,
+                -97
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                -288,
+                -97
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.375,
+              "value": 100
+            },
+            {
+              "frame": 0.75,
+              "value": 255
+            },
+            {
+              "frame": 1.125,
+              "value": 100
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "redBelt": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -253,
+                79.5
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                751,
+                79.5
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.375,
+              "value": 100
+            },
+            {
+              "frame": 0.75,
+              "value": 255
+            },
+            {
+              "frame": 0.875,
+              "value": 255
+            },
+            {
+              "frame": 1.125,
+              "value": 100
+            },
+            {
+              "frame": 1.475,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "allRed": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.375,
+              "value": 50
+            },
+            {
+              "frame": 0.75,
+              "value": 255
+            },
+            {
+              "frame": 1.125,
+              "value": 50
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "redBottomFrame": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.375,
+              "value": 200
+            },
+            {
+              "frame": 0.75,
+              "value": 255
+            },
+            {
+              "frame": 1.125,
+              "value": 200
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "leaderIsAttack": {
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.9,
+                "y": 1.9
+              }
+            },
+            {
+              "frame": 0.375,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 0.75,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.9,
+                "y": 1.9
+              }
+            },
+            {
+              "frame": 1.125,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.9,
+                "y": 1.9
+              }
+            }
+          ]
+        }
+      },
+      "warning/warning1": {
+        "comps": {},
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 0.25,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.6,
+                "y": 2.6
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 0.75,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.6,
+                "y": 2.6
+              }
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 1.25,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2.6,
+                "y": 2.6
+              }
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 200
+            },
+            {
+              "frame": 0.25,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 200
+            },
+            {
+              "frame": 0.75,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 200
+            },
+            {
+              "frame": 1.25,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 200
+            }
+          ]
+        }
+      },
+      "warning/warning2": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 200
+            },
+            {
+              "frame": 0.475,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 200
+            },
+            {
+              "frame": 0.975,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 200
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 0.475,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 4,
+                "y": 4
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 0.975,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 4,
+                "y": 4
+              }
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 2,
+                "y": 2
+              }
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 4,
+                "y": 4
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,162 @@
+package protocol;
+
+import "base.proto";
+
+message NodeBatchInfo_{//关卡波次数据
+   optional int32 Step = 1;//步数
+   repeated BattleHeroInfo_ Monsters = 2;//怪物数据
+}
+
+message NodeInfo_{//关卡的节点信息
+   optional int32 Idx = 1;//索引号
+   optional int32 Vit = 2;//需要消耗的体力
+   optional int32 KeyCost = 3;//需要消耗的钥匙数量
+   optional int32 KeyGet = 4;//获得钥匙的数量
+   repeated Reward_Info_ Rewards = 5;//奖励信息
+   repeated Reward_Info_ PickRewards = 6;//拾取的奖励信息
+   repeated NodeBatchInfo_ MonsterBatch = 7;//怪物的波次数据
+   repeated int32 AdventureID = 8;  //奇遇id
+}
+
+message ChapterInfo_{
+   optional int32 ID = 1;//章节ID
+   optional TableInfo_ TableInfo = 2;//沙盘数据
+   repeated NodeInfo_ NodeInfo = 3;//节点信息
+}
+
+
+////////////////////////////////  消息结构体 ////////////////////////////////////
+message Req_ChapterInfo_{//请求章节信息
+    repeated int32 ID = 1; //关卡ID( 数组， 允许一次性请求多个 )
+}
+
+message Resp_ChapterInfo_{//响应章节数据
+    repeated ChapterInfo_ ChapterInfo = 1; //关卡数据
+}
+
+// 推送 沙盘数据更新（替换阵容后的push）
+message Push_Table_Update_ {
+    repeated ChapterInfo_ ChapterInfo = 1; //关卡数据
+    optional TableInfo_ MineTableInfo = 2;//沙盘数据
+}
+
+message Req_ChapterNode_PickUp_{//关卡奖励拾取
+    optional int32 ID = 1;//章节ID
+    optional int32 NodeID = 2;//关卡ID
+    optional int32 PickRewardIdx = 3;   // 拾取奖励索引
+    // optional Reward_Info_ Reward = 3;//奖励数据
+}
+
+message Resp_ChapterNode_PickUp_{//响应关卡奖励拾取
+    optional int32 ID = 1;//章节ID
+    optional int32 NodeID = 2;//关卡ID
+    optional Reward_Info_ Reward = 3;//奖励数据
+}
+
+message Req_ChapterBattleSet_{//请求设置章节战斗数据
+    optional int32 ID = 1;//章节ID
+    optional TableInfo_ TableInfo = 2;//沙盘数据
+    repeated BattleNodeInfo_ NodeInfos = 3;//战斗过程中的节点数据
+    repeated BattleHeroInfo_ HeroInfos = 4;//战斗过程中的英雄数据
+    optional int32 NodeID = 5;  // 客户端用
+}
+
+message Resp_ChapterBattleSet_{//响应设置章节数据
+    optional int32 ExtraID = 1; // 额外
+    optional int32 Share = 2;   // 分享 0：没 1：有
+}
+
+
+message Req_ChapterBattleReset_{//请求章节关卡重置
+    optional int32 ID = 1;//章节ID
+}
+
+message Resp_ChapterBattleReset_{//响应章节数据关卡重置
+}
+
+message Req_ChapterNodeState_{//请求关卡状态
+    optional int32 ID = 1;//章节ID
+    optional int32 NodeID = 2;//已经关的节点索引
+    optional int32 State = 3;//状态 0:准备开打 1:已通关
+	repeated Reel_Info_ Reels = 4;//使用的卷轴ID 和 数量
+}
+
+message Resp_ChapterNodeState_{//响应关卡状态
+}
+
+message Req_ChapterState_{//请求章节设置状态
+    optional int32 ID = 1;//章节ID
+    optional int32 State = 2;//章节状态
+}
+
+message Resp_ChapterState_{//响应章节通关
+    optional int32 ID = 1;//章节ID
+    optional int32 State = 2;//星级
+    optional Chest_Info_ ChestInfo = 3;//宝箱
+	optional int32 MopUpVit = 4;//扫荡需要消耗的体力 0x00:表示不能扫荡  n:相对的体力
+}
+
+message Req_ChapterMopUp_{//请求关卡扫荡
+	optional int32 ID = 1;//章节ID
+}
+
+message Resp_ChapterMopUp_{//响应扫荡
+	optional Chest_Info_ ChestInfo = 1;//宝箱数据
+	optional int32 Vit = 2;//玩家当前体力
+}
+
+// 奇遇选择
+message Req_Adventure_Choose_ {
+    optional int32 ID = 1;//章节ID
+    optional int32 NodeID = 2;//关卡ID
+    optional int32 AdventureID = 3;
+    optional int32 ChooseIdx = 4;   // 选择的索引
+}
+// 奇遇响应
+message Resp_Adventure_Choose_ {
+    repeated Reward_Info_ Rewards = 1;// 奖励
+}
+// 请求 神秘商店
+message Req_MysticStore_ {
+    optional int32 ID = 1;//章节ID
+    optional int32 NodeID = 2;//关卡ID
+}
+
+// 响应 神秘商店
+message Resp_MysticStore_ {
+    repeated int32 GoodsID = 1; // 商品ID
+    repeated Reward_Info_ Goods = 2;    // 商品
+    repeated Reward_Info_ Price = 3;    // 价格
+}
+
+// 请求 购买神秘商店物品
+message Req_Buy_MysticStore_ {
+    optional int32 GoodsID = 1; // 商品ID
+}
+
+// 响应 购买神秘商品物品
+message Resp_Buy_MysticStore_ {
+    optional Reward_Info_ Goods = 1;
+}
+
+// 请求 离开神秘商店
+message Req_Leave_MysticStore_ {}
+
+// 请求 祭坛
+message Req_Altar_ {}
+
+// 响应 祭坛
+message Resp_Altar_ {
+    repeated Reward_Info_ Goods = 1;    // 奖励
+    optional Reward_Info_ Price = 2;    // 价格
+}
+
+// 请求 购买祭坛
+message Req_Buy_Altar_ {
+    repeated Reward_Info_ Goods = 1;    // 奖励
+    optional Reward_Info_ Price = 2;    // 价格
+}
+// 响应 购买祭坛
+message Resp_Buy_Altar_ {
+    repeated Reward_Info_ Goods = 1;    // 奖励
+}

@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "boomSand",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.225,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "somke1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.025,
+                "value": {
+                  "__uuid__": "03693e99-a870-45cd-9c65-f35d74faf24c"
+                }
+              },
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "228beb08-75b0-49be-be97-aafdd0f33947"
+                }
+              },
+              {
+                "frame": 0.075,
+                "value": {
+                  "__uuid__": "0016d69a-0d47-4551-bb9d-986b01689856"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "32b3498b-1a1b-4279-99b2-aaa5d36063af"
+                }
+              },
+              {
+                "frame": 0.125,
+                "value": {
+                  "__uuid__": "3621deec-4b3a-4399-97ce-abae86cc7611"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "0b477d26-b0b7-4bc9-bb93-42bd6aab1f01"
+                }
+              },
+              {
+                "frame": 0.175,
+                "value": {
+                  "__uuid__": "4dd60deb-8cd9-4fed-9d64-6710862bde4c"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "8a662444-0411-4801-9bc7-af5e9ed6da96"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.025,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.225,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2.2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

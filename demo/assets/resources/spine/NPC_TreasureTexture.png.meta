@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "0d3c2e16-0aba-44a8-83aa-daf7746d27bf",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "NPC_TreasureTexture": {
+      "ver": "1.0.4",
+      "uuid": "17b599ca-80e1-426f-bc55-09dcd5b41873",
+      "rawTextureUuid": "0d3c2e16-0aba-44a8-83aa-daf7746d27bf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -41.5,
+      "offsetY": 9.5,
+      "trimX": 2,
+      "trimY": 3,
+      "width": 425,
+      "height": 231,
+      "rawWidth": 512,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

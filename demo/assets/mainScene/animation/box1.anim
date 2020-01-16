@@ -1,0 +1,349 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "box1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5,
+  "sample": 10,
+  "speed": 2,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "box002": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "box001": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "background1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -2,
+                -8
+              ]
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "glow": {
+        "props": {
+          "scaleX": [],
+          "scaleY": [],
+          "position": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "reward": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "star1": {
+        "props": {
+          "position": [],
+          "scaleY": [],
+          "scaleX": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "anchorX": [],
+          "anchorY": [],
+          "rotation": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "star2": {
+        "props": {
+          "position": [],
+          "scaleY": [],
+          "scaleX": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "anchorX": [],
+          "anchorY": [],
+          "rotation": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "star3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -3,
+                0.3
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0,
+              "value": 0.3183558278351063
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0,
+              "value": 0.05498063888732981
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -25
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "b06a219b-bb54-497d-8d76-b0e6bd6d1c2a"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "star4": {
+        "props": {
+          "position": [],
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "rotation": [],
+          "anchorX": [],
+          "anchorY": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "glow/glow1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 180
+            },
+            {
+              "frame": 2.5,
+              "value": 255
+            },
+            {
+              "frame": 5,
+              "value": 180
+            }
+          ]
+        }
+      },
+      "mask/light": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 360
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            }
+          ]
+        }
+      },
+      "mask": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                11,
+                112.4
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "glow3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                13.2,
+                -1.9
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "box000": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,146 @@
+
+409a.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ljianbu2
+  rotate: false
+  xy: 598, 403
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Ljiao
+  rotate: false
+  xy: 722, 490
+  size: 36, 19
+  orig: 36, 19
+  offset: 0, 0
+  index: -1
+Lshou1
+  rotate: false
+  xy: 482, 221
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+Lshou2
+  rotate: true
+  xy: 129, 28
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+Lshoubi
+  rotate: false
+  xy: 129, 66
+  size: 35, 74
+  orig: 35, 74
+  offset: 0, 0
+  index: -1
+Ltui
+  rotate: false
+  xy: 598, 362
+  size: 22, 39
+  orig: 22, 39
+  offset: 0, 0
+  index: -1
+Ltui2
+  rotate: true
+  xy: 166, 66
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+Rjiao
+  rotate: true
+  xy: 645, 422
+  size: 38, 19
+  orig: 38, 19
+  offset: 0, 0
+  index: -1
+Rshou
+  rotate: false
+  xy: 440, 178
+  size: 38, 39
+  orig: 38, 39
+  offset: 0, 0
+  index: -1
+Rshoubi3
+  rotate: false
+  xy: 166, 89
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: -1
+Rshoubiu2
+  rotate: false
+  xy: 398, 149
+  size: 40, 68
+  orig: 40, 68
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: false
+  xy: 539, 268
+  size: 22, 40
+  orig: 22, 40
+  offset: 0, 0
+  index: -1
+Rtui2
+  rotate: true
+  xy: 2, 2
+  size: 17, 32
+  orig: 17, 32
+  offset: 0, 0
+  index: -1
+dkuzi
+  rotate: false
+  xy: 2, 21
+  size: 125, 119
+  orig: 125, 119
+  offset: 0, 0
+  index: -1
+shenzi
+  rotate: false
+  xy: 398, 219
+  size: 82, 89
+  orig: 82, 89
+  offset: 0, 0
+  index: -1
+tie;ian
+  rotate: false
+  xy: 2, 142
+  size: 394, 367
+  orig: 394, 367
+  offset: 0, 0
+  index: -1
+tieqiu
+  rotate: false
+  xy: 398, 310
+  size: 198, 199
+  orig: 198, 199
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 598, 462
+  size: 73, 47
+  orig: 73, 47
+  offset: 0, 0
+  index: -1
+zuiba1
+  rotate: false
+  xy: 482, 259
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+zuiba2
+  rotate: false
+  xy: 673, 470
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,918 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "iconAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.75,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.075,
+          "value": 255
+        },
+        {
+          "frame": 2.675,
+          "value": 255
+        },
+        {
+          "frame": 2.75,
+          "value": 0
+        }
+      ]
+    },
+    "paths": {
+      "fragmentation1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 1.025,
+              "value": 255
+            },
+            {
+              "frame": 1.05,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.55,
+              "value": [
+                -22,
+                -140
+              ],
+              "motionPath": [
+                [
+                  -460,
+                  -288,
+                  -349,
+                  -282,
+                  -565,
+                  -294
+                ]
+              ]
+            },
+            {
+              "frame": 0.75,
+              "value": [
+                -455,
+                -163
+              ],
+              "motionPath": [
+                [
+                  -365,
+                  59,
+                  -465,
+                  -13,
+                  -248,
+                  145
+                ]
+              ]
+            },
+            {
+              "frame": 1.025,
+              "value": [
+                -17,
+                156
+              ],
+              "motionPath": []
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.75,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.75,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "fragmentation2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 1.025,
+              "value": 255
+            },
+            {
+              "frame": 1.05,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.55,
+              "value": [
+                10,
+                -160
+              ],
+              "motionPath": [
+                [
+                  431,
+                  -325,
+                  341,
+                  -326,
+                  450,
+                  -325
+                ]
+              ]
+            },
+            {
+              "frame": 0.725,
+              "value": [
+                387,
+                -156
+              ],
+              "motionPath": [
+                [
+                  296,
+                  164,
+                  393,
+                  88,
+                  205,
+                  235
+                ]
+              ]
+            },
+            {
+              "frame": 1.025,
+              "value": [
+                10,
+                138
+              ],
+              "motionPath": []
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.725,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.725,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "fragmentation3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 1.025,
+              "value": 255
+            },
+            {
+              "frame": 1.05,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.55,
+              "value": [
+                -9,
+                -94
+              ],
+              "motionPath": [
+                [
+                  -309,
+                  -67,
+                  -250,
+                  -125,
+                  -356,
+                  -20
+                ]
+              ]
+            },
+            {
+              "frame": 0.675,
+              "value": [
+                -223,
+                118
+              ],
+              "motionPath": [
+                [
+                  -201,
+                  248,
+                  -261,
+                  227,
+                  -152,
+                  266
+                ]
+              ]
+            },
+            {
+              "frame": 1.025,
+              "value": [
+                -2,
+                197
+              ],
+              "motionPath": []
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.675,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.675,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "fragmentation4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 1.025,
+              "value": 255
+            },
+            {
+              "frame": 1.05,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.55,
+              "value": [
+                34,
+                -121
+              ],
+              "motionPath": [
+                [
+                  202,
+                  -210,
+                  130,
+                  -266,
+                  260,
+                  -166
+                ]
+              ]
+            },
+            {
+              "frame": 0.775,
+              "value": [
+                298,
+                83
+              ],
+              "motionPath": [
+                [
+                  176,
+                  -160,
+                  245,
+                  -182,
+                  108,
+                  -138
+                ]
+              ]
+            },
+            {
+              "frame": 1.025,
+              "value": [
+                24,
+                172
+              ],
+              "motionPath": []
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.775,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.775,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "fragmentation5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 1.025,
+              "value": 255
+            },
+            {
+              "frame": 1.05,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.55,
+              "value": [
+                21,
+                -94
+              ],
+              "motionPath": [
+                [
+                  376,
+                  14,
+                  336,
+                  53,
+                  430,
+                  -38
+                ]
+              ]
+            },
+            {
+              "frame": 0.825,
+              "value": [
+                213,
+                -279
+              ],
+              "motionPath": [
+                [
+                  -159,
+                  115,
+                  -106,
+                  -18,
+                  -199,
+                  218
+                ]
+              ]
+            },
+            {
+              "frame": 1.025,
+              "value": [
+                23,
+                201
+              ],
+              "motionPath": []
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.825,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.825,
+              "value": 1
+            },
+            {
+              "frame": 1.025,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "bg/crack1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.275,
+                "value": {
+                  "__uuid__": "48a88d22-13be-45a6-9c75-fc66922ec092"
+                }
+              },
+              {
+                "frame": 0.3,
+                "value": {
+                  "__uuid__": "dbb1c5e0-80a0-4d61-a58b-65176f24cae4"
+                }
+              },
+              {
+                "frame": 0.325,
+                "value": {
+                  "__uuid__": "3c4b5de7-c947-42f2-be64-a33491e88a0f"
+                }
+              },
+              {
+                "frame": 0.35,
+                "value": {
+                  "__uuid__": "dcfdee9a-7a03-494a-ac48-77a8662480ed"
+                }
+              },
+              {
+                "frame": 0.375,
+                "value": {
+                  "__uuid__": "56ff3fec-ccfc-4d28-bc7b-26a43d7598cf"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "f77c0c8c-f6e8-4c93-8577-89ac862204ee"
+                }
+              },
+              {
+                "frame": 0.425,
+                "value": {
+                  "__uuid__": "f071cc56-15f5-40e8-acb8-f167e43cdd87"
+                }
+              },
+              {
+                "frame": 0.45,
+                "value": {
+                  "__uuid__": "cf5ff590-7362-40c4-b3b9-148fe2047627"
+                }
+              },
+              {
+                "frame": 0.475,
+                "value": {
+                  "__uuid__": "4de47ec6-653f-4718-a796-9a3cde7472ec"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "051fc69d-c581-492f-8e88-9bf18cb930eb"
+                }
+              },
+              {
+                "frame": 0.525,
+                "value": {
+                  "__uuid__": "ee1dfd55-3a9b-4710-a879-a406e2cbfb4c"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "position": [
+            {
+              "frame": 0.55,
+              "value": [
+                5.3,
+                -64.2
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.25,
+              "value": 0
+            },
+            {
+              "frame": 0.275,
+              "value": 255
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 0.575,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.575,
+              "value": 1.1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.575,
+              "value": 1.1
+            }
+          ]
+        }
+      },
+      "bg/icon": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.075,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 0.575,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.075,
+              "value": 0.9
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.075,
+              "value": 0.9
+            }
+          ]
+        }
+      },
+      "bg/fragmentFrame1": {
+        "comps": {},
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.075,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.075,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 0.575,
+              "value": 0
+            }
+          ],
+          "position": []
+        }
+      },
+      "bg": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.075,
+              "value": 1.5
+            },
+            {
+              "frame": 0.15,
+              "value": 0.8
+            },
+            {
+              "frame": 0.225,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.075,
+              "value": 1.5
+            },
+            {
+              "frame": 0.15,
+              "value": 0.8
+            },
+            {
+              "frame": 0.225,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "icon1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.525,
+              "value": 0
+            },
+            {
+              "frame": 0.575,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 1.025,
+              "value": 0
+            },
+            {
+              "frame": 1.05,
+              "value": 255
+            },
+            {
+              "frame": 1.7,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.6,
+              "value": [
+                0,
+                -126
+              ]
+            },
+            {
+              "frame": 0.65,
+              "value": [
+                4,
+                170
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.025,
+              "value": 1.2
+            },
+            {
+              "frame": 1.7,
+              "value": 3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.025,
+              "value": 1.2
+            },
+            {
+              "frame": 1.7,
+              "value": 3
+            }
+          ]
+        }
+      },
+      "wt": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.025,
+              "value": 0
+            },
+            {
+              "frame": 1.05,
+              "value": 255
+            },
+            {
+              "frame": 1.075,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "glow": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.1,
+              "value": [
+                10,
+                163
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.075,
+              "value": 0
+            },
+            {
+              "frame": 1.1,
+              "value": 255
+            },
+            {
+              "frame": 1.25,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.1,
+              "value": 1
+            },
+            {
+              "frame": 1.25,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.1,
+              "value": 1
+            },
+            {
+              "frame": 1.25,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "glow1": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.1,
+              "value": [
+                34,
+                160
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.075,
+              "value": 4
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.075,
+              "value": 4
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.075,
+              "value": 0
+            },
+            {
+              "frame": 1.1,
+              "value": 255
+            },
+            {
+              "frame": 1.15,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "numberLabel": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.125,
+              "value": [
+                156,
+                176
+              ]
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                156,
+                299
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.075,
+              "value": 0
+            },
+            {
+              "frame": 1.125,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "bg/fragmentFrame2": {
+        "props": {
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": [
+            {
+              "frame": 0.575,
+              "value": 0
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 1.025,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.575,
+              "value": [
+                2,
+                112
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.85,
+      "func": "",
+      "params": []
+    }
+  ]
+}

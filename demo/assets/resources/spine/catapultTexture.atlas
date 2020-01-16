@@ -1,0 +1,62 @@
+
+catapultTexture.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jia1
+  rotate: true
+  xy: 263, 3
+  size: 23, 98
+  orig: 23, 98
+  offset: 0, 0
+  index: -1
+jia2
+  rotate: true
+  xy: 263, 28
+  size: 30, 90
+  orig: 30, 90
+  offset: 0, 0
+  index: -1
+lun1
+  rotate: true
+  xy: 387, 17
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+lun2
+  rotate: false
+  xy: 139, 2
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+lun3
+  rotate: false
+  xy: 429, 17
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+lun4
+  rotate: false
+  xy: 355, 28
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+pao
+  rotate: false
+  xy: 2, 11
+  size: 135, 47
+  orig: 135, 47
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: false
+  xy: 194, 15
+  size: 67, 43
+  orig: 67, 43
+  offset: 0, 0
+  index: -1

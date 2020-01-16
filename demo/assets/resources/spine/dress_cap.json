@@ -1,0 +1,24 @@
+{
+"skeleton": { "hash": "bWhRK4+keFcyWC9Pl4IoCklERhs", "spine": "3.5.51", "width": 128, "height": 128, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "hat1", "bone": "bone", "attachment": "hat1" },
+	{ "name": "hat2", "bone": "bone", "attachment": "hat2" }
+],
+"skins": {
+	"default": {
+		"hat1": {
+			"hat1": { "width": 128, "height": 128 }
+		},
+		"hat2": {
+			"hat2": { "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

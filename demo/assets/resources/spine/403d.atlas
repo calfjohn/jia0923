@@ -1,0 +1,55 @@
+
+403d.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti1
+  rotate: true
+  xy: 2, 2
+  size: 112, 141
+  orig: 112, 141
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 226, 63
+  size: 58, 51
+  orig: 58, 51
+  offset: 0, 0
+  index: -1
+shenti3
+  rotate: false
+  xy: 226, 26
+  size: 53, 35
+  orig: 53, 35
+  offset: 0, 0
+  index: -1
+shenti4
+  rotate: false
+  xy: 382, 94
+  size: 51, 20
+  orig: 51, 20
+  offset: 0, 0
+  index: -1
+shuijin1
+  rotate: false
+  xy: 343, 76
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+shuijin2
+  rotate: false
+  xy: 286, 71
+  size: 55, 43
+  orig: 55, 43
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 145, 23
+  size: 79, 91
+  orig: 79, 91
+  offset: 0, 0
+  index: -1

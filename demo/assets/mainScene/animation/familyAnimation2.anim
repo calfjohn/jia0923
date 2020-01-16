@@ -1,0 +1,269 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "familyAnimation2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "word1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                286.5
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "word3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                232
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "glow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "Light1": {
+        "props": {
+          "opacity": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 90
+            }
+          ]
+        }
+      },
+      "Light2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 6
+            }
+          ]
+        }
+      },
+      "Light3": {
+        "props": {
+          "opacity": [],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -90
+            }
+          ]
+        }
+      },
+      "Light4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -90
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ]
+        }
+      },
+      "Light5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 8
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 10
+            }
+          ]
+        }
+      },
+      "bgglow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 10
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 10
+            }
+          ]
+        }
+      },
+      "glow1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "getFamily": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "getFamily/glow2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 360
+            }
+          ]
+        }
+      },
+      "getFamily/glow1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 360
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

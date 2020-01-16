@@ -1,0 +1,48 @@
+
+paotaTexture.png
+size: 197,124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+paota/01
+  rotate: false
+  xy: 135, 94
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+paota/02
+  rotate: false
+  xy: 135, 62
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+paota/03
+  rotate: false
+  xy: 167, 94
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+paota/04
+  rotate: false
+  xy: 135, 30
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+paota/05
+  rotate: false
+  xy: 167, 62
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+paota/shenti
+  rotate: false
+  xy: 2, 2
+  size: 131, 122
+  orig: 131, 122
+  offset: 0, 0
+  index: -1

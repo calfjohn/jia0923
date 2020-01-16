@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "ec3a70b8-32dd-453a-b4d0-4728f9fb1ac8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "paotoushouTexture": {
+      "ver": "1.0.4",
+      "uuid": "bf53bf14-a770-4bca-bf97-6eeedd233d55",
+      "rawTextureUuid": "ec3a70b8-32dd-453a-b4d0-4728f9fb1ac8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5.5,
+      "offsetY": -1.5,
+      "trimX": 29,
+      "trimY": 11,
+      "width": 443,
+      "height": 109,
+      "rawWidth": 512,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

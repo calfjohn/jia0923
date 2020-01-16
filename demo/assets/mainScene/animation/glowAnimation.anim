@@ -1,0 +1,161 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "glowAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.3,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "bgglow": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.6,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 0.6999999999999998
+            },
+            {
+              "frame": 1.2,
+              "value": 0.1
+            },
+            {
+              "frame": 1.3,
+              "value": 0.3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.6,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 0.6999999999999998
+            },
+            {
+              "frame": 1.2,
+              "value": 0.1
+            },
+            {
+              "frame": 1.3,
+              "value": 0.3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.2,
+              "value": 255
+            },
+            {
+              "frame": 1.25,
+              "value": 255
+            },
+            {
+              "frame": 1.3,
+              "value": 0
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 102.85714285714289
+            },
+            {
+              "frame": 1.3,
+              "value": 360
+            }
+          ],
+          "color": [
+            {
+              "frame": 0.6,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 1.15,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 82,
+                "g": 161,
+                "b": 247,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "wtglow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.15,
+              "value": 0
+            },
+            {
+              "frame": 1.2,
+              "value": 255
+            },
+            {
+              "frame": 1.25,
+              "value": 255
+            },
+            {
+              "frame": 1.3,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.15,
+              "value": 1
+            },
+            {
+              "frame": 1.2,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.15,
+              "value": 1
+            },
+            {
+              "frame": 1.2,
+              "value": 1.2
+            }
+          ]
+        }
+      },
+      "white": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

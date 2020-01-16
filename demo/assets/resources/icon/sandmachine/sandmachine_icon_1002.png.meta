@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "f5ad1a90-cc79-4941-976f-e27e48a3c783",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "sandmachine_icon_1002": {
+      "ver": "1.0.4",
+      "uuid": "cbefa28c-409a-4844-8737-7ed3a4ae0ab3",
+      "rawTextureUuid": "f5ad1a90-cc79-4941-976f-e27e48a3c783",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 59,
+      "height": 87,
+      "rawWidth": 59,
+      "rawHeight": 87,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

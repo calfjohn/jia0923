@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "eef43e8c-e6d6-4c28-9de2-66c1340c9a4f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "chainHammerFighter3": {
+      "ver": "1.0.4",
+      "uuid": "04c9549b-fdb9-4193-8d2d-76907a9c6391",
+      "rawTextureUuid": "eef43e8c-e6d6-4c28-9de2-66c1340c9a4f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -8.5,
+      "trimX": 27,
+      "trimY": 17,
+      "width": 75,
+      "height": 68,
+      "rawWidth": 130,
+      "rawHeight": 85,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

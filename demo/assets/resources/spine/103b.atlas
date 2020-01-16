@@ -1,0 +1,125 @@
+
+103b.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lcibang1
+  rotate: true
+  xy: 223, 28
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+Lcibang2
+  rotate: false
+  xy: 192, 26
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+Ltui1
+  rotate: false
+  xy: 249, 55
+  size: 3, 7
+  orig: 3, 7
+  offset: 0, 0
+  index: -1
+Ltui2
+  rotate: true
+  xy: 245, 49
+  size: 13, 2
+  orig: 13, 2
+  offset: 0, 0
+  index: -1
+Ltui3
+  rotate: false
+  xy: 214, 29
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+Rcibang1
+  rotate: true
+  xy: 70, 8
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+Rcibang2
+  rotate: false
+  xy: 49, 9
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: false
+  xy: 24, 2
+  size: 4, 5
+  orig: 4, 5
+  offset: 0, 0
+  index: -1
+Rtui2
+  rotate: false
+  xy: 152, 24
+  size: 13, 2
+  orig: 13, 2
+  offset: 0, 0
+  index: -1
+Rtui3
+  rotate: false
+  xy: 89, 16
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+daimao
+  rotate: false
+  xy: 2, 2
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: false
+  xy: 81, 24
+  size: 69, 38
+  orig: 69, 38
+  offset: 0, 0
+  index: -1
+maozi2
+  rotate: false
+  xy: 2, 25
+  size: 77, 37
+  orig: 77, 37
+  offset: 0, 0
+  index: -1
+naodai
+  rotate: false
+  xy: 152, 28
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+shengti
+  rotate: false
+  xy: 192, 39
+  size: 29, 23
+  orig: 29, 23
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 223, 43
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+weijing
+  rotate: false
+  xy: 24, 9
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1

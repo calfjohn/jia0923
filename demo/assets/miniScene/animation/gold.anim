@@ -1,0 +1,86 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "gold",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "1",
+  "curveData": {
+    "props": {
+      "scaleX": []
+    },
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": []
+      }
+    },
+    "paths": {
+      "gold": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": -1
+            }
+          ],
+          "rotation": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "fe339a40-515d-452e-8dec-0776bc7659f8"
+                }
+              },
+              {
+                "frame": 0.03333333333333333,
+                "value": {
+                  "__uuid__": "757e36d8-4df5-4ff7-8e72-d83ade39f0ae"
+                }
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": {
+                  "__uuid__": "757e36d8-4df5-4ff7-8e72-d83ade39f0ae"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "gold/countLabel": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": true
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -1
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": -1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

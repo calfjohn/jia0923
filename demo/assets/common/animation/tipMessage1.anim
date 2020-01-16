@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "tipMessage1",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.2,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.2,
+          "value": 255
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 360
+        }
+      ]
+    }
+  },
+  "events": []
+}

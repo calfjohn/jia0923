@@ -1,0 +1,27 @@
+
+dress_glasses.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyepatch
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+eyepatch1
+  rotate: false
+  xy: 44, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+glasses1
+  rotate: false
+  xy: 86, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1

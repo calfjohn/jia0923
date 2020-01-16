@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bloodAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.2,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "return1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "24e841ee-e187-40ff-b407-927ef817b75b"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "a98e4e21-1a3b-48f3-9b6c-fcf00cc05143"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "c4dbcd1b-38fc-4ee6-a3cd-b73ee38e5e98"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "099f6b7c-cc39-4bf3-9fb3-d36a12d1a3e9"
+                }
+              },
+              {
+                "frame": 0.8,
+                "value": {
+                  "__uuid__": "5d37cd67-1f8e-4534-9967-ad8e95ca4faf"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "232d3934-da66-459c-9221-c7545a67173b"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

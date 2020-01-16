@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "2a4d3c8f-b2fb-42ee-b51a-6396e6a9c8ae",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "soldiersBeingAttacked1": {
+      "ver": "1.0.4",
+      "uuid": "3693f545-6f54-4bfd-a1e9-4d0905d662a4",
+      "rawTextureUuid": "2a4d3c8f-b2fb-42ee-b51a-6396e6a9c8ae",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -14,
+      "trimX": 29,
+      "trimY": 48,
+      "width": 90,
+      "height": 157,
+      "rawWidth": 150,
+      "rawHeight": 225,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

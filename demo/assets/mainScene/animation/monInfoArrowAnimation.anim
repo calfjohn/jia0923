@@ -1,0 +1,64 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "monInfoArrowAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.7777777777777778,
+  "sample": 45,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "paths": {},
+    "props": {
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.3
+        },
+        {
+          "frame": 0.35555555555555557,
+          "value": 0.35
+        },
+        {
+          "frame": 0.7777777777777778,
+          "value": 0.3
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0.3
+        },
+        {
+          "frame": 0.35555555555555557,
+          "value": 0.25
+        },
+        {
+          "frame": 0.7777777777777778,
+          "value": 0.3
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0.35555555555555557,
+          "value": 255
+        },
+        {
+          "frame": 0.7777777777777778,
+          "value": 0
+        }
+      ],
+      "anchorY": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.7777777777777778,
+          "value": -0.5
+        }
+      ]
+    }
+  },
+  "events": []
+}

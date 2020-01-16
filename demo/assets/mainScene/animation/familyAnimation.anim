@@ -1,0 +1,183 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "familyAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.9833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "word1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -917,
+                60
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                0,
+                60
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                0,
+                60
+              ]
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": [
+                0,
+                286.5
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.6666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "word3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                928,
+                60
+              ]
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                0,
+                60
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                0,
+                60
+              ]
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": [
+                0,
+                286.5
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.6666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 0.9833333333333333,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "glow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Light1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Light2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Light4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Light3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "bgglow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Light5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "getFamily": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

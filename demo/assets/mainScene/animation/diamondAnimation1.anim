@@ -1,0 +1,388 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "diamondAnimation1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "paths": {
+      "dkPlate/crystalMove/crystal1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "57692eab-3f5e-4ea4-8d09-f809fe8d00d7"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "d11bc8a1-dc2e-41db-bc7f-c268e9b44465"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "777cbbd1-fbd8-4908-b794-252650b4ac8a"
+                }
+              },
+              {
+                "frame": 0.25,
+                "value": {
+                  "__uuid__": "b5329987-abd6-4318-9d79-9a9c639c8ef2"
+                }
+              },
+              {
+                "frame": 0.3,
+                "value": {
+                  "__uuid__": "48b7fa5d-52bc-4d27-a639-a81de108c2eb"
+                }
+              },
+              {
+                "frame": 0.35,
+                "value": {
+                  "__uuid__": "c3717dda-f7d1-45fd-aaeb-ed46626f8181"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "ee6660bc-eb15-432e-9e8b-b67fe92a4202"
+                }
+              },
+              {
+                "frame": 0.45,
+                "value": {
+                  "__uuid__": "7e4527cc-e11b-4ef7-a9ee-5e1cf6174d3d"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "84f203f3-784a-46d6-9047-5376eda6f782"
+                }
+              },
+              {
+                "frame": 0.55,
+                "value": {
+                  "__uuid__": "4b6ed241-18dc-4562-a870-80e3820498b4"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "38278ec1-1afd-44e0-9a7d-87523d128ea1"
+                }
+              },
+              {
+                "frame": 0.65,
+                "value": {
+                  "__uuid__": "8ad22cc3-5f8c-45fa-8c11-47e5fab407af"
+                }
+              },
+              {
+                "frame": 0.7,
+                "value": {
+                  "__uuid__": "0e901da1-044b-4d10-aa0b-85fb3d099600"
+                }
+              },
+              {
+                "frame": 0.75,
+                "value": {
+                  "__uuid__": "0d8b90c2-11c7-457b-a76d-d00ddce45182"
+                }
+              },
+              {
+                "frame": 0.8,
+                "value": {
+                  "__uuid__": "a2b95039-f738-4854-894a-bdc5642affe4"
+                }
+              },
+              {
+                "frame": 0.85,
+                "value": {
+                  "__uuid__": "0e901da1-044b-4d10-aa0b-85fb3d099600"
+                }
+              },
+              {
+                "frame": 0.9,
+                "value": {
+                  "__uuid__": "0d8b90c2-11c7-457b-a76d-d00ddce45182"
+                }
+              },
+              {
+                "frame": 0.95,
+                "value": {
+                  "__uuid__": "a2b95039-f738-4854-894a-bdc5642affe4"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "0e901da1-044b-4d10-aa0b-85fb3d099600"
+                }
+              },
+              {
+                "frame": 1.05,
+                "value": {
+                  "__uuid__": "0d8b90c2-11c7-457b-a76d-d00ddce45182"
+                }
+              },
+              {
+                "frame": 1.1,
+                "value": {
+                  "__uuid__": "a2b95039-f738-4854-894a-bdc5642affe4"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.15,
+              "value": 255
+            },
+            {
+              "frame": 1.15,
+              "value": 255
+            },
+            {
+              "frame": 1.2,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.2,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1.2
+            },
+            {
+              "frame": 0.95,
+              "value": 1.3
+            },
+            {
+              "frame": 1.1,
+              "value": 1.4
+            },
+            {
+              "frame": 1.15,
+              "value": 1.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.2,
+              "value": 1
+            },
+            {
+              "frame": 0.8,
+              "value": 1.2
+            },
+            {
+              "frame": 0.95,
+              "value": 1.3
+            },
+            {
+              "frame": 1.1,
+              "value": 1.4
+            },
+            {
+              "frame": 1.15,
+              "value": 1.5
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.2,
+              "value": [
+                28,
+                40
+              ]
+            },
+            {
+              "frame": 0.8,
+              "value": [
+                28,
+                116
+              ]
+            },
+            {
+              "frame": 0.95,
+              "value": [
+                28,
+                134
+              ]
+            },
+            {
+              "frame": 1.1,
+              "value": [
+                28,
+                161
+              ]
+            },
+            {
+              "frame": 1.15,
+              "value": [
+                28,
+                147
+              ]
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/crystal": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.15,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/pumpingCard": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.85,
+                "value": {
+                  "__uuid__": "5ed0e73b-7fe1-44e4-8451-9437f7dcc9d3"
+                }
+              },
+              {
+                "frame": 0.95,
+                "value": {
+                  "__uuid__": "2f8d3452-8a11-40a2-97da-4bea1d4dfa88"
+                }
+              },
+              {
+                "frame": 1.05,
+                "value": {
+                  "__uuid__": "1e03c77d-ff8f-4c4e-8565-ab02395cc409"
+                }
+              },
+              {
+                "frame": 1.1,
+                "value": {
+                  "__uuid__": "874b22d0-a557-4057-b9ac-7944a6795866"
+                }
+              },
+              {
+                "frame": 1.15,
+                "value": {
+                  "__uuid__": "8bf78fbe-2146-491c-93d3-a615e2f71d4a"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.35,
+              "value": 0
+            },
+            {
+              "frame": 0.85,
+              "value": 255
+            },
+            {
+              "frame": 1.15,
+              "value": 255
+            },
+            {
+              "frame": 1.35,
+              "value": 255
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/light11": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.3,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "plateCover": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.45,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "shrink": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.45,
+              "value": 0
+            },
+            {
+              "frame": 1.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/streamer1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.15,
+              "value": 180
+            },
+            {
+              "frame": 1.5,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

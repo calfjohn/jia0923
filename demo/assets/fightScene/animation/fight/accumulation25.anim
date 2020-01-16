@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "accumulation25",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.12,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08,
+              "value": 255
+            }
+          ],
+          "scaleY": [],
+          "rotation": [],
+          "scaleX": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.04,
+                "value": {
+                  "__uuid__": "3eb9b42f-f467-49af-ba68-0a4f4ef86394"
+                }
+              },
+              {
+                "frame": 0.08,
+                "value": {
+                  "__uuid__": "9e69d2e8-ef2b-49c2-8bbf-bae28e573680"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "processEffect/processEffect1": {
+        "props": {
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,76 @@
+
+baobaodanTexture.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 2
+  size: 72, 18
+  orig: 72, 18
+  offset: 0, 0
+  index: -1
+explosion1
+  rotate: false
+  xy: 2, 22
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+explosion2
+  rotate: false
+  xy: 104, 22
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+explosion3
+  rotate: false
+  xy: 206, 22
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+explosion4
+  rotate: false
+  xy: 308, 22
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+explosion5
+  rotate: false
+  xy: 410, 22
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+explosion6
+  rotate: false
+  xy: 512, 22
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+explosion7
+  rotate: false
+  xy: 614, 22
+  size: 100, 98
+  orig: 100, 98
+  offset: 0, 0
+  index: -1
+tanh
+  rotate: false
+  xy: 785, 63
+  size: 49, 57
+  orig: 49, 57
+  offset: 0, 0
+  index: -1
+zhad
+  rotate: false
+  xy: 716, 24
+  size: 67, 96
+  orig: 67, 96
+  offset: 0, 0
+  index: -1

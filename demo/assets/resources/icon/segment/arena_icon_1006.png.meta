@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "b2ba8430-83f0-4025-a2f0-6ff5e9d2499e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "arena_icon_1006": {
+      "ver": "1.0.4",
+      "uuid": "fbe6b080-d367-4fae-8229-2fb5b85e9ee1",
+      "rawTextureUuid": "b2ba8430-83f0-4025-a2f0-6ff5e9d2499e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 5,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 108,
+      "height": 131,
+      "rawWidth": 111,
+      "rawHeight": 141,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

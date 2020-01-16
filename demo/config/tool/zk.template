@@ -1,0 +1,6 @@
+
+//表格数据，需要自行复制对应内容到zookeeper
+<table>
+${table_fixname}
+${table_data}
+</table>

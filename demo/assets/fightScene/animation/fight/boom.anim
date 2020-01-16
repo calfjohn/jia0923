@@ -1,0 +1,410 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "boom",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "debrisEffect1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -66,
+                70
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                -82,
+                100
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -91,
+                -166
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": -5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "debrisEffect2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -53.2,
+                -47.2
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                -66,
+                -57
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -90,
+                -156
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 10
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "debrisEffect3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                55,
+                68
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                68,
+                83
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                77,
+                -241
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": -5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "debrisEffect4": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                57,
+                -55
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                65,
+                -75
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                85,
+                -173
+              ]
+            }
+          ],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "debrisEffect5": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -58.9,
+                -2
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                -77,
+                -1
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -85,
+                -124
+              ]
+            }
+          ],
+          "scaleX": [],
+          "scaleY": [],
+          "opacity": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": -5
+            }
+          ]
+        }
+      },
+      "debrisEffect6": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                56.1,
+                -5.4
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                79,
+                -3
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                114,
+                -117
+              ]
+            }
+          ],
+          "scaleX": [],
+          "scaleY": [],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 6
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "debrisEffect7": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -1.5,
+                74.5
+              ]
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": [
+                -3,
+                97
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -20,
+                -221
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

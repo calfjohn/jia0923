@@ -1,0 +1,47 @@
+{
+"skeleton": { "hash": "yUHDLja9G3AYwOs9fpv9W+2o0+A", "spine": "3.5.51", "width": 235, "height": 235, "images": "./image/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "coinCopper", "bone": "root", "attachment": "coinCopper" }
+],
+"skins": {
+	"default": {
+		"coinCopper": {
+			"coinCopper": { "y": 63.03, "width": 235, "height": 235 }
+		}
+	}
+},
+"animations": {
+	"atk": {
+		"slots": {
+			"coinCopper": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"shear": [
+					{ "time": 0, "x": 0, "y": 10 },
+					{ "time": 0.1333, "x": 0, "y": -10 },
+					{ "time": 0.2667, "x": 0, "y": 8 },
+					{ "time": 0.4, "x": 0, "y": -8 }
+				]
+			}
+		}
+	},
+	"std": {
+		"bones": {
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

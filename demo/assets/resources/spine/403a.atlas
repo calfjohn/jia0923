@@ -1,0 +1,27 @@
+
+403a.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lian
+  rotate: false
+  xy: 174, 44
+  size: 59, 64
+  orig: 59, 64
+  offset: 0, 0
+  index: -1
+pingzi1
+  rotate: false
+  xy: 2, 2
+  size: 102, 106
+  orig: 102, 106
+  offset: 0, 0
+  index: -1
+pingzi2
+  rotate: false
+  xy: 106, 42
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1

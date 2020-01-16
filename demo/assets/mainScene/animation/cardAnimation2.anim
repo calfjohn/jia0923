@@ -1,0 +1,175 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cardAnimation2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 60,
+  "speed": 4,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "intoQuality1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                115
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                0,
+                26.5
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.25
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.25
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            }
+          ]
+        }
+      },
+      "intoQuality2": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.25
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.25
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -128,
+                -76
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -42.9,
+                -56.5
+              ]
+            }
+          ]
+        }
+      },
+      "intoQuality3": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.25
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.25
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                117,
+                -76
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                42,
+                -56.7
+              ]
+            }
+          ]
+        }
+      },
+      "intoQuality1/glow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "intoQuality2/glow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "intoQuality3/glow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "receiveLabel": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

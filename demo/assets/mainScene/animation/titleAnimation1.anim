@@ -1,0 +1,346 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "titleAnimation1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 8.36,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "title/mask/backgroundLight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 50
+            },
+            {
+              "frame": 8.36,
+              "value": 410
+            }
+          ]
+        }
+      },
+      "title/congratsCrown": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -71
+              ]
+            }
+          ]
+        }
+      },
+      "title/congratsTrumpet2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -30,
+                -125
+              ]
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": -1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "title/congratsTrumpet1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                30.8,
+                -122.5
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "title/congratsWeather2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                75.6,
+                -131.3
+              ]
+            }
+          ]
+        }
+      },
+      "title/congratsWeather1": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "title/congratsRibbon": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "skewX": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "skewY": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -132.7
+              ]
+            }
+          ]
+        }
+      },
+      "title/congratsZh": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "title/congratsStars1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 90
+            },
+            {
+              "frame": 8.36,
+              "value": 450
+            }
+          ]
+        }
+      },
+      "title/congratsStars2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -90
+            },
+            {
+              "frame": 8.36,
+              "value": -450
+            }
+          ]
+        }
+      },
+      "title/congratsStars3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.7
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 90
+            },
+            {
+              "frame": 8.36,
+              "value": 450
+            }
+          ]
+        }
+      },
+      "bgCongrats": {
+        "props": {
+          "height": [
+            {
+              "frame": 0,
+              "value": 430
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

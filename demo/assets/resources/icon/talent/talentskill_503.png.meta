@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "079f1feb-df06-4b20-8194-eec70d2bdcfe",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "talentskill_503": {
+      "ver": "1.0.4",
+      "uuid": "1232fbff-10ab-499c-a0c6-f94ef8a2525c",
+      "rawTextureUuid": "079f1feb-df06-4b20-8194-eec70d2bdcfe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 80,
+      "height": 80,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

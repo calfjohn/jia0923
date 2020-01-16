@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "listItemShow",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.23333333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0.5
+        },
+        {
+          "frame": 0.21666666666666667,
+          "value": 1.05
+        },
+        {
+          "frame": 0.23333333333333334,
+          "value": 1
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.1
+        },
+        {
+          "frame": 0.21666666666666667,
+          "value": 1.05
+        },
+        {
+          "frame": 0.23333333333333334,
+          "value": 1
+        }
+      ]
+    },
+    "paths": {}
+  },
+  "events": []
+}

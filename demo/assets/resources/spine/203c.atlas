@@ -1,0 +1,153 @@
+
+203c.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ljiao1
+  rotate: true
+  xy: 152, 16
+  size: 12, 19
+  orig: 12, 19
+  offset: 0, 0
+  index: -1
+Ljiao2
+  rotate: false
+  xy: 80, 2
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+Lshou1
+  rotate: true
+  xy: 152, 2
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+Lshou2
+  rotate: true
+  xy: 49, 2
+  size: 6, 10
+  orig: 6, 10
+  offset: 0, 0
+  index: -1
+Lyan
+  rotate: false
+  xy: 65, 15
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+Rjiao1
+  rotate: true
+  xy: 173, 7
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+Rjiao2
+  rotate: false
+  xy: 65, 2
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+Rshou1
+  rotate: true
+  xy: 87, 18
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+Rshou2
+  rotate: false
+  xy: 34, 2
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: false
+  xy: 64, 27
+  size: 55, 35
+  orig: 55, 35
+  offset: 0, 0
+  index: -1
+maozi2
+  rotate: false
+  xy: 2, 27
+  size: 60, 35
+  orig: 60, 35
+  offset: 0, 0
+  index: -1
+pifeng2
+  rotate: true
+  xy: 217, 44
+  size: 18, 37
+  orig: 18, 37
+  offset: 0, 0
+  index: -1
+pifeng3
+  rotate: true
+  xy: 2, 8
+  size: 17, 30
+  orig: 17, 30
+  offset: 0, 0
+  index: -1
+poifeng1
+  rotate: true
+  xy: 121, 2
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 121, 30
+  size: 32, 50
+  orig: 32, 50
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 205, 14
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 173, 22
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+weijing1
+  rotate: false
+  xy: 102, 20
+  size: 11, 5
+  orig: 11, 5
+  offset: 0, 0
+  index: -1
+weijing2
+  rotate: false
+  xy: 192, 13
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 34, 10
+  size: 29, 15
+  orig: 29, 15
+  offset: 0, 0
+  index: -1
+yumao
+  rotate: false
+  xy: 217, 11
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1

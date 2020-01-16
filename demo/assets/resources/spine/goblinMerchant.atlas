@@ -1,0 +1,188 @@
+
+goblinMerchant.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ler
+  rotate: false
+  xy: 458, 47
+  size: 62, 34
+  orig: 62, 34
+  offset: 0, 0
+  index: -1
+Lshou1
+  rotate: false
+  xy: 875, 20
+  size: 63, 51
+  orig: 63, 51
+  offset: 0, 0
+  index: -1
+Lshou2
+  rotate: true
+  xy: 118, 8
+  size: 50, 64
+  orig: 50, 64
+  offset: 0, 0
+  index: -1
+Lshou3
+  rotate: true
+  xy: 240, 4
+  size: 44, 62
+  orig: 44, 62
+  offset: 0, 0
+  index: -1
+Lshou4
+  rotate: true
+  xy: 1013, 64
+  size: 62, 9
+  orig: 62, 9
+  offset: 0, 0
+  index: -1
+Ltui1
+  rotate: true
+  xy: 376, 3
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+Ltui2
+  rotate: false
+  xy: 304, 13
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+Lwaitao1
+  rotate: true
+  xy: 184, 10
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+Lwaitao2
+  rotate: true
+  xy: 118, 60
+  size: 66, 125
+  orig: 66, 125
+  offset: 0, 0
+  index: -1
+Rer
+  rotate: false
+  xy: 522, 56
+  size: 52, 25
+  orig: 52, 25
+  offset: 0, 0
+  index: -1
+Rshou1
+  rotate: false
+  xy: 600, 27
+  size: 23, 21
+  orig: 23, 21
+  offset: 0, 0
+  index: -1
+Rshou2
+  rotate: false
+  xy: 875, 73
+  size: 66, 53
+  orig: 66, 53
+  offset: 0, 0
+  index: -1
+Rshou3
+  rotate: false
+  xy: 625, 46
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+Rshou4
+  rotate: true
+  xy: 352, 40
+  size: 19, 50
+  orig: 19, 50
+  offset: 0, 0
+  index: -1
+Rshou5
+  rotate: true
+  xy: 943, 79
+  size: 47, 68
+  orig: 47, 68
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: true
+  xy: 347, 2
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+Rtui2
+  rotate: false
+  xy: 565, 19
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+Rwaitao1
+  rotate: true
+  xy: 522, 26
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+Rwaitao2
+  rotate: true
+  xy: 458, 83
+  size: 43, 117
+  orig: 43, 117
+  offset: 0, 0
+  index: -1
+Rwaitao3
+  rotate: true
+  xy: 577, 82
+  size: 44, 108
+  orig: 44, 108
+  offset: 0, 0
+  index: -1
+kua
+  rotate: false
+  xy: 687, 80
+  size: 93, 46
+  orig: 93, 46
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 245, 50
+  size: 105, 76
+  orig: 105, 76
+  offset: 0, 0
+  index: -1
+shent1
+  rotate: false
+  xy: 576, 50
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+shent4
+  rotate: false
+  xy: 2, 20
+  size: 114, 106
+  orig: 114, 106
+  offset: 0, 0
+  index: -1
+tou4
+  rotate: false
+  xy: 782, 49
+  size: 91, 77
+  orig: 91, 77
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 352, 61
+  size: 104, 65
+  orig: 104, 65
+  offset: 0, 0
+  index: -1

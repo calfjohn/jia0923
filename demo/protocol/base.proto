@@ -1,0 +1,161 @@
+package protocol;
+message Attr_Info_{//属性数据
+	optional int32 Type = 1; //属性类型
+	optional int32 ID = 2;//属性ID
+	optional int32 Value = 3;//属性数值
+	optional int32 Color = 4;	// 客户端特殊属性颜色标识
+}
+
+message Equip_Info_{//装备数据
+    optional int32 ID = 1; //装备唯一ID
+    optional int32 BaseID = 2;//装备的基本ID
+	optional int32 Exp = 3;//经验值
+    optional int32 Lv = 4;//装备的等级
+    optional int64 Time = 5;//装备的有效期( 0:表示无时间限制 )
+	repeated Attr_Info_ AttrInfos = 6;//装备的属性类型
+	optional bool New = 7;	// 是否新装备
+	optional bool Lock = 8;	// 锁
+}
+message TableGridInfo_{//沙盘格子数据
+   repeated int32 Data = 1; //数据(行)
+   repeated int32 Lv = 2;//等级
+}
+
+message TableBrokenInfo_{//沙盘打破以后的数据
+   optional int32 Idx = 1;//沙盘的索引号
+   repeated int32 Data = 2;//破碎以后的数据
+}
+
+message TableSpecialInfo_{//沙盘特殊类型数据（锁...）
+   optional int32 Idx = 1;//沙盘的索引号
+   optional int32 Type = 2;//类型
+   optional int32 Num  = 3;//次数
+}
+
+message TableInfo_{
+   repeated TableGridInfo_ Grid = 1; //沙盘的行数据
+   repeated TableBrokenInfo_ Borken = 2;//打破以后出现的内容
+   repeated TableSpecialInfo_ SpeData = 3;//沙盘中的特殊类型
+}
+
+message Reward_Info_{//奖励信息
+    optional int32 Type = 1;//奖励类型
+    optional int32 BaseID = 2;//奖励基本ID
+    optional int32 Num = 3;//奖励的数量
+    optional Equip_Info_ Equip = 4;   //  特殊处理，客户端需要预览装备属性
+}
+
+message BattleHeroInfo_{//战斗过程中的英雄数据
+   optional int32 ID = 1;//怪物ID
+   optional int32 Lvl = 2;//怪物等级
+   optional int32 Skill = 3;//是否使用过技能
+   repeated int32 SkillLv = 4;// 被动技能等级
+   repeated int32 TalentLv = 5;// 觉醒等级
+   optional int32 Num = 6;  // 数量
+}
+
+message BattleNodeInfo_{//战斗过程中的节点数据
+   optional int32 NodeID = 1;//节点ID
+   optional bool Passed = 2;//是否已通关
+   repeated Reward_Info_ Rewards = 3;//通关给于的奖励
+   repeated Reward_Info_ PickRewards = 4;//需要拾取的奖励
+   repeated int32 PickRecord = 5;   // 拾取奖励索引
+   repeated int32 AdventureID = 6;  //奇遇id
+}
+
+message Chapter_Battle_Info_{//章节战斗数据
+    optional int32 ID = 1;//相对应章节ID
+    optional TableInfo_ TableInfo = 2;//沙盘数据
+	optional int32	Key = 3;//拥有的钥匙数量
+    repeated BattleNodeInfo_ NodeInfos = 4;//战斗过程中的节点数据
+    repeated BattleHeroInfo_ HeroInfos = 5;//英雄数据
+}
+
+message Chapter_Info_{//章节数据
+    optional int32 ID = 1;//章节ID号
+    optional int32 State = 2;//状态 0x00:未通关  0x01:已通关
+    optional int32 MopUpVit = 3;//扫荡需要消耗的体力 0x00:表示不能扫荡  n:相对的体力
+}
+
+message Chest_Info_{//宝箱信息
+    optional int32 Idx = 1;//索引
+    optional int32 Type = 2; //宝箱类型
+    optional int64 Time = 3; //解锁的结束时间
+    optional int32 Name = 4;//名称Id
+    optional int32 Icon = 5;//图标Id
+	optional int32 MaxTime = 6;//静态数据的最大时间
+    optional int32 ChestID = 7; // 宝箱ID
+    optional int32 Level = 8;   // 第几章的宝箱
+}
+
+// 宝箱奖励信息
+message Chest_Reward_Info_ {
+	optional int32 ChestID = 1;	// 宝箱id
+	optional int32 ChestIcon = 2;	// 宝箱icon
+	repeated Reward_Info_ ChestRewards = 3;// 宝箱展示
+}
+
+message Reel_Info_{//卷轴信息
+    optional int32 ID = 1;//ID号
+    optional int32 Num = 2;//数量
+}
+
+// 主角信息
+message Role_Info_ {
+    optional int32 Hp = 1;//血量
+	optional int32 Damage = 2;//伤害
+	optional int32 PhyAtk = 3;//物理强度
+	optional int32 PhyDef = 4;//物理防御
+	optional int32 MagAtk = 5;//魔法强度
+	optional int32 MagDef = 6;//魔法防御
+    optional int32 Speed = 7; // 移动
+    optional int32 AtkRang = 8;
+    optional int32 AtkFeq = 9;
+    repeated int32 EquipBaseID = 10;
+    optional int32 Occupation = 11; // 职业
+    optional int32 Sex = 12;    // 性别
+    optional int32 CritAtk = 13;    // 暴击
+    optional int32 Atk = 14;    // 攻
+    optional int32 Def = 15;    // 防
+}
+
+
+// 排行榜玩家信息
+message Rank_PlayerInfo_ {
+	optional string Name = 1;
+	optional int32 Lv = 2;
+	optional int32 Sex = 3;	//性别
+	repeated int32 EquipBaseID = 4;	// 装备
+    optional int32 Job = 5; // 职业
+    optional int32 Score = 6;// 排行显示用
+    optional int64 UserID = 7;// 用户ID
+    optional int32 Country = 8;
+}
+
+// 客户端用
+message PanelTag_ {
+    repeated int32 Tag = 1;
+}
+
+// 玩家信息
+message Player_Info_ {
+    optional int64 UserID = 1;
+    optional string Name = 2;
+    optional int32 Lv = 3;
+    optional int32 Vip = 4;
+    optional int32 IconID = 5;
+    optional string IconUrl = 6;
+    optional int32 Sex = 7;
+    repeated int32 EquipBaseID = 8;
+    optional int32 Career = 9;  // 职业
+    optional int32 Country = 10;
+    optional int32 GrowthValue = 11;// 成长值
+}
+// 充值奖励信息
+message ChargeReward_Info_ {
+    optional int32 ID = 1;  // 奖励id
+    optional int32 DescID = 2;	// 奖励描述ID
+	optional int32 ChargeAmount = 3;	// 充值金额 /100 保留两位小数
+	repeated Reward_Info_ Rewards = 4; // 奖励信息
+}
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

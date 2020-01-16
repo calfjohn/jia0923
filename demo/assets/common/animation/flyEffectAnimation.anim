@@ -1,0 +1,60 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "flyEffectAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "icon": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.03333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 0.36666666666666664,
+              "value": 255
+            },
+            {
+              "frame": 0.6166666666666667,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.03333333333333333,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": [
+                -25,
+                0
+              ]
+            },
+            {
+              "frame": 0.6166666666666667,
+              "value": [
+                -25,
+                105
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

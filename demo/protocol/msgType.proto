@@ -1,0 +1,441 @@
+package protocol;
+
+import "game.proto";
+import "mail.proto";
+import "battle.proto";
+import "boss.proto";
+import "arena.proto";
+import "mine.proto";
+import "friend.proto";
+import "server.proto";
+import "miniGame.proto";
+import "chat.proto";
+import "activity.proto";
+message C2GS{//请求类型消息
+    optional int32 session = 1;     //消息序列
+    repeated int32 sequence = 2;    //消息序号
+
+//系统内
+    optional Req_Sys_Friend_Apply_ Req_Sys_Friend_Apply = 150;//服务器内推送... 好友添加
+    optional int32 Req_Conn_Center = 151;   // 连接center server请求
+
+//基础
+	optional Req_Gift_	Req_Gift = 232; //请求领取礼包
+    optional Req_HeartBeat_ Req_HeartBeat = 233;    // 请求 心跳
+    optional Req_Get_Server_Time_ Req_Get_Server_Time =  1001;  // 请求 获取服务器时间
+    optional Req_Client_Login_ Req_Client_Login = 1000; //客户端请求登录
+    optional Req_Set_Name_ Req_Set_Name = 1010; //客户端请求设置昵称
+    optional Req_PlayerInfos_ Req_PlayerInfos = 1011;   // 请求 玩加详情
+    optional Req_Update_Flag_ Req_Update_Flag = 1012;   // 请求 更新红点标识
+    optional Req_Client_Feedback_ Req_Client_Feedback = 1013;// 请求
+    optional Req_Set_Country_ Req_Set_Country = 1014;   // 请求 设置国家
+    optional Req_Reset_IconUrl_ Req_Reset_IconUrl = 1015;   // 请求 重置url头像
+    optional Req_Account_Binding_ Req_Account_Binding = 1016;   // 请求 游客账号绑定
+    optional Req_Get_Url_ Req_Get_Url = 1017;    // 请求 获取跳转url
+
+    optional  Req_Client_Dot_ Req_Client_Dot = 1018;// 客户端打点
+
+	optional Req_Sign_Info_ Req_Sign_Info = 1050; //客户端请求签到数据
+	optional Req_Sign_	Req_Sign = 1051;//客户端请求签到操作
+    optional Req_Update_PanelTag_ Req_Update_PanelTag = 1052;// 客户端更新界面标识
+
+    optional Req_UserRank_ Req_UserRank = 1250; // 请求 排行榜
+    optional Req_Data_Push_ Req_Data_Push = 1251;
+
+//vip
+	optional Req_Vip_Info_	Req_Vip_Info = 1280; //请求 vip信息
+	optional Req_Vip_Receive_ Req_Vip_Receive = 1281; //请求 vip礼品领取
+
+//宝箱
+    optional Req_Chest_Op_	Req_Chest_Op = 2000;//客户端请求宝箱操作
+    optional Req_Chest_Buy_	Req_Chest_Buy = 2001;//客户端请求宝箱购买
+    optional Req_Chest_Free_ Req_Chest_Free = 2002;//客户端请求领取免费宝箱
+    optional int32 Req_Chest_Upgrade = 2003;    // 请求 升级开锁匠
+    optional Req_ChestData_ Req_ChestData = 2004;   // 请求 宝箱静态数据
+
+//英雄
+    optional Req_Hero_Formation_ Req_Hero_Formation = 2100;//客户端请求编队
+    optional Req_Hero_Create_	Req_Hero_Create = 2105;//客户端请求英雄创建
+    optional Req_Hero_LvUp_	Req_Hero_LvUp = 2110;//客户端请求英雄升级
+    optional Req_Hero_Skill_LvUp_ Req_Hero_Skill_LvUp = 2111;//客户端请求技能升级
+    optional Req_Frag_Refine_ Req_Frag_Refine = 2112;   // 请求 熔炼卡片
+    optional Req_Refine_Rule_ Req_Refine_Rule = 2113;  // 请求 熔炼规则
+    optional Req_Hero_Talent_Upgrade_ Req_Hero_Talent_Upgrade = 2114;   // 请求 英雄天赋升级
+    optional Req_Hero_Talent_Awaken_ Req_Hero_Talent_Awaken = 2115;  // 请求 天赋觉醒
+    optional Req_Hero_Formation_Change_ Req_Hero_Formation_Change = 2116; // 请求 切换阵容
+    optional Req_HeroQuality_Update_ Req_HeroQuality_Update = 2117; // 请求 更新英雄合成标识
+    optional Req_Hero_Talent_Reset_ Req_Hero_Talent_Reset = 2118;   // 请求 重置觉醒
+//卷轴
+	optional Req_Reel_Formation_ Req_Reel_Formation = 2150;//请求设置卷轴阵容
+    optional Req_Rec_FamilyExp_ Req_Rec_FamilyExp = 2151;   // 请求 领取家族经验（更新前注册用户）
+
+//商店相关
+	optional Req_Shop_Info_ Req_Shop_Info = 2500; //请求商店信息
+	optional Req_Shop_Buy_ Req_Shop_Buy = 2501;//请求商店购买
+    optional int32 Req_Vit_Buy = 2502;  // 请求 体力购买
+    optional Req_Exchange_Item_ Req_Exchange_Item = 2503; // 请求 兑换道具
+    optional Req_MysticStore_ Req_MysticStore = 2504;   // 请求 神秘商店
+    optional Req_Buy_MysticStore_ Req_Buy_MysticStore = 2505;// 请求 神秘商店购买
+    optional Req_Leave_MysticStore_ Req_Leave_MysticStore = 2506;// 请求 离开神秘商店
+    optional Req_Altar_ Req_Altar = 2507;   // 请求 祭坛
+    optional Req_Buy_Altar_ Req_Buy_Altar = 2508;// 请求 购买祭坛
+    optional Req_ScoreShop_Update_ Req_ScoreShop_Update = 2509;// 请求 积分商店刷新
+    optional Req_ScoreShop_Buy_ Req_ScoreShop_Buy = 2510;// 请求 积分商店购买
+
+    optional Req_EquipScoreShop_Update_ Req_EquipScoreShop_Update = 2512;// 请求 装备积分商店刷新
+    optional Req_EquipScoreShop_Buy_ Req_EquipScoreShop_Buy = 2513;// 请求 装备积分商店购买
+//聊天相关
+    optional Req_Chat_Info_ Req_Chat_Info = 2551;//请求聊天历史数据
+    optional Req_Chat_Send_ Req_Chat_Send = 2552;//请求聊天数据发送
+    optional Req_Battle_Chat_Send_ Req_Battle_Chat_Send = 2554;// 请求 竞技场聊天
+//邮箱
+    optional Req_Mail_List_ Req_Mail_List = 5000; //客户端请求邮件列表
+
+    optional Req_Mail_Read_ Req_Mail_Read = 5002;        // 请求 邮件读取
+    optional Req_Mail_Receive_ Req_Mail_Receive = 5003;  // 请求 邮件领取
+    optional Req_Mail_Delete_ Req_Mail_Delete = 5004;   // 请求 邮件删除
+// 活动
+    optional Req_Invite_ Req_Invite = 5100; // 请求 邀请码
+    optional Req_Data_Activity_ Req_Data_Activity = 5101;   // 请求 活动静态数据
+    optional Req_Activity_Reward_Rec_ Req_Activity_Reward_Rec = 5102;// 请求 活动奖励领取
+    optional Req_Draw_ Req_Draw = 5104; // 请求 抽卡
+    optional Req_Rec_Draw_ Req_Rec_Draw = 5105;// 请求 领取抽卡积分
+    optional Req_PrizeWheel_ Req_PrizeWheel = 5107; // 请求 大转盘
+    optional Req_Continue_Charge_Rec_ Req_Continue_Charge_Rec = 5111; // 请求 连续充值领取
+
+    optional Req_Receive_RedPacket_ Req_Receive_RedPacket = 5114;
+    optional Req_Get_RedPacket_ Req_Get_RedPacket = 5115;
+//战斗相关
+    optional Req_ChapterInfo_ Req_ChapterInfo = 6000; //客户端请求关卡数据
+    optional Req_ChapterNode_PickUp_ Req_ChapterNode_PickUp = 6005;//客户请求拾取关卡奖励
+
+    optional Req_ChapterBattleSet_ Req_ChapterBattleSet = 6010;//客户关请求关卡战斗数据设置
+    optional Req_ChapterBattleReset_ Req_ChapterBattleReset = 6011;//客户端请求关卡战斗重置
+    optional Req_ChapterNodeState_ Req_ChapterNodeState = 6020;//客户端请求关卡状态
+    optional Req_ChapterState_ Req_ChapterState = 6021;//客户端请求设置章节状态
+	optional Req_ChapterMopUp_ Req_ChapterMopUp = 6022;//客户端副本扫荡
+    optional Req_Adventure_Choose_ Req_Adventure_Choose = 6024; // 请求 奇遇
+
+//任务相关
+    optional Req_Task_Receive_ Req_Task_Receive = 6300; //客户端请求任务领取
+    optional Req_Get_DailyTask_ Req_Get_DailyTask = 6301;// 请求 每日任务
+    optional Req_Cli_Reward_Receive_ Req_Cli_Reward_Receive = 6303;// 请求 客户端发起奖励领取
+    optional Req_Task_ScoreReward_Receive_ Req_Task_ScoreReward_Receive = 6304; // 请求 任务积分奖励领取
+//成就相关
+	optional Req_Achievement_Data_ Req_Achievement_Data = 6350; //客户端请求成就数据
+    optional Req_Achievement_Receive_ Req_Achievement_Receive = 6351;//响应 客户端成就领取
+    optional Req_Set_Achieve_ Req_Set_Achieve = 6352;   // 请求 设置成就
+//装备相关
+    optional Req_Equip_LvUp_ Req_Equip_LvUp = 6500; //客户端请求装备强化
+    optional Req_Equip_Wear_ Req_Equip_Wear = 6501; //客户端请求穿装备
+    optional Req_Equip_Del_ Req_Equip_Del = 6502;//客户端请求装备丢弃
+	optional Req_Equip_UnWear_ Req_Equip_UnWear = 6503; //响应 客户端请求脱装备
+	optional Req_Equip_Sell_ Req_Equip_Sell = 6504;//客户端请求出售装备
+    optional Req_Equip_Evolution_ Req_Equip_Evolution = 6505;// 请求 时装 进化
+    optional Req_Click_Equip_ Req_Click_Equip = 6506;   // 请求 点击装备
+    optional Req_Equip_Lock_ Req_Equip_Lock = 6507;  // 请求 上下锁
+    optional Req_Equip_Sort_ Req_Equip_Sort = 6508; // 请求 整理背包
+    optional Req_Equip_LvAttr_ Req_Equip_LvAttr = 6509; // 请求 装备下一等级
+
+//天赋相关
+	optional Req_Talent_Info_ Req_Talent_Info = 6600;//客户端请求天赋数据
+	optional Req_Talent_LvUp_ Req_Talent_LvUp = 6601;//客户端请求天赋升级
+    optional Req_Change_Career_ Req_Change_Career = 6602;   // 请求 转职
+    optional Req_Talent_Reset_ Req_Talent_Reset = 6603; // 请求天赋重置
+
+//好友相关
+    optional Req_Friend_Info_ Req_Friend_Info = 6700;//客户端请求好友数据
+    optional Req_Friend_Apply_ Req_Friend_Apply = 6701;//客户端请求加为好友
+    optional Req_Friend_ApplyRet_ Req_Friend_ApplyRet = 6702;//客户端好友申请反馈（同意 / 拒绝）
+    optional Req_Friend_Find_ Req_Friend_Find = 6703;//客户端请求好友搜索
+    optional Req_Friend_Del_ Req_Friend_Del = 6704;//客户端请求好友删除
+    optional Req_Friend_GiftSend_ Req_Friend_GiftSend = 6705;//客户端请求好友礼品赠送
+    optional Req_Friend_GiftRecv_ Req_Friend_GiftRecv = 6706;//客户端请求好友礼品领取
+    optional Req_Chest_Help_ Req_Chest_Help = 6707; // 请求 宝箱助力
+    optional Req_Click_Share_ Req_Click_Share = 6708;   // 请求 点击分享
+    optional Req_Share_ Req_Share = 6709;// 请求 分享
+    optional Req_Friend_Recomm_ Req_Friend_Recomm = 6710; // 请求 好友推荐
+    optional Req_Share_GameInfo_ Req_Share_GameInfo = 6711;// 请求 分享小游戏数据
+    optional Req_Get_Channel_Friends_ Req_Get_Channel_Friends = 6712; // 请求  获取FB好友数据
+    optional Req_Set_Channel_Friends_ Req_Set_Channel_Friends = 6713;// 请求 记录渠道好友数据
+
+    optional Req_Friend_Invite_Info_ Req_Friend_Invite_Info = 6715;// 请求 好友邀请数据
+    optional Req_Recv_Invite_ Req_Recv_Invite = 6716;   // 请求 领取邀请码奖励
+    optional Req_Watch_Adv_ Req_Watch_Adv = 6714;   // 请求 观看广告
+//世界boss
+    optional Req_Boss_Info_ Req_Boss_Info = 8001; //客户端请求世界boss 信息
+    optional Req_Hit_Boss_ Req_Hit_Boss = 8002; //请求 攻击boss
+    optional Req_Get_BossRank_ Req_Get_BossRank = 8003; // 请求 获取boss排行
+    optional Req_Add_HitTimes_ Req_Add_HitTimes = 8004; // 请求 增加攻击次数
+    // optional Req_BossInfo_Update_ Req_BossInfo_Update = 8005;// 请求 更新boss信息
+//    optional Req_Boss_Battle_ Req_Boss_Battle = 8002;//客户端请求世界boss 进入战斗
+    optional Req_Boss_RewardInfo_ Req_Boss_RewardInfo = 8006;   // 请求 boss奖励信息
+    optional Req_Boss_Battle_Begin_ Req_Boss_Battle_Begin = 8007; // 请求 沙盘消除结束，开始打boss
+
+//竞技场
+	optional Req_Arena_Info_	Req_Arena_Info = 8501;//客户端请求竞技场数据
+	optional Req_Arena_Match_	Req_Arena_Match = 8502;//客户端请求竞技场匹配
+	optional Req_Arena_Round_	Req_Arena_Round = 8503;//客户端请求回合数
+	optional Req_Arena_Start_	Req_Arena_Start = 8504;//客户端战斗开始
+	optional Req_Arena_Exit_	Req_Arena_Exit = 8505;//客户端请求竞技场退出(用于战斗过程中的投降)
+    optional Req_Honor_Shop_ Req_Honor_Shop = 8506;   // 请求 荣耀商店
+    optional Req_Arena_GenMonster_ Req_Arena_GenMonster = 8507;// 请求 战斗中消除
+    optional Req_Arena_Round_End_ Req_Arena_Round_End = 8508;   // 请求 战斗结束（客户端表现结束）
+    optional Req_Arena_Rank_ Req_Arena_Rank = 8510;  // 响应 竞技场排行榜
+    optional Req_Honor_Buy_ Req_Honor_Buy = 8511;   // 请求 竞技场荣耀商店购买
+    optional Req_Arena_Reconn_ Req_Arena_Reconn = 8512;// 请求 竞技场断线重连
+    optional Req_Arena_Reconn_Start_ Req_Arena_Reconn_Start = 8513;// 请求 竞技场断线后重新开始
+    optional Req_Recv_Arena_Box_ Req_Recv_Arena_Box = 8514; // 请求 竞技场宝箱领取
+    optional Req_Arena_OpenTime_ Req_Arena_OpenTime = 8515; // 请求 竞技场开放时间
+
+// 矿战  8701 - 8750
+    optional Req_Get_MineInfo_ Req_Get_MineInfo = 8701;  // 请求矿山信息
+    optional Req_Save_MineHeroes_ Req_Save_MineHeroes = 8702;// 请求 保存守矿阵容（开采）
+    optional Req_Refresh_MineEnemy_ Req_Refresh_MineEnemy = 8703;// 请求 刷新矿战对手
+    optional Req_Battle_Result_ Req_Battle_Result = 8704;   // 请求 上传矿战结果
+    optional Req_Mine_Upgrade_ Req_Mine_Upgrade = 8705; // 请求 矿山升级
+    optional int32 Req_Plunder_Mine = 8706;   // 请求 掠夺矿场
+    optional Req_Mine_Collect_ Req_Mine_Collect = 8707;   // 请求 矿山收集
+    optional Req_MineInfo_Op_ Req_MineInfo_Op = 8708;   // 请求 矿山情报操作
+    optional int32 Req_Mining = 8709;   // 请求 矿山开采
+
+// 小游戏 8751 ~ 8799
+    optional Req_MiniGame_Info_ Req_MiniGame_Info = 8751;   // 请求 获取小游戏数据
+    optional Req_MiniGame_Enter_ Req_MiniGame_Enter = 8752; // 请求 进入小游戏
+    optional Req_MiniGame_Result_ Req_MiniGame_Result = 8753;   // 请求 上报小游戏结果
+
+// 支付 8800 ~8850
+    optional Req_PayOrder_ Req_PayOrder = 8801; // 请求 订单支付
+    optional Req_PayOrder_Check_ Req_PayOrder_Check = 8802; // 请求 订单校验
+    optional Req_Receive_ChargeReward_ Req_Receive_ChargeReward = 8803;// 请求 领取月卡
+    optional Req_ChargeRewardInfo_ Req_ChargeRewardInfo = 8804; // 请求 获取充值奖励信息
+    optional Req_PayShop_Show_ Req_PayShop_Show = 8805;
+// 服务器间通讯 50 - 100
+    optional Req_Create_User_ Req_Create_User = 51; // 请求 创建用户
+    optional Req_Mail_Update_ Req_Mail_Update = 52; // 请求 邮件更新
+
+    optional Req_KillOff_ Req_KillOff = 54;    // game 请求 center 踢人
+    optional int64 Req_Client_Logout = 55;  // 客户端下线
+    optional Req_Send_Mail_ Req_Send_Mail = 56;// 请求 发送邮件
+    optional Req_Notice_User_Online_ Req_Notice_User_Online = 57;// 通知服务器玩家上线
+}
+
+message GS2C{//响应类型消息
+    optional int32 session = 1;     //消息序列
+    repeated int32 sequence = 2;    //消息序号
+
+    optional Push_Issue_Code_ Push_Issue_Code = 10000; // 回复 玩家 错误码
+// 服务器间通讯 50 - 100
+    optional Resp_Create_User_ Resp_Create_User = 51; // 请求 创建用户
+    optional Resp_Mail_Update_ Resp_Mail_Update = 52; // 请求 邮件更新
+    optional Resp_NewMail_Push_ Resp_NewMail_Push = 53; // 推送 邮件更新
+    optional Resp_KillOff_ Resp_KillOff = 54;   // 踢玩家
+    optional Resp_Notice_User_Online_ Resp_Notice_User_Online = 57;
+
+//通用
+	optional Resp_Gift_	Resp_Gift = 1232; //响应领取礼包
+    optional Resp_HeartBeat_ Resp_HeartBeat = 1233;    // 响应 心跳
+    optional Resp_Get_Server_Time_ Resp_Get_Server_Time = 1001;// 响应 服务器时间
+    optional Resp_PlayerUpdate_Base_ Resp_PlayerUpdate_Base = 10001;//回复 玩家 基础更新
+    optional Resp_PlayerUpdate_Hero_ Resp_PlayerUpdate_Hero = 10002;//回复 玩家 英雄更新
+    // optional Resp_PlayerUpdate_Task_ Resp_PlayerUpdate_Task = 10003;//回复 玩家 任务更新
+    optional Resp_PlayerUpdate_Equip_ Resp_PlayerUpdate_Equip = 10004;//回复 玩家 装备更新
+	optional Resp_PlayerUpdate_Reel_ Resp_PlayerUpdate_Reel = 10005;//回复 玩家 卷轴更新
+	optional Resp_PlayerUpdate_Mail_ Resp_PlayerUpdate_Mail = 10006;// 响应 玩家 邮件
+	optional Resp_PlayerUpdate_Achieve_ Resp_PlayerUpdate_Achieve = 10007;//响应 玩家成就更新
+	optional Resp_PlayerUpdate_Arena_ Resp_PlayerUpdate_Arena = 10008;// 响应 玩家竞技场数据
+    optional Resp_PlayerUpdate_ChestFree_ Resp_PlayerUpdate_ChestFree = 10009;//响应 玩家更新免费宝箱
+    optional Resp_PlayerUpdate_Friend_ Resp_PlayerUpdate_Friend = 10010;//响应 玩家更新好友数据
+	optional Resp_PlayerUpdate_Vip_ Resp_PlayerUpdate_Vip = 10011;//响应 玩家更新vip数据
+    optional Resp_PlayerUpdate_Item_ Resp_PlayerUpdate_Item = 10012;// 响应 玩家 更新道具数据
+    optional Resp_PlayerUpdate_Activity_ Resp_PlayerUpdate_Activity = 10013;// 响应 更新用户活动数据
+    optional Resp_Player_LvUp_ Resp_Player_LvUp = 10050;//回复主句升级成功
+
+//基础
+    optional Resp_Client_Login_ Resp_Client_Login = 11000;  // 响应 客户端登录
+    optional Resp_Set_Name_ Resp_Set_Name = 11010; //响应 客户端 设置昵称
+    optional Resp_PlayerInfos_ Resp_PlayerInfos = 11011;   // 响应 玩家详情
+    optional Resp_Set_Country_ Resp_Set_Country = 11014;    // 响应 设置国家
+    optional Resp_Account_Binding_ Resp_Account_Binding = 11016;// 响应游客账号绑定
+    optional Resp_Get_Url_ Resp_Get_Url = 11017;    // 响应 获取跳转url
+	optional Resp_Sign_Info_ Resp_Sign_Info = 11050; //响应 客户端请求签到数据
+	optional Resp_Sign_	Resp_Sign = 11051;//响应 客户端请求签到操作
+
+    optional Resp_PlayerData_Flag_ Resp_PlayerData_Flag = 11500; //响应 用户数据标识
+    optional Resp_PlayerData_Base_ Resp_PlayerData_Base = 11501;    // 响应 用户基础信息
+    optional Resp_PlayerData_Hero_ Resp_PlayerData_Hero = 11502;  // 响应 用户怪物信息
+    optional Resp_PlayerData_Battle_ Resp_PlayerData_Battle = 11503; //响应 用户的战斗数据
+    optional Resp_PlayerData_Achievement_ Resp_PlayerData_Achievement = 11504; //响应 用户的成就数据
+    optional Resp_PlayerData_Equip_ Resp_PlayerData_Equip = 11506;//响应 用户的装备数据
+    optional Resp_PlayerData_Activity_ Resp_PlayerData_Activity = 11507;    // 响应 用户活动数据
+    optional Resp_PlayerData_Item_ Resp_PlayerData_Item = 11508;    // 响应 用户道具数据
+    optional Resp_UserRank_ Resp_UserRank = 11250; // 响应 排行榜
+    optional Resp_Data_Push_ Resp_Data_Push = 11251;//
+
+//vip
+	optional Resp_Vip_Info_	Resp_Vip_Info = 11280; //响应 vip信息
+	optional Resp_Vip_Receive_ Resp_Vip_Receive = 11281; //响应 vip礼品领取
+
+//宝箱
+    optional Resp_Chest_Op_     Resp_Chest_Op   = 12000;//响应 请求宝箱操作
+    optional Resp_Chest_Buy_    Resp_Chest_Buy  = 12001;//响应 请求宝箱购买
+    optional Resp_Chest_Free_   Resp_Chest_Free = 12002;//客户端请求领取免费宝箱
+    optional Resp_Chest_Upgrade_ Resp_Chest_Upgrade = 12003;    // 响应 升级开锁匠
+    optional Resp_ChestData_ Resp_ChestData = 12004;    // 响应 宝箱静态数据
+//英雄
+    optional Resp_Hero_Formation_ Resp_Hero_Formation = 12100;//响应 客户端编队
+    optional Resp_Hero_Create_	Resp_Hero_Create = 12105;//响应 客户端请求英雄创建
+    optional Resp_Hero_LvUp_	Resp_Hero_LvUp = 12110;//响应 客户端怪物升级
+    optional Resp_Hero_Skill_LvUp_ Resp_Hero_Skill_LvUp = 12111;//响应 客户端请求技能升级
+    optional Resp_Frag_Refine_ Resp_Frag_Refine = 12112;    // 响应 熔炼卡片
+    optional Resp_Refine_Rule_ Resp_Refine_Rule = 12113;  // 响应 熔炼规则
+    optional Resp_Hero_Talent_Upgrade_ Resp_Hero_Talent_Upgrade = 12114;    // 响应 英雄天赋升级
+//卷轴
+	optional Resp_Reel_Formation_ Resp_Reel_Formation = 12150; //响应 卷轴阵容设置
+    optional Resp_Rec_FamilyExp_ Resp_Rec_FamilyExp = 12151;   // 响应 领取家族经验（更新前注册用户）
+
+//商店相关
+	optional Resp_Shop_Info_ Resp_Shop_Info = 12500; //响应商店信息
+	optional Resp_Shop_Buy_ Resp_Shop_Buy = 12501;//响应商店购买
+    optional int32 Resp_Vit_Buy = 12502;    // 响应 体力购买
+    optional Resp_Exchange_Item_ Resp_Exchange_Item = 12503;    // 响应 兑换物品
+    optional Resp_MysticStore_ Resp_MysticStore = 12504;    // 响应 神秘商店
+    optional Resp_Buy_MysticStore_ Resp_Buy_MysticStore = 12505;    // 响应 购买神秘商店物品
+    optional Resp_Altar_ Resp_Altar = 12507;   // 响应 祭坛
+    optional Resp_Buy_Altar_ Resp_Buy_Altar = 12508;// 响应 购买祭坛
+    optional Resp_ScoreShop_Update_ Resp_ScoreShop_Update = 12509;  // 响应 积分商店更新
+    optional Resp_ScoreShop_Buy_ Resp_ScoreShop_Buy = 12510;    // 响应 积分商店购买
+    optional Resp_Update_Player_DrawInfo_ Resp_Update_Player_DrawInfo = 12511;// 响应 更新玩家抽卡数据
+
+    optional Resp_EquipScoreShop_Update_ Resp_EquipScoreShop_Update = 12512;  // 响应 装备积分商店更新
+    optional Resp_EquipScoreShop_Buy_ Resp_EquipScoreShop_Buy = 12513;    // 响应 装备积分商店购买
+//聊天相关
+    optional Resp_Marquee_  Resp_Marquee = 12550;//响应系统通知
+    optional Resp_Chat_Info_ Resp_Chat_Info = 12551;//响应聊天历史数据
+    optional Resp_Chat_Send_ Resp_Chat_Send = 12552;//响应聊天数据发送
+    optional Resp_Chat_PriSend_ Resp_Chat_PriSend = 12553;//响应聊天私聊数据【注 只是一条服务器相互转发的消息】
+    optional Resp_Battle_Chat_Info_ Resp_Battle_Chat_Info = 12554;// 请求 竞技场聊天
+    optional Resp_Update_Player_ChatInfo_ Resp_Update_Player_ChatInfo = 12555;  // 更新玩家聊天数据
+//邮箱
+    optional Resp_Mail_List_ Resp_Mail_List = 15000;//相应邮件列表
+    optional Push_Mail_ Push_Mail = 15001;
+    optional Resp_Mail_Read_ Resp_Mail_Read = 15002;        // 响应 邮件读取
+    optional Resp_Mail_Receive_ Resp_Mail_Receive = 15003;  // 响应 邮件领取
+// 活动
+    optional Resp_Invite_ Resp_Invite = 15100;  // 响应 邀请码
+    optional Resp_Data_Activity_ Resp_Data_Activity = 15101;   // 响应 活动静态数据
+    optional Resp_Activity_Reward_Rec_ Resp_Activity_Reward_Rec = 15102;// 响应 活动奖励领取
+    optional Resp_Limit_Draw_ Resp_Limit_Draw = 15103;// 响应 限时抽卡
+    optional Resp_Draw_ Resp_Draw = 15104;  // 响应 抽卡
+    optional Resp_Rec_Draw_ Resp_Rec_Draw = 15105;  // 响应 领取积分奖励
+    optional Resp_GrowthCapital_ Resp_GrowthCapital = 15106;// 响应 成长基金
+    optional Resp_PrizeWheel_ Resp_PrizeWheel = 15107;  // 响应 大转盘
+    optional Resp_Data_Activity_Update_ Resp_Data_Activity_Update = 15108;  // 更新 活动更新
+    optional Resp_Update_Player_Privileges_ Resp_Update_Player_Privileges = 15109;  // 更新玩家特权
+    optional Resp_Continue_Charge_ Resp_Continue_Charge = 15110;    // 响应 连续充值
+    optional Resp_Continue_Charge_Rec_ Resp_Continue_Charge_Rec = 15111; // 响应 连续充值领取
+    optional Resp_New_Continue_Charge_ Resp_New_Continue_Charge_ = 15112;   // 响应 新手7日充值
+    optional Resp_Exchange_Item_Data_ Resp_Exchange_Item_Data = 15113;  // 活动兑换道具
+    optional Resp_Receive_RedPacket_ Resp_Receive_RedPacket = 15114;
+    optional Resp_Get_RedPacket_ Resp_Get_RedPacket = 15115;
+//战斗相关
+    optional Resp_ChapterInfo_ Resp_ChapterInfo = 16000; //响应关卡数据请求
+    optional Resp_ChapterNode_PickUp_ Resp_ChapterNode_PickUp = 16005;//响应关卡拾取
+    optional Resp_ChapterBattleSet_ Resp_ChapterBattleSet = 16010;//响应关卡数据设置
+    optional Resp_ChapterBattleReset_ Resp_ChapterBattleReset = 16011;//客户端请求关卡战斗重置
+    optional Resp_ChapterNodeState_ Resp_ChapterNodeState = 16020;//响应客户端请求关卡通关
+    optional Resp_ChapterState_ Resp_ChapterState = 16021;//响应客户端请求章节设置状态
+	optional Resp_ChapterMopUp_ Resp_ChapterMopUp = 16022;//响应客户端副本扫荡
+    optional Push_Table_Update_ Push_Table_Update = 16023;// 推送 沙盘数据更新（替换阵容后的push）
+    optional Resp_Adventure_Choose_ Resp_Adventure_Choose = 16024; // 响应 奇遇
+
+//任务相关
+    optional Resp_Task_Receive_ Resp_Task_Receive = 16300; //响应 客户端请求任务领取
+    optional Resp_Get_DailyTask_ Resp_Get_DailyTask = 16301;// 响应 每日任务
+    optional Resp_DailyTask_Update_ Resp_DailyTask_Update = 16302; // 响应 进度更新
+    optional Resp_Cli_Reward_Receive_ Resp_Cli_Reward_Receive = 16303;// 响应 奖励
+    optional Resp_Task_ScoreReward_Receive_ Resp_Task_ScoreReward_Receive = 16304; // 响应 任务积分奖励领取
+//成就相关
+	optional Resp_Achievement_Data_ Resp_Achievement_Data = 16350;//响应 客户端请求成就数据
+    optional Resp_Achievement_Receive_ Resp_Achievement_Receive = 16351;//响应 客户端成就领取
+
+//装备相关
+    optional Resp_Equip_LvUp_ Resp_Equip_LvUp = 16500; //响应 客户端请求装备强化
+    optional Resp_Equip_Wear_ Resp_Equip_Wear = 16501; //响应 客户端请求穿装备
+    optional Resp_Equip_Del_ Resp_Equip_Del = 16502;//响应 客户端请求装备丢弃
+	optional Resp_Equip_UnWear_ Resp_Equip_UnWear = 16503; //响应 客户端请求脱装备
+	optional Resp_Equip_Sell_ Resp_Equip_Sell = 16504;//响应 客户端请求出售装备
+    optional Resp_Equip_Evolution_ Resp_Equip_Evolution = 16505;// 响应 时装进化
+    optional Resp_Equip_LvAttr_ Resp_Equip_LvAttr = 16509; // 响应 装备下一等级
+//天赋相关
+	optional Resp_Talent_Info_ Resp_Talent_Info = 16600; //响应 客户端请求天赋数据
+	optional Resp_Talent_LvUp_ Resp_Talent_LvUp = 16601;//客户端请求天赋升级
+    optional Resp_Change_Career_ Resp_Change_Career = 16602;   // 响应转职
+    optional Resp_Talent_Reset_ Resp_Talent_Reset = 16603; // 响应天赋重置
+//好友相关
+    optional Resp_Friend_Info_ Resp_Friend_Info = 16700;//响应 客户端请求好友数据
+    optional Resp_Friend_Apply_ Resp_Friend_Apply = 16701;//响应 客户端请求加为好友
+    optional Resp_Friend_ApplyRet_ Resp_Friend_ApplyRet = 16702;//响应 客户端对申请列表的操作
+    optional Resp_Friend_Find_ Resp_Friend_Find = 16703;//响应 客户端对好友查找
+    optional Resp_Friend_Del_ Resp_Friend_Del = 16704;// 响应 客户端请求好友删除
+    optional Resp_Friend_GiftSend_ Resp_Friend_GiftSend = 16705;//响应 客户端请求好友体力赠送
+    optional Resp_Chest_Help_ Resp_Chest_Help = 16707; // 响应 宝箱助力
+    optional Resp_Click_Share_ Resp_Click_Share = 16708;    // 响应 点击分享
+    optional Resp_Friend_GiftRecv_ Resp_Friend_GiftRecv = 16706;// 响应 礼品领取
+    optional Resp_Share_ Resp_Share = 16709;// 响应 分享
+    optional Resp_Friend_Recomm_ Resp_Friend_Recomm = 16710; // 请求 好友推荐
+
+    optional Resp_Share_GameInfo_ Resp_Share_GameInfo = 16711;// 响应分享小游戏数据
+    optional Resp_Get_Channel_Friends_ Resp_Get_Channel_Friends = 16712; // 响应  获取FB好友数据
+    optional Resp_Watch_Adv_ Resp_Watch_Adv = 16714;    // 响应 观看广告
+    optional Resp_Friend_Invite_Info_ Resp_Friend_Invite_Info = 16715;// 请求 好友邀请数据
+    optional Resp_Recv_Invite_ Resp_Recv_Invite = 16716;   // 请求 领取邀请码奖励
+//世界boss
+    optional Resp_Boss_Info_ Resp_Boss_Info = 18001; //客户端请求世界boss 信息
+    optional Resp_Hit_Boss_ Resp_Hit_Boss = 18002; //响应 攻击boss
+    optional Resp_Get_BossRank_ Resp_Get_BossRank = 18003; // 响应 获取boss排行
+    optional Resp_Add_HitTimes_ Resp_Add_HitTimes = 18004; // 响应 增加攻击次数
+    optional Resp_BossInfo_Update_ Resp_BossInfo_Update = 18005;// 响应 更新boss信息
+//    optional Resp_Boss_Battle_ Resp_Boss_Battle = 18002;//客户端请求世界boss 进入战斗
+    optional Resp_Boss_RewardInfo_ Resp_Boss_RewardInfo = 18006;// 响应 boss奖励信息
+    optional Resp_Boss_PlayerInfo_ Resp_Boss_PlayerInfo = 18007;// 响应 boss玩家信息
+    optional Resp_Notice_Boss_Battle_TimeOut_ Resp_Notice_Boss_Battle_TimeOut = 18008;   // 响应 通知客户端攻击boss超时，该结束了
+//竞技场
+	optional Resp_Arena_Info_ Resp_Arena_Info = 18501;//响应 客户端请求竞技场数据
+	optional Resp_Arena_Match_ Resp_Arena_Match = 18502;//响应 客户端请求竞技场匹配
+	optional Resp_Arena_Round_ Resp_Arena_Round = 18503;//响应 客户端请求回合结束
+	optional Resp_Arena_Start_ Resp_Arena_Start = 18504;//响应 客户端战斗开始
+	optional Resp_Arena_End_ Resp_Arena_End = 18505;//响应 客户端战斗结束
+    optional Resp_Honor_Shop_ Resp_Honor_Shop = 18506;  // 响应 荣耀商店
+    optional Fw_Arena_GenMonster_ Fw_Arena_GenMonster = 18507;  // 转发 战斗消除
+    optional Resp_Arena_Round_End_ Resp_Arena_Round_End = 18508;// 响应 战斗结束（客户端表现结束）
+    optional Resp_Arena_Rank_ Resp_Arena_Rank = 18510;  // 响应 竞技场排行榜
+    optional Resp_Honor_Buy_ Resp_Honor_Buy = 18511;    // 响应 竞技场荣耀商店购买
+    optional Resp_Arena_Reconn_ Resp_Arena_Reconn = 18512;  // 响应 竞技场断线重连
+    optional Resp_Recv_Arena_Box_ Resp_Recv_Arena_Box = 18514;  // 响应 竞技场领取
+    optional Resp_Arena_OpenTime_ Resp_Arena_OpenTime = 18515; // 响应 竞技场开放时间
+// 矿战  18701 - 18750
+    optional Resp_Get_MineInfo_ Resp_Get_MineInfo = 18701;  // 响应 矿山信息
+    optional Resp_Save_MineHeroes_ Resp_Save_MineHeroes = 18702;// 响应 保存守矿阵容（开采）
+    optional Resp_Refresh_MineEnemy_ Resp_Refresh_MineEnemy = 18703;// 响应 刷新矿战对手
+    optional Resp_Battle_Result_ Resp_Battle_Result = 18704;   // 响应 上传矿战结果
+    optional Resp_Mine_Upgrade_ Resp_Mine_Upgrade = 18705; // 响应 矿山升级
+    optional Resp_Plunder_Mine_ Resp_Plunder_Mine = 18706;   // 响应 掠夺矿场
+    optional Resp_Mine_Collect_ Resp_Mine_Collect = 18707;   // 响应 矿山收集
+    optional Resp_MineInfo_Op_ Resp_MineInfo_Op = 18708;    // 响应 矿山情报操作
+    optional int64 Resp_Mining = 18709;     // 响应 矿山开采
+    optional Resp_Mine_Info_ Resp_Mine_Info = 18710;    // 推送矿山情报
+// 小游戏 18751 ~ 18799
+    optional Resp_MiniGame_Info_ Resp_MiniGame_Info = 18751;   // 响应 获取小游戏数据
+    optional Resp_MiniGame_Enter_ Resp_MiniGame_Enter = 18752; // 响应 进入小游戏
+    optional Resp_MiniGame_Result_ Resp_MiniGame_Result = 18753;   // 响应 上报小游戏结果
+    optional Resp_MiniGame_Update_ Resp_MiniGame_Update = 18754;    // 更新 小游戏数据
+
+// 支付 18800 ~18850
+    optional Resp_PayOrder_ Resp_PayOrder = 18801; // 响应 订单支付
+    optional Resp_PayOrder_Check_ Resp_PayOrder_Check = 18802; // 响应 订单校验
+    optional Resp_Receive_ChargeReward_ Resp_Receive_ChargeReward = 18803;//响应 领取奖励信息
+    optional Resp_ChargeRewardInfo_ Resp_ChargeRewardInfo = 18804;// 响应 充值奖励信息
+    optional Resp_Test_Func_ Resp_Test_Func = 10086;// 测试用
+    optional Resp_LazyPass_ Resp_LazyPass = 10087;  // 快速通关
+}

@@ -1,0 +1,34 @@
+
+arms.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jian
+  rotate: false
+  xy: 2, 2
+  size: 138, 37
+  orig: 138, 37
+  offset: 0, 0
+  index: -1
+jian1
+  rotate: false
+  xy: 142, 12
+  size: 147, 27
+  orig: 147, 27
+  offset: 0, 0
+  index: -1
+jian2
+  rotate: false
+  xy: 291, 5
+  size: 100, 34
+  orig: 100, 34
+  offset: 0, 0
+  index: -1
+jian3
+  rotate: false
+  xy: 393, 6
+  size: 93, 33
+  orig: 93, 33
+  offset: 0, 0
+  index: -1

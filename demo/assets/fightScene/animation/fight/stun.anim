@@ -1,0 +1,165 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stun",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "ring": {
+        "props": {
+          "scaleX": [],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.3
+            }
+          ]
+        }
+      },
+      "star1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                67.5,
+                5
+              ],
+              "motionPath": [
+                [
+                  12.9,
+                  -20,
+                  76.8,
+                  -18.2,
+                  -44.4,
+                  -19.8
+                ],
+                [
+                  -69.3,
+                  -0.8,
+                  -68.9,
+                  -7,
+                  -70.3,
+                  3.9
+                ],
+                [
+                  -53.2,
+                  13.3,
+                  -62.3,
+                  9.9,
+                  29.3,
+                  32.2
+                ]
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                67.5,
+                5
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      },
+      "star2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                10.8,
+                24.4
+              ],
+              "motionPath": [
+                [
+                  66.3,
+                  9,
+                  41.4,
+                  20.1,
+                  73.7,
+                  0.2
+                ],
+                [
+                  -58.7,
+                  -13.1,
+                  59.2,
+                  -33.2,
+                  -104.2,
+                  19.5
+                ]
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                10.8,
+                24.4
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      },
+      "star3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -35.1,
+                -12.2
+              ],
+              "motionPath": [
+                [
+                  -68,
+                  4.2,
+                  -70.5,
+                  -5.7,
+                  -63.3,
+                  18.2
+                ],
+                [
+                  68.5,
+                  2.1,
+                  41.5,
+                  33.7,
+                  44.2,
+                  -27.6
+                ]
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -35.1,
+                -12.2
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      },
+      "ring/ring1": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 360
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

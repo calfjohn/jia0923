@@ -1,0 +1,111 @@
+
+duiduiguaiTexture.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ljiao1
+  rotate: true
+  xy: 202, 46
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+Ljiao2
+  rotate: true
+  xy: 239, 90
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+Ljiao3
+  rotate: true
+  xy: 232, 46
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+Lshou1
+  rotate: true
+  xy: 184, 89
+  size: 25, 53
+  orig: 25, 53
+  offset: 0, 0
+  index: -1
+Lshou2
+  rotate: false
+  xy: 167, 49
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+Rjiao1
+  rotate: false
+  xy: 232, 67
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+Rjiao2
+  rotate: false
+  xy: 119, 6
+  size: 26, 11
+  orig: 26, 11
+  offset: 0, 0
+  index: -1
+Rjiao3
+  rotate: false
+  xy: 161, 24
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+Rshou1
+  rotate: false
+  xy: 202, 66
+  size: 28, 21
+  orig: 28, 21
+  offset: 0, 0
+  index: -1
+Rshou2
+  rotate: true
+  xy: 120, 55
+  size: 28, 45
+  orig: 28, 45
+  offset: 0, 0
+  index: -1
+Rshou3
+  rotate: false
+  xy: 119, 19
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+kudou
+  rotate: false
+  xy: 120, 85
+  size: 62, 29
+  orig: 62, 29
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 2
+  size: 65, 66
+  orig: 65, 66
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 69, 5
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 2, 70
+  size: 116, 44
+  orig: 116, 44
+  offset: 0, 0
+  index: -1

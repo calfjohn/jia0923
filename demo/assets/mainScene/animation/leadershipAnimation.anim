@@ -1,0 +1,166 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "leadershipAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8333333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "blackBox1/blackBoxGlow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 120
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 255
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 120
+            }
+          ]
+        }
+      },
+      "left/intoCrown1/label": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 80,
+                "b": 80,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 185,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 80,
+                "b": 80,
+                "a": 255
+              }
+            }
+          ]
+        }
+      },
+      "left/intoCrown1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1.1
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1.1
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "miniItem/miniItem/leaderLabel": {
+        "comps": {},
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 80,
+                "b": 80,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 185,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 80,
+                "b": 80,
+                "a": 255
+              }
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.4
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1.5
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1.4
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.4
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 1.5
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 1.4
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

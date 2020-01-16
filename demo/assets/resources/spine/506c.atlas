@@ -1,0 +1,181 @@
+
+506c.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lchibang1
+  rotate: false
+  xy: 2, 75
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+Lmeimao
+  rotate: true
+  xy: 363, 125
+  size: 117, 136
+  orig: 117, 136
+  offset: 0, 0
+  index: -1
+Lmeimao1
+  rotate: true
+  xy: 260, 99
+  size: 43, 75
+  orig: 43, 75
+  offset: 0, 0
+  index: -1
+Lmeimao2
+  rotate: true
+  xy: 180, 78
+  size: 64, 78
+  orig: 64, 78
+  offset: 0, 0
+  index: -1
+Ltui0
+  rotate: false
+  xy: 699, 108
+  size: 50, 22
+  orig: 50, 22
+  offset: 0, 0
+  index: -1
+Ltui1
+  rotate: true
+  xy: 599, 109
+  size: 46, 51
+  orig: 46, 51
+  offset: 0, 0
+  index: -1
+Ltui2
+  rotate: true
+  xy: 693, 171
+  size: 71, 91
+  orig: 71, 91
+  offset: 0, 0
+  index: -1
+Ltui3
+  rotate: false
+  xy: 652, 107
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+Ltui4
+  rotate: true
+  xy: 337, 108
+  size: 34, 22
+  orig: 34, 22
+  offset: 0, 0
+  index: -1
+Ltui5
+  rotate: true
+  xy: 751, 104
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+Ltui6
+  rotate: false
+  xy: 361, 103
+  size: 28, 20
+  orig: 28, 20
+  offset: 0, 0
+  index: -1
+Ltui7
+  rotate: true
+  xy: 260, 45
+  size: 52, 55
+  orig: 52, 55
+  offset: 0, 0
+  index: -1
+Ltui8
+  rotate: false
+  xy: 786, 174
+  size: 86, 68
+  orig: 86, 68
+  offset: 0, 0
+  index: -1
+Ltui9
+  rotate: true
+  xy: 874, 184
+  size: 58, 80
+  orig: 58, 80
+  offset: 0, 0
+  index: -1
+Rchibang2
+  rotate: true
+  xy: 180, 144
+  size: 98, 181
+  orig: 98, 181
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: false
+  xy: 741, 132
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+Rtui2
+  rotate: false
+  xy: 2, 3
+  size: 118, 70
+  orig: 118, 70
+  offset: 0, 0
+  index: -1
+Rtui3
+  rotate: false
+  xy: 391, 97
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+Rtui4
+  rotate: false
+  xy: 956, 185
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+Rtui5
+  rotate: true
+  xy: 317, 46
+  size: 51, 26
+  orig: 51, 26
+  offset: 0, 0
+  index: -1
+Rtui6
+  rotate: false
+  xy: 419, 107
+  size: 27, 16
+  orig: 27, 16
+  offset: 0, 0
+  index: -1
+Rtui7
+  rotate: false
+  xy: 699, 132
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+maofa3
+  rotate: false
+  xy: 501, 137
+  size: 96, 105
+  orig: 96, 105
+  offset: 0, 0
+  index: -1
+maofa4
+  rotate: false
+  xy: 599, 157
+  size: 92, 85
+  orig: 92, 85
+  offset: 0, 0
+  index: -1
+weiba1
+  rotate: true
+  xy: 122, 2
+  size: 71, 44
+  orig: 71, 44
+  offset: 0, 0
+  index: -1

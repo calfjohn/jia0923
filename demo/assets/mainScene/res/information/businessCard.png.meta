@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "3f182ab9-11e3-4eab-8605-b613529c88cc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "businessCard": {
+      "ver": "1.0.4",
+      "uuid": "17b0ef5b-00fb-4cad-9059-8c41ae0753a0",
+      "rawTextureUuid": "3f182ab9-11e3-4eab-8605-b613529c88cc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 436,
+      "height": 186,
+      "rawWidth": 436,
+      "rawHeight": 186,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

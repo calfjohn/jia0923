@@ -1,0 +1,48 @@
+{
+
+    "LOGIN_LIST": [
+        {"ip": "qa1.game.aliensidea.com", "name": "开发服务器", "port": 80, "id": 1, "is_test_server": 1},
+        {"ip": "qa1.game.alienidea.com", "name": "内部测试服务器", "port": 80, "id": 1, "is_test_server": 1},
+        {"ip": "qa.game.alienidea.com", "name": "外部测试服务器", "port": 80, "id": 1, "is_test_server": 1},
+        {"ip": "192.168.0.104", "name": "嘉麟", "port": 28101, "id": 1, "is_test_server": 1},
+        {"ip": "qa.game.aliensidea.com", "name": "测试服务器", "port": 80, "id": 1, "is_test_server": 1}
+    ],
+
+    "loginoauthUrl": "http://192.168.0.104:8711/api/user/loginoauth",
+
+    "nodeServerPort": 8083,
+
+    "countryCode": 86,
+
+    "encrypt": 0,
+
+    "channel": "h5_weixin",
+
+    "pngUrl": "",
+
+    "payUrl": "",
+
+    "registerUrl": "http://www.zokbet.com/r/0.htm",
+
+    "chargeUrl": "http://www.zokbet.com/login/skipSignInBySSO.action",
+
+    "forgetPasswordUrl": "http://www.zokbet.com/password/find.htm",
+
+    "codeAddress": "res/ConAccounts_aliens.png",
+
+    "weixin": {
+        "appId": "wxac5324a28ce7dcbb",
+        "appSecret": "c28088f99948e5160f50b2587b44cf42",
+        "authorizeURL": "http://www.alienidea.com"
+    },
+
+    "shareTitle": "众神也疯狂",
+
+    "gameNotice": "http://www.alienidea.com/GodOfKid/",
+
+    "shareUrl": "http://www.alienidea.com/GodOfKid/index.html",
+
+    "shareIcon": "http://www.alienidea.com/favicon.ico",
+
+    "cookieName": "GodOfKidInfo"
+}

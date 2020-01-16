@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "burstPointAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.14285714285714285,
+  "sample": 35,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "burstPoint1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.02857142857142857,
+                "value": {
+                  "__uuid__": "d28df3a8-258d-4181-a343-4f4aba99c88e"
+                }
+              },
+              {
+                "frame": 0.05714285714285714,
+                "value": {
+                  "__uuid__": "7c8b8fc2-76bc-45eb-8685-140f537bab06"
+                }
+              },
+              {
+                "frame": 0.08571428571428572,
+                "value": {
+                  "__uuid__": "c5a33ba6-a301-4ace-bd6d-9806f72e9371"
+                }
+              },
+              {
+                "frame": 0.11428571428571428,
+                "value": {
+                  "__uuid__": "149f9b67-f9b6-4659-a611-0366c1e4fe3b"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.02857142857142857,
+              "value": 255
+            },
+            {
+              "frame": 0.11428571428571428,
+              "value": 255
+            },
+            {
+              "frame": 0.14285714285714285,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

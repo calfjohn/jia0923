@@ -1,0 +1,83 @@
+
+504a.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lchipang1
+  rotate: false
+  xy: 139, 105
+  size: 81, 149
+  orig: 81, 149
+  offset: 0, 0
+  index: -1
+Ltu3
+  rotate: false
+  xy: 52, 35
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+Ltui1
+  rotate: false
+  xy: 2, 2
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+Ltui2
+  rotate: true
+  xy: 30, 5
+  size: 27, 14
+  orig: 27, 14
+  offset: 0, 0
+  index: -1
+Rchipang1
+  rotate: false
+  xy: 2, 100
+  size: 135, 154
+  orig: 135, 154
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: true
+  xy: 93, 70
+  size: 28, 46
+  orig: 28, 46
+  offset: 0, 0
+  index: -1
+Rtui2
+  rotate: false
+  xy: 222, 199
+  size: 26, 55
+  orig: 26, 55
+  offset: 0, 0
+  index: -1
+Rtui3
+  rotate: false
+  xy: 222, 116
+  size: 18, 31
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 2, 34
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: -1
+shenzi2
+  rotate: false
+  xy: 52, 58
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+weiba4
+  rotate: false
+  xy: 222, 149
+  size: 28, 48
+  orig: 28, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,344 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "diamondAnimation2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "paths": {
+      "shrink": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.15,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "plateCover": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.15,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/pumpingCard": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.15,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/crystal": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.05,
+              "value": 0
+            },
+            {
+              "frame": 1.1,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 1.1,
+              "value": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/crystal1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.15,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/streamer1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.15,
+              "value": [
+                -3,
+                -272
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.15,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.15,
+              "value": 2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.1,
+              "value": 0
+            },
+            {
+              "frame": 0.15,
+              "value": 255
+            },
+            {
+              "frame": 0.9,
+              "value": 255
+            },
+            {
+              "frame": 1.1,
+              "value": 180
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "cc6a91d6-6a91-4910-bef1-9d49cc424ad9"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "302246f4-aaf1-4622-a4e0-98cc172fd4a7"
+                }
+              },
+              {
+                "frame": 0.25,
+                "value": {
+                  "__uuid__": "cd3bb4cc-ad87-4ad2-8671-26c8d06db8db"
+                }
+              },
+              {
+                "frame": 0.3,
+                "value": {
+                  "__uuid__": "accae4ef-4b7a-419d-9b2b-0f9eb0318bcc"
+                }
+              },
+              {
+                "frame": 0.35,
+                "value": {
+                  "__uuid__": "4eab9aca-8561-4bb2-bffc-609851dd632e"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "6283e36b-5ea9-4e5b-8864-c214f5d71cf9"
+                }
+              },
+              {
+                "frame": 0.45,
+                "value": {
+                  "__uuid__": "88357d0d-dd63-47d3-a6e2-3a107448c865"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "c4ac96b8-4a23-4867-8e21-2ceb9b5fafb6"
+                }
+              },
+              {
+                "frame": 0.55,
+                "value": {
+                  "__uuid__": "bf5b5d1c-d1f7-4504-a9e7-fda1d2831327"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "79cf5cfb-fc06-4ac1-a7be-79d7849c379e"
+                }
+              },
+              {
+                "frame": 0.65,
+                "value": {
+                  "__uuid__": "2c5b90da-2a9d-4049-aa58-c8a34f6ecb23"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "dkPlate/crystalMove/glow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 0.65,
+              "value": 255
+            },
+            {
+              "frame": 0.9,
+              "value": 255
+            },
+            {
+              "frame": 1.1,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.65,
+              "value": [
+                0,
+                -187
+              ]
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/mask/gem": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.65,
+              "value": [
+                0,
+                -440
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -9,
+                -36
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.1,
+              "value": 255
+            },
+            {
+              "frame": 1.2,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.15,
+              "value": 1.6
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.15,
+              "value": 1.6
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/particle1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.65,
+                "value": {
+                  "__uuid__": "209c0516-3339-4be4-bf0b-524c4a4abc8f"
+                }
+              },
+              {
+                "frame": 0.7,
+                "value": {
+                  "__uuid__": "e6bf9345-a7f0-4440-86bb-ffb393e5b689"
+                }
+              },
+              {
+                "frame": 0.75,
+                "value": {
+                  "__uuid__": "ce4c340e-07fe-4622-b1d8-e6537f3c9da9"
+                }
+              },
+              {
+                "frame": 0.8,
+                "value": {
+                  "__uuid__": "c00fe31c-ad86-4ff0-848a-9521fe242569"
+                }
+              },
+              {
+                "frame": 0.85,
+                "value": {
+                  "__uuid__": "7ffebf97-5ac6-45c1-9664-3cc1855906ee"
+                }
+              },
+              {
+                "frame": 0.9,
+                "value": {
+                  "__uuid__": "f4a04460-5a73-4965-9cf2-50ad81483254"
+                }
+              },
+              {
+                "frame": 0.95,
+                "value": {
+                  "__uuid__": "99b20117-8460-4fb0-a9a8-a8235d2c1954"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.6,
+              "value": 0
+            },
+            {
+              "frame": 0.65,
+              "value": 255
+            },
+            {
+              "frame": 0.95,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

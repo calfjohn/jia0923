@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "d066148b-c22e-4eb3-ae5b-ba713a6e8748",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "dress_weapon_1001": {
+      "ver": "1.0.4",
+      "uuid": "f060697c-8d7b-4955-90ac-ea7dc51da6ea",
+      "rawTextureUuid": "d066148b-c22e-4eb3-ae5b-ba713a6e8748",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -2,
+      "trimX": 12,
+      "trimY": 6,
+      "width": 56,
+      "height": 72,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

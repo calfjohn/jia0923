@@ -1,0 +1,120 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "burstEffect25",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "burstEffect/burstEffect1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "3693f545-6f54-4bfd-a1e9-4d0905d662a4"
+                }
+              },
+              {
+                "frame": 0.04,
+                "value": {
+                  "__uuid__": "96465e3a-f14b-425b-bb32-bb6b9ee4e781"
+                }
+              },
+              {
+                "frame": 0.08,
+                "value": {
+                  "__uuid__": "83649d7b-2413-4033-acbd-731dc42b4064"
+                }
+              },
+              {
+                "frame": 0.12,
+                "value": {
+                  "__uuid__": "a4ca4f90-d20a-4d6f-a995-61a512c85dc5"
+                }
+              },
+              {
+                "frame": 0.16,
+                "value": {
+                  "__uuid__": "edfed0a2-7f64-4f62-92fc-e0b14b61d3a1"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.16,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "processEffect/processEffect1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

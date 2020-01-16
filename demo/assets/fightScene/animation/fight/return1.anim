@@ -1,0 +1,287 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "return1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.775,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "return1": {
+        "comps": {},
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -45,
+                0
+              ]
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                -45,
+                52.68421052631578
+              ]
+            },
+            {
+              "frame": 0.475,
+              "value": [
+                -45,
+                100.1
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.25,
+              "value": 255
+            },
+            {
+              "frame": 0.475,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "return2": {
+        "comps": {},
+        "props": {
+          "position": [
+            {
+              "frame": 0.1,
+              "value": [
+                42.5,
+                0
+              ]
+            },
+            {
+              "frame": 0.125,
+              "value": [
+                42.5,
+                0
+              ]
+            },
+            {
+              "frame": 0.6,
+              "value": [
+                43,
+                124
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.1,
+              "value": 0
+            },
+            {
+              "frame": 0.125,
+              "value": 255
+            },
+            {
+              "frame": 0.525,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "return3": {
+        "comps": {},
+        "props": {
+          "position": [
+            {
+              "frame": 0.2,
+              "value": [
+                -30,
+                -8
+              ]
+            },
+            {
+              "frame": 0.725,
+              "value": [
+                -30,
+                58.9
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.175,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.625,
+              "value": 255
+            },
+            {
+              "frame": 0.725,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "return4": {
+        "comps": {},
+        "props": {
+          "position": [
+            {
+              "frame": 0.3,
+              "value": [
+                35,
+                -5
+              ]
+            },
+            {
+              "frame": 0.525,
+              "value": [
+                35,
+                38.300000000000004
+              ]
+            },
+            {
+              "frame": 0.75,
+              "value": [
+                35,
+                76.6
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.275,
+              "value": 0
+            },
+            {
+              "frame": 0.3,
+              "value": 255
+            },
+            {
+              "frame": 0.525,
+              "value": 255
+            },
+            {
+              "frame": 0.75,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "return5": {
+        "comps": {},
+        "props": {
+          "position": [
+            {
+              "frame": 0.55,
+              "value": [
+                35,
+                -5
+              ]
+            },
+            {
+              "frame": 0.775,
+              "value": [
+                35,
+                38.300000000000004
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.525,
+              "value": 0
+            },
+            {
+              "frame": 0.55,
+              "value": 255
+            },
+            {
+              "frame": 0.775,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "return6": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.375,
+              "value": 255
+            },
+            {
+              "frame": 0.675,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.225,
+              "value": [
+                -3,
+                -5
+              ]
+            },
+            {
+              "frame": 0.675,
+              "value": [
+                -3,
+                120
+              ]
+            }
+          ]
+        }
+      },
+      "return7": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.225,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                35,
+                38.300000000000004
+              ]
+            },
+            {
+              "frame": 0.225,
+              "value": [
+                35,
+                76.6
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

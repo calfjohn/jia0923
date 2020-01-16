@@ -1,0 +1,55 @@
+
+104b.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lshou
+  rotate: false
+  xy: 53, 2
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+Lyan
+  rotate: false
+  xy: 102, 51
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+Rshou
+  rotate: false
+  xy: 80, 2
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+bangbangtang
+  rotate: false
+  xy: 102, 35
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: true
+  xy: 2, 3
+  size: 59, 49
+  orig: 59, 49
+  offset: 0, 0
+  index: -1
+shengti
+  rotate: false
+  xy: 53, 12
+  size: 47, 50
+  orig: 47, 50
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 65, 4
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1

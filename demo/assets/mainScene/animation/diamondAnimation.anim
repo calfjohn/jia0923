@@ -1,0 +1,131 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "diamondAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "dkPlate/crystalMove/crystal": {
+        "comps": {},
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                29
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                0,
+                45
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                0,
+                29
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/light11": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 150
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "plateCover": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "shrink": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/crystal1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                28,
+                40
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "57692eab-3f5e-4ea4-8d09-f809fe8d00d7"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

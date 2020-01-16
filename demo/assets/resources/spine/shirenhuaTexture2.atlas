@@ -1,0 +1,69 @@
+
+shirenhuaTexture2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bshang
+  rotate: false
+  xy: 2, 323
+  size: 330, 170
+  orig: 330, 170
+  offset: 0, 0
+  index: -1
+bxia
+  rotate: false
+  xy: 2, 147
+  size: 326, 174
+  orig: 326, 174
+  offset: 0, 0
+  index: -1
+qiang
+  rotate: false
+  xy: 409, 723
+  size: 363, 248
+  orig: 363, 248
+  offset: 0, 0
+  index: -1
+xiaohua
+  rotate: false
+  xy: 334, 432
+  size: 67, 61
+  orig: 67, 61
+  offset: 0, 0
+  index: -1
+ye1
+  rotate: false
+  xy: 774, 808
+  size: 157, 163
+  orig: 157, 163
+  offset: 0, 0
+  index: -1
+ye2
+  rotate: false
+  xy: 188, 2
+  size: 143, 143
+  orig: 143, 143
+  offset: 0, 0
+  index: -1
+ye3
+  rotate: false
+  xy: 2, 31
+  size: 184, 114
+  orig: 184, 114
+  offset: 0, 0
+  index: -1
+zshang
+  rotate: false
+  xy: 2, 710
+  size: 405, 261
+  orig: 405, 261
+  offset: 0, 0
+  index: -1
+zxia
+  rotate: false
+  xy: 2, 495
+  size: 403, 213
+  orig: 403, 213
+  offset: 0, 0
+  index: -1

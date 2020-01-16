@@ -1,0 +1,60 @@
+package protocol;
+
+import "base.proto";
+// 请求小游戏
+message Req_MiniGame_Info_ {
+}
+
+// 响应 小游戏
+message Resp_MiniGame_Info_ {
+    repeated int32 Type = 1;    // 类型
+    repeated int32 Num = 2; // 剩余次数
+    repeated int64 NextTime = 3;    // 下次+1时间
+}
+
+// 请求 进入小游戏
+message Req_MiniGame_Enter_ {
+    optional int32 Type = 1;
+}
+
+// 响应 进入小游戏
+message Resp_MiniGame_Enter_ {
+    optional int32 Type = 1;    // 类型
+    optional TableInfo_ TableInfo = 2;//沙盘数据
+    optional int32 Step = 3;   // 消除步数
+    optional Game_Info_ GameInfo = 4;
+    optional int32 SceneID = 5;	// 场景ID
+}
+
+//
+message Game_Info_ {
+    repeated int32 FamilyIDs = 1;   // 家族id
+    repeated int32 GoldScore = 2;   // 金币副本家族对应积分
+    repeated int32 GoldNum = 3;   // 金币副本飞出来的金币个数
+    repeated int32 BoxScore = 4;    // 宝箱积分区间
+    optional int32 MonsterID = 5;   // 异次元裂缝怪
+    optional int32 CrazyScore = 6;  // 暴走积分
+    optional int32 CrazyTime = 7;   // 暴走持续时间
+}
+
+// 请求 小游戏结果上报
+message Req_MiniGame_Result_ {
+    optional int32 Type = 1;
+    optional int32 Score = 2;
+}
+
+// 响应 小游戏结果上报
+message Resp_MiniGame_Result_ {
+    optional int32 Result = 1;
+    optional int32 Type = 2;
+    repeated Reward_Info_ Rewards = 3;  // 奖励
+    optional string Res = 4;    // 评分资源
+    optional int32 Multiple = 5;    // 倍数
+}
+
+// 响应 小游戏数据更新
+message Resp_MiniGame_Update_ {
+    repeated int32 Type = 1;    // 类型
+    repeated int32 Num = 2; // 剩余次数
+    repeated int64 NextTime = 3;    // 下次+1时间
+}

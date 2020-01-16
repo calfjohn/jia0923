@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "backgroundLightAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.0344827586206897,
+  "sample": 29,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "props": {
+      "rotation": []
+    },
+    "paths": {
+      "mask/backgroundLight": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.0344827586206897,
+              "value": 120
+            }
+          ]
+        }
+      },
+      "congratsRibbon": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.27586206896551724,
+              "value": 0
+            },
+            {
+              "frame": 0.3103448275862069,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.3103448275862069,
+              "value": 2
+            },
+            {
+              "frame": 0.41379310344827586,
+              "value": 1
+            },
+            {
+              "frame": 0.5172413793103449,
+              "value": 2
+            },
+            {
+              "frame": 0.6206896551724138,
+              "value": 1
+            }
+          ],
+          "skewX": [
+            {
+              "frame": 0.3103448275862069,
+              "value": 0
+            }
+          ],
+          "skewY": [
+            {
+              "frame": 0.3103448275862069,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.3103448275862069,
+              "value": 2
+            },
+            {
+              "frame": 0.41379310344827586,
+              "value": 1
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.6896551724137931,
+              "value": [
+                0,
+                -131
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

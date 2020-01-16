@@ -1,0 +1,1124 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cloudAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 332,
+  "sample": 2,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "cloud6": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                109,
+                68
+              ]
+            },
+            {
+              "frame": 165.5,
+              "value": [
+                -1303,
+                68
+              ]
+            },
+            {
+              "frame": 166,
+              "value": [
+                1307,
+                68
+              ]
+            },
+            {
+              "frame": 332,
+              "value": [
+                109,
+                68
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 164,
+              "value": 255
+            },
+            {
+              "frame": 165.5,
+              "value": 0
+            },
+            {
+              "frame": 166.5,
+              "value": 0
+            },
+            {
+              "frame": 167,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "cloud7": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -320,
+                134
+              ]
+            },
+            {
+              "frame": 30.5,
+              "value": [
+                -1136,
+                134
+              ]
+            },
+            {
+              "frame": 32.5,
+              "value": [
+                1277,
+                134
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -320,
+                134
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 30,
+              "value": 255
+            },
+            {
+              "frame": 30.5,
+              "value": 0
+            },
+            {
+              "frame": 32.5,
+              "value": 0
+            },
+            {
+              "frame": 33,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Cloud25": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -267,
+                -52
+              ]
+            },
+            {
+              "frame": 80,
+              "value": [
+                -900,
+                -52
+              ]
+            },
+            {
+              "frame": 82.5,
+              "value": [
+                975,
+                -52
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -267,
+                -52
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 78.5,
+              "value": 255
+            },
+            {
+              "frame": 80,
+              "value": 0
+            },
+            {
+              "frame": 82.5,
+              "value": 0
+            },
+            {
+              "frame": 85,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "tower/towerbase/tower1": {
+        "props": {
+          "position": []
+        }
+      },
+      "cloud2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -8,
+                315
+              ]
+            },
+            {
+              "frame": 120.5,
+              "value": [
+                -1200,
+                315
+              ]
+            },
+            {
+              "frame": 126.5,
+              "value": [
+                1231,
+                315
+              ]
+            },
+            {
+              "frame": 128.5,
+              "value": [
+                1211,
+                315
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -8,
+                315
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 118,
+              "value": 255
+            },
+            {
+              "frame": 120.5,
+              "value": 0
+            },
+            {
+              "frame": 126.5,
+              "value": 0
+            },
+            {
+              "frame": 128.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "cloud8": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1673,
+                39
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -1065,
+                39
+              ]
+            }
+          ]
+        }
+      },
+      "cloud1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1247,
+                281
+              ]
+            },
+            {
+              "frame": 99,
+              "value": [
+                -21,
+                281
+              ]
+            },
+            {
+              "frame": 234,
+              "value": [
+                -1304,
+                281
+              ]
+            },
+            {
+              "frame": 238,
+              "value": [
+                1628,
+                281
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                1247,
+                281
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 99,
+              "value": 255
+            },
+            {
+              "frame": 233,
+              "value": 255
+            },
+            {
+              "frame": 234,
+              "value": 0
+            },
+            {
+              "frame": 238.5,
+              "value": 0
+            },
+            {
+              "frame": 240,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "cloud4": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -410,
+                -177
+              ]
+            },
+            {
+              "frame": 58,
+              "value": [
+                -1091,
+                -177
+              ]
+            },
+            {
+              "frame": 58.5,
+              "value": [
+                -1101,
+                -177
+              ]
+            },
+            {
+              "frame": 61.5,
+              "value": [
+                1193,
+                -177
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -410,
+                -177
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 56,
+              "value": 255
+            },
+            {
+              "frame": 58,
+              "value": 0
+            },
+            {
+              "frame": 61.5,
+              "value": 0
+            },
+            {
+              "frame": 62,
+              "value": 255
+            },
+            {
+              "frame": 331.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Cloud23": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                5,
+                -194
+              ]
+            },
+            {
+              "frame": 189.5,
+              "value": [
+                -735,
+                -194
+              ]
+            },
+            {
+              "frame": 194,
+              "value": [
+                978,
+                -194
+              ]
+            },
+            {
+              "frame": 194.5,
+              "value": [
+                974.4618181818182,
+                -194
+              ]
+            },
+            {
+              "frame": 196.5,
+              "value": [
+                960.309090909091,
+                -194
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                5,
+                -194
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 187.5,
+              "value": 255
+            },
+            {
+              "frame": 189.5,
+              "value": 0
+            },
+            {
+              "frame": 194.5,
+              "value": 0
+            },
+            {
+              "frame": 196.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "cloud3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -591,
+                39
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 30,
+              "value": [
+                -1212,
+                39
+              ]
+            },
+            {
+              "frame": 33,
+              "value": [
+                1227,
+                40
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -591,
+                39
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 28,
+              "value": 255
+            },
+            {
+              "frame": 30,
+              "value": 0
+            },
+            {
+              "frame": 32.5,
+              "value": 0
+            },
+            {
+              "frame": 33,
+              "value": 255
+            },
+            {
+              "frame": 331.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Cloud14": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                844,
+                279
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -803,
+                279
+              ]
+            }
+          ]
+        }
+      },
+      "Cloud11": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                99,
+                -111
+              ]
+            },
+            {
+              "frame": 185,
+              "value": [
+                -926.3723404255322,
+                -111
+              ]
+            },
+            {
+              "frame": 187.5,
+              "value": [
+                -940.2287234042492,
+                -111
+              ]
+            },
+            {
+              "frame": 188,
+              "value": [
+                -943,
+                -111
+              ]
+            },
+            {
+              "frame": 190.5,
+              "value": [
+                912,
+                -111
+              ]
+            },
+            {
+              "frame": 194,
+              "value": [
+                891.8191489361702,
+                -111
+              ]
+            },
+            {
+              "frame": 196.5,
+              "value": [
+                877.404255319149,
+                -111
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                99,
+                -111
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 185,
+              "value": 255
+            },
+            {
+              "frame": 187.5,
+              "value": 0
+            },
+            {
+              "frame": 190.5,
+              "value": 0
+            },
+            {
+              "frame": 194,
+              "value": 0
+            },
+            {
+              "frame": 196.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Cloud10": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                988,
+                -234
+              ]
+            },
+            {
+              "frame": 331,
+              "value": [
+                -911,
+                -234
+              ]
+            }
+          ]
+        }
+      },
+      "Cloud18": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -23,
+                -81
+              ]
+            },
+            {
+              "frame": 241,
+              "value": [
+                -682,
+                -81
+              ]
+            },
+            {
+              "frame": 243.5,
+              "value": [
+                694,
+                -81
+              ]
+            },
+            {
+              "frame": 244,
+              "value": [
+                689.9261363636367,
+                -81
+              ]
+            },
+            {
+              "frame": 245.5,
+              "value": [
+                677.7045454545458,
+                -81
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -23,
+                -81
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 238.5,
+              "value": 255
+            },
+            {
+              "frame": 241,
+              "value": 0
+            },
+            {
+              "frame": 244,
+              "value": 0
+            },
+            {
+              "frame": 245.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Cloud24": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1487,
+                -98
+              ]
+            },
+            {
+              "frame": 32,
+              "value": [
+                1538,
+                -98
+              ]
+            },
+            {
+              "frame": 332,
+              "value": [
+                -1432,
+                -98
+              ]
+            }
+          ]
+        }
+      },
+      "Cloud12": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -105,
+                -119
+              ]
+            },
+            {
+              "frame": 177.5,
+              "value": [
+                -833.7883008356505,
+                -119
+              ]
+            },
+            {
+              "frame": 179.5,
+              "value": [
+                -842,
+                -119
+              ]
+            },
+            {
+              "frame": 180,
+              "value": [
+                853,
+                -119
+              ]
+            },
+            {
+              "frame": 181,
+              "value": [
+                846.6765676567657,
+                -119
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -105,
+                -119
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 177.5,
+              "value": 255
+            },
+            {
+              "frame": 179.5,
+              "value": 0
+            },
+            {
+              "frame": 180,
+              "value": 0
+            },
+            {
+              "frame": 181,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "cloud5": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1372,
+                -241
+              ]
+            },
+            {
+              "frame": 332,
+              "value": [
+                827,
+                -241
+              ]
+            }
+          ]
+        }
+      },
+      "Cloud15": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -392,
+                -211
+              ]
+            },
+            {
+              "frame": 56.5,
+              "value": [
+                -814,
+                -211
+              ]
+            },
+            {
+              "frame": 60.5,
+              "value": [
+                817,
+                -211
+              ]
+            },
+            {
+              "frame": 332,
+              "value": [
+                -392,
+                -211
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 53.5,
+              "value": 255
+            },
+            {
+              "frame": 56.5,
+              "value": 0
+            },
+            {
+              "frame": 60.5,
+              "value": 0
+            },
+            {
+              "frame": 63,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Cloud27": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1246,
+                168
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -1242,
+                168
+              ]
+            },
+            {
+              "frame": 332,
+              "value": [
+                -1127,
+                168
+              ]
+            }
+          ]
+        }
+      },
+      "Cloud26": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                1427,
+                75
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -1385,
+                75
+              ]
+            }
+          ]
+        }
+      },
+      "Cloud16": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                402,
+                -187
+              ]
+            },
+            {
+              "frame": 234,
+              "value": [
+                -693.9745222929937,
+                -187
+              ]
+            },
+            {
+              "frame": 235.5,
+              "value": [
+                -701,
+                -187
+              ]
+            },
+            {
+              "frame": 240,
+              "value": [
+                717,
+                -187
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                402,
+                -187
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 234,
+              "value": 255
+            },
+            {
+              "frame": 236,
+              "value": 0
+            },
+            {
+              "frame": 240,
+              "value": 0
+            },
+            {
+              "frame": 240.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "Cloud17": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                698,
+                -78
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -764,
+                -78
+              ]
+            }
+          ]
+        }
+      },
+      "tower/towerbase/gem1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 16.5,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 34.5,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 51.5,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 69.5,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 86.5,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 104.5,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 121,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 139,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 157.5,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 175.5,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 191,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 209,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 226.5,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 244.5,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 265,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 285.5,
+              "value": [
+                -320.3,
+                98
+              ]
+            },
+            {
+              "frame": 308.5,
+              "value": [
+                -320.3,
+                76.3
+              ]
+            },
+            {
+              "frame": 331.5,
+              "value": [
+                -320.3,
+                98
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

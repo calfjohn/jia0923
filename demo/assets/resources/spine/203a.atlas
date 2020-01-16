@@ -1,0 +1,83 @@
+
+203a.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lyan
+  rotate: false
+  xy: 213, 50
+  size: 29, 12
+  orig: 29, 12
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 180, 44
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: true
+  xy: 48, 2
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: true
+  xy: 244, 48
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 17
+  size: 55, 45
+  orig: 55, 45
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 103, 21
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+xiedi
+  rotate: false
+  xy: 2, 3
+  size: 44, 12
+  orig: 44, 12
+  offset: 0, 0
+  index: -1
+xieiz1
+  rotate: true
+  xy: 147, 32
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+xiezi2
+  rotate: false
+  xy: 59, 18
+  size: 42, 18
+  orig: 42, 18
+  offset: 0, 0
+  index: -1
+xiezi3
+  rotate: false
+  xy: 59, 38
+  size: 42, 24
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+xiezi4
+  rotate: false
+  xy: 103, 41
+  size: 42, 21
+  orig: 42, 21
+  offset: 0, 0
+  index: -1

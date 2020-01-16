@@ -1,0 +1,55 @@
+
+portaldoorTexture.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang
+  rotate: false
+  xy: 264, 90
+  size: 123, 164
+  orig: 123, 164
+  offset: 0, 0
+  index: -1
+men1
+  rotate: true
+  xy: 2, 45
+  size: 209, 260
+  orig: 209, 260
+  offset: 0, 0
+  index: -1
+men
+  rotate: true
+  xy: 2, 45
+  size: 209, 260
+  orig: 209, 260
+  offset: 0, 0
+  index: -1
+shi1
+  rotate: true
+  xy: 109, 9
+  size: 34, 80
+  orig: 34, 80
+  offset: 0, 0
+  index: -1
+shi2
+  rotate: true
+  xy: 2, 2
+  size: 41, 105
+  orig: 41, 105
+  offset: 0, 0
+  index: -1
+shi3
+  rotate: false
+  xy: 389, 164
+  size: 34, 90
+  orig: 34, 90
+  offset: 0, 0
+  index: -1
+shi4
+  rotate: true
+  xy: 264, 49
+  size: 39, 89
+  orig: 39, 89
+  offset: 0, 0
+  index: -1

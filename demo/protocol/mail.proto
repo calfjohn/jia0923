@@ -1,0 +1,65 @@
+package protocol;
+import "base.proto";
+
+////////////////////////////////  消息结构体 ////////////////////////////////////
+
+message Mail_Info_{//邮件信息
+
+   optional int64 ID = 1; //邮件ID
+   optional string Title = 2;//标题
+   optional string Content = 3;//内容
+   optional bool Gift = 4;//附件
+   optional int32 Status = 5;// 状态
+   optional int64 SendTime = 6;//发送日期
+   optional int32 Type = 7; // 邮件 1 普通 2 置顶
+   optional string SrcName = 8;//发送方用户昵称
+   optional int64 ExpiryTime = 9;//有效期
+}
+message Req_Mail_List_ {}
+message Resp_Mail_List_{
+   repeated  Mail_Info_ MailInfos = 1;//邮件信息
+}
+
+// 请求 邮件读取
+message Req_Mail_Read_ {
+    optional int64 MailID = 1;
+}
+
+// 响应 邮件读取
+message Resp_Mail_Read_ {
+    optional int64 MailID = 1;
+    optional string Content = 2;//内容
+    repeated Reward_Info_ Reward = 3;
+}
+
+// 请求 邮件领取
+message Req_Mail_Receive_ {
+    repeated int64 MailID = 1;
+}
+
+// 响应 邮件领取
+message Resp_Mail_Receive_ {
+    optional int32 Status = 1;
+    repeated Reward_Info_ Reward = 2;
+    repeated Reward_Info_ ChestRewards = 3;   // 宝箱奖励
+}
+
+// 请求 邮件删除
+message Req_Mail_Delete_ {
+    repeated int64 MailID = 1;
+}
+
+message Push_Mail_ {
+    repeated Mail_Info_ MailInfos = 1;//邮件信息
+}
+
+// game server 请求发送邮件
+message Req_Send_Mail_ {
+    optional int64 SrcUid = 1;  // 发送方id
+    optional string DescUid = 2;    // 接收方uid “-”分割
+    optional string Title = 3;
+    optional string Content = 4;
+    optional string Gift = 5;
+    optional int64 ExpiryTime = 6;//有效期
+    optional int32 Type = 7; // 邮件 1 普通 2 置顶
+}

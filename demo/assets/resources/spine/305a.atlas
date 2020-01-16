@@ -1,0 +1,55 @@
+
+305a.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lshou
+  rotate: false
+  xy: 217, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+Lyan
+  rotate: false
+  xy: 84, 21
+  size: 27, 12
+  orig: 27, 12
+  offset: 0, 0
+  index: -1
+Rshou
+  rotate: false
+  xy: 113, 22
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 165, 21
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 84, 35
+  size: 79, 27
+  orig: 79, 27
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 2, 10
+  size: 80, 52
+  orig: 80, 52
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 2, 2
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: -1

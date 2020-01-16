@@ -1,0 +1,55 @@
+
+307b.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiao1
+  rotate: false
+  xy: 2, 34
+  size: 155, 188
+  orig: 155, 188
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 370, 53
+  size: 68, 64
+  orig: 68, 64
+  offset: 0, 0
+  index: -1
+pen
+  rotate: true
+  xy: 448, 137
+  size: 85, 46
+  orig: 85, 46
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 283, 14
+  size: 85, 103
+  orig: 85, 103
+  offset: 0, 0
+  index: -1
+xiaba
+  rotate: false
+  xy: 159, 125
+  size: 151, 97
+  orig: 151, 97
+  offset: 0, 0
+  index: -1
+yezi2
+  rotate: true
+  xy: 159, 2
+  size: 121, 122
+  orig: 121, 122
+  offset: 0, 0
+  index: -1
+yezi3
+  rotate: false
+  xy: 312, 119
+  size: 134, 103
+  orig: 134, 103
+  offset: 0, 0
+  index: -1

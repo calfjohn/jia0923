@@ -1,0 +1,261 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "portalAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 7.033333333333333,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "portal1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "58c7c008-a0b8-41fa-b77e-214144f97b18"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 3.5,
+              "value": 200
+            },
+            {
+              "frame": 7.033333333333333,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "star": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 3.533333333333333,
+              "value": 255
+            },
+            {
+              "frame": 7.033333333333333,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "ring": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 7,
+              "value": 360
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "9047194f-e07f-4ce6-af75-32ca6a115c64"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "ring1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.6
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 0
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 84
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 360
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.6
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "ring2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.033333333333333,
+              "value": 0
+            },
+            {
+              "frame": 4,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 2.033333333333333,
+              "value": 2
+            },
+            {
+              "frame": 6.633333333333334,
+              "value": 0
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 2.033333333333333,
+              "value": 0
+            },
+            {
+              "frame": 6.633333333333334,
+              "value": 360
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 2.033333333333333,
+              "value": 2
+            },
+            {
+              "frame": 6.633333333333334,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "ring3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 7,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 5.333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 7,
+              "value": 0.8
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 5.333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 7,
+              "value": 84
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 5.333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 7,
+              "value": 0.8
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0.9
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.9
+        }
+      ]
+    }
+  },
+  "events": []
+}

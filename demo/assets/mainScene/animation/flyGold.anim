@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "flyGold",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.2,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "gold": {
+        "props": {
+          "anchorY": [
+            {
+              "frame": 0,
+              "value": 0.5
+            },
+            {
+              "frame": 0.5,
+              "value": -1.5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "numLabel": {
+        "props": {
+          "anchorY": [
+            {
+              "frame": 0,
+              "value": 0.5
+            },
+            {
+              "frame": 0.5,
+              "value": -2.15
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.2,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

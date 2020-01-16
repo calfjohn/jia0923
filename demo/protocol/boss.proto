@@ -1,0 +1,150 @@
+package protocol;
+import "base.proto";
+
+message Boss_Info_{
+	optional int32 ID = 1;//世界Boss的ID号
+	optional int64 Hp = 2;//血量
+    optional int32 Damage = 3;//伤害
+    optional int32 PhyAtk = 4;//物理强度
+    optional int32 MagAtk = 5;//魔法强度
+    optional int32 PhyDef = 6;//物理防御
+    optional int32 MagDef = 7;//魔法防御
+    optional int32 AtkRang = 8;//攻击范围
+    optional int32 AtkFeq = 9;//攻击频率
+    optional int32 Speed = 10;//移动速度
+	optional int64 CurHp = 11;	// 当前血量
+	optional int32 Lv = 12;	// 等级
+	repeated int32 DescIDs = 13;	// 客户端展示用index 0-2 :bossLv,描述ID,推荐
+	repeated int32 SkillID = 14;	// 被动技能
+	repeated int32 SkillLv = 15;	// 技能等级
+	optional int32 CritAtk = 16;    // 暴击
+}
+
+// 玩家的boss相关信息
+message PlayerBoss_Info_ {
+	optional int32 MyRank = 1;	// 排行
+	optional int64 Damage = 2;	// 伤害
+	optional int32 HitTimes = 3;	// 攻击boss的次数
+	optional int32 ShareTimes = 4;	// 可分享次数
+}
+
+// 请求 boss信息
+message Req_Boss_Info_{
+	optional int64 UserID = 1;
+	optional int32 UserLv = 2;	// （对应boss等级的条件，不改字段名了，现为最大通关数）
+}
+// 响应 boss信息
+message Resp_Boss_Info_{
+	optional int64 UserID = 1;
+	optional int64 OpenTime = 2;//世界Boss的开启时间
+	optional int64 EndTime = 3;//世界Boss的结束时间
+	optional Boss_Info_ Bosses = 4;//Boss数据
+	repeated Damage_Info_ DamageInfo = 5;	// 伤害数据
+	optional TableInfo_ TableInfo = 6;//沙盘数据
+    optional int32 Step = 7;   // 消除步数
+	optional PlayerBoss_Info_ PlayerInfo = 8;// 玩家数据
+	optional int32 SceneID = 9;	// 场景ID
+	optional bool CanHit = 10;	// 是否可攻打
+	optional int32 AddTimesPrice = 11;	// 增加次数消耗钻石
+	optional int64 HitBossDuration = 12;	// 打boss的战斗时长
+}
+
+// 请求 攻击boss
+message Req_Hit_Boss_ {
+	optional int64 UserID = 1;
+	optional Damage_Info_ Damage = 2;	// 造成的伤害
+	optional int32 UserLv = 3;	// （对应boss等级的条件，不改字段名了，现为最大通关数）
+	optional TableInfo_ TableInfo = 4;//沙盘数据
+	optional int64 HitDuration = 5;	// 攻击boss的持续时间
+	optional int32 Step = 6;	// 消除步数
+}
+
+// 响应 攻击boss
+message Resp_Hit_Boss_ {
+	optional int64 UserID = 1;
+	optional int64 CurDamage = 2;	// 这次的伤害
+	repeated Reward_Info_ Rewards = 3;	// 奖励
+	optional PlayerBoss_Info_ PlayerInfo = 4;// 玩家数据
+	optional int64 BossCurHp = 5;	// boss当前血量
+	repeated Reward_Info_ SpeRewards = 6;	// 特殊奖励	没有则为空
+}
+
+// 请求 获取世界boss排名
+message Req_Get_BossRank_ {
+	optional int64 UserID = 1;
+	optional int32 UserLv = 2;	// （对应boss等级的条件，不改字段名了，现为最大通关数）
+}
+
+// 响应 获取世界boss排名
+message Resp_Get_BossRank_ {
+	optional int64 UserID = 1;
+	repeated int32 RankNo = 2;	// 排名
+	repeated Damage_Info_ DamageInfo = 3;
+	optional int64 RefreshTime = 4;	// 排行榜刷新时间
+}
+
+// 请求 增加攻击次数
+message Req_Add_HitTimes_ {
+	optional int64 UserID = 1;
+	optional int32 UserLv = 2; //（对应boss等级的条件，不改字段名了，现为最大通关数）
+}
+
+// 响应 增加攻击次数
+message Resp_Add_HitTimes_ {
+	optional int64 UserID = 1;
+	optional int32 HitTimes = 2;
+	optional int32 AddTimesPrice = 3;	// 增加次数消耗钻石
+}
+
+// 请求 奖励信息
+message Req_Boss_RewardInfo_ {
+	optional int64 UserID = 1;
+	optional int32 UserLv = 2;//（对应boss等级的条件，不改字段名了，现为最大通关数）
+}
+// 响应 奖励信息
+message Resp_Boss_RewardInfo_ {
+	optional int64 UserID = 1;
+	repeated Rank_RewardInfo_ RankRewards = 3;
+	repeated int32 HpPer = 4; // 血量百分比
+	repeated Reward_Info_ SpeRewards = 5;
+	repeated string UserName = 6;	// 获取玩家
+}
+
+// 排行榜奖励
+message Rank_RewardInfo_ {
+	optional int32 RankRange = 1;
+	repeated Reward_Info_ Rewards = 2;
+}
+
+// 响应  更新boss信息
+message Resp_BossInfo_Update_ {
+	optional int64 UserID = 1;
+	repeated Damage_Info_ DamageInfo = 2;
+	optional int64 CurHp = 3;	// boss当前血量
+	optional int32 BossLv = 4;	// boss等级
+}
+
+// 响应 boss玩家信息更新
+message Resp_Boss_PlayerInfo_ {
+	optional int64 UserID = 1;
+	optional PlayerBoss_Info_ PlayerInfo = 2;
+}
+
+// 请求 沙盘消除结束，开始打boss
+message Req_Boss_Battle_Begin_ {
+	optional int64 UserID = 1;	// 打boss时间
+	optional int32 UserLv = 2;
+}
+
+// 响应 通知客户端攻击boss超时，该结束了
+message Resp_Notice_Boss_Battle_TimeOut_ {
+	repeated int64 UserIDs = 1;
+}
+
+// 伤害列表
+message Damage_Info_ {
+	optional int64 Damage = 1;	// 伤害
+	optional string Name = 2;	// 玩家姓名
+	optional int32 HeroID = 3;	// 阵容的怪物小代表
+	optional int32 Lv = 4;		// 玩家等级
+}

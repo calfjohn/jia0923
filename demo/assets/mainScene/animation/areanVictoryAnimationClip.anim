@@ -1,0 +1,685 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "areanVictoryAnimationClip",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "iconWinRibbon": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.18,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.2,
+              "value": 2
+            },
+            {
+              "frame": 0.26,
+              "value": 1
+            },
+            {
+              "frame": 0.32,
+              "value": 2
+            },
+            {
+              "frame": 0.38,
+              "value": 1
+            }
+          ],
+          "skewX": [
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ],
+          "skewY": [
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.2,
+              "value": 2
+            },
+            {
+              "frame": 0.26,
+              "value": 1
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.42,
+              "value": [
+                0,
+                -48
+              ]
+            }
+          ]
+        }
+      },
+      "iconWinWord": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.18,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 1.2
+            },
+            {
+              "frame": 0.28,
+              "value": 0.8
+            },
+            {
+              "frame": 0.32,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 1.2
+            },
+            {
+              "frame": 0.28,
+              "value": 0.8
+            },
+            {
+              "frame": 0.32,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "iconWinWingLeft": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.52,
+              "value": [
+                -55,
+                -66
+              ]
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0.2,
+              "value": -20
+            },
+            {
+              "frame": 0.28,
+              "value": 15
+            },
+            {
+              "frame": 0.52,
+              "value": 20
+            }
+          ]
+        }
+      },
+      "iconWinWingRight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.52,
+              "value": [
+                37,
+                -75
+              ]
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0.2,
+              "value": 20
+            },
+            {
+              "frame": 0.28,
+              "value": -15
+            },
+            {
+              "frame": 0.52,
+              "value": -20
+            }
+          ]
+        }
+      },
+      "iconWinTrumpetLeft": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.36,
+              "value": 0
+            },
+            {
+              "frame": 0.44,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.4,
+              "value": [
+                28,
+                -73
+              ]
+            },
+            {
+              "frame": 0.44,
+              "value": [
+                -54,
+                -29
+              ]
+            },
+            {
+              "frame": 0.56,
+              "value": [
+                -58,
+                -26
+              ]
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0.56,
+              "value": 0
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0.44,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.44,
+              "value": -1.2
+            },
+            {
+              "frame": 0.5,
+              "value": -0.8
+            },
+            {
+              "frame": 0.56,
+              "value": -1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.44,
+              "value": 1.2
+            },
+            {
+              "frame": 0.5,
+              "value": 0.8
+            },
+            {
+              "frame": 0.56,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "iconWinTrumpetRight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.36,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.36,
+              "value": [
+                -38,
+                -66
+              ]
+            },
+            {
+              "frame": 0.44,
+              "value": [
+                52,
+                -26
+              ]
+            }
+          ],
+          "anchorX": [
+            {
+              "frame": 0.44,
+              "value": 0
+            }
+          ],
+          "anchorY": [
+            {
+              "frame": 0.44,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.44,
+              "value": 1
+            },
+            {
+              "frame": 0.5,
+              "value": 0.8
+            },
+            {
+              "frame": 0.56,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.44,
+              "value": 1
+            },
+            {
+              "frame": 0.5,
+              "value": 0.8
+            },
+            {
+              "frame": 0.56,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "iconWinStar3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.22,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.22,
+              "value": [
+                -52,
+                2
+              ]
+            },
+            {
+              "frame": 0.42,
+              "value": [
+                -93.2,
+                51.5
+              ]
+            }
+          ]
+        }
+      },
+      "iconWinStar1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.22,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.24,
+              "value": [
+                0,
+                29
+              ]
+            },
+            {
+              "frame": 0.42,
+              "value": [
+                0,
+                110.1
+              ]
+            }
+          ]
+        }
+      },
+      "iconWinStar2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.22,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.22,
+              "value": [
+                45,
+                11
+              ]
+            },
+            {
+              "frame": 0.42,
+              "value": [
+                114.1,
+                76.2
+              ]
+            }
+          ]
+        }
+      },
+      "iconWinCrown": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.02,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.02,
+              "value": 3
+            },
+            {
+              "frame": 0.14,
+              "value": 0.8
+            },
+            {
+              "frame": 0.2,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.02,
+              "value": 3
+            },
+            {
+              "frame": 0.14,
+              "value": 0.8
+            },
+            {
+              "frame": 0.2,
+              "value": 1
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.02,
+              "value": [
+                -1,
+                29
+              ]
+            },
+            {
+              "frame": 0.14,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "mask/iconWinLight": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.22,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0.2,
+              "value": 0
+            },
+            {
+              "frame": 0.78,
+              "value": 50
+            }
+          ]
+        }
+      },
+      "ribbon1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.24,
+                "value": {
+                  "__uuid__": "d94998d4-d15f-46f8-a60f-7f016a3462a3"
+                }
+              },
+              {
+                "frame": 0.28,
+                "value": {
+                  "__uuid__": "fe05c516-3546-4627-8b10-a179afdb3d84"
+                }
+              },
+              {
+                "frame": 0.32,
+                "value": {
+                  "__uuid__": "c27782e9-90f6-4a4d-97f6-68e2e00e62a1"
+                }
+              },
+              {
+                "frame": 0.36,
+                "value": {
+                  "__uuid__": "f4737f77-effc-4284-900b-43ecc6151300"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "00cc086a-5356-439a-8ed1-6c3aaad6f36d"
+                }
+              },
+              {
+                "frame": 0.44,
+                "value": {
+                  "__uuid__": "3b408193-650d-4ad3-8e68-a416092ef2d2"
+                }
+              },
+              {
+                "frame": 0.48,
+                "value": {
+                  "__uuid__": "ad7a4b6e-2fa3-418d-829f-3c6d48e36de9"
+                }
+              },
+              {
+                "frame": 0.52,
+                "value": {
+                  "__uuid__": "e91a2984-ed79-4954-a620-fe696172252d"
+                }
+              },
+              {
+                "frame": 0.58,
+                "value": {
+                  "__uuid__": "492a1611-18ad-421b-8e21-a524f01db36c"
+                }
+              },
+              {
+                "frame": 0.64,
+                "value": {
+                  "__uuid__": "f102b471-297b-4cce-b611-f2a4a177827a"
+                }
+              },
+              {
+                "frame": 0.68,
+                "value": {
+                  "__uuid__": "915fbe88-81f5-4d9e-9c95-fe0c9b8e09d8"
+                }
+              },
+              {
+                "frame": 0.72,
+                "value": {
+                  "__uuid__": "dd677f18-a344-4098-937d-cfec0459a175"
+                }
+              },
+              {
+                "frame": 0.76,
+                "value": {
+                  "__uuid__": "0eccbfef-dcb8-459f-8b5b-052d9bb4818a"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.22,
+              "value": 0
+            },
+            {
+              "frame": 0.24,
+              "value": 255
+            },
+            {
+              "frame": 0.76,
+              "value": 255
+            },
+            {
+              "frame": 0.8,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0.3,
+              "value": [
+                0,
+                -58
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.44,
+              "value": 5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.44,
+              "value": 5
+            }
+          ]
+        }
+      },
+      "mask": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.26,
+              "value": [
+                0,
+                83
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

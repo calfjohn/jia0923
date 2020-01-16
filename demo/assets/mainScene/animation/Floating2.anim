@@ -1,0 +1,283 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Floating2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.9,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "column": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.9,
+              "value": 3
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 100
+            },
+            {
+              "frame": 0.9,
+              "value": 180
+            },
+            {
+              "frame": 1.9,
+              "value": 100
+            }
+          ]
+        }
+      },
+      "diffusion": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 1.45,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 1.45,
+              "value": 1.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.2,
+              "value": 255
+            },
+            {
+              "frame": 1.45,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "glow": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 150
+            },
+            {
+              "frame": 0.9,
+              "value": 255
+            },
+            {
+              "frame": 1.9,
+              "value": 150
+            }
+          ]
+        }
+      },
+      "diffusion1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.95,
+              "value": 0
+            },
+            {
+              "frame": 1.65,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.95,
+              "value": 0
+            },
+            {
+              "frame": 1.65,
+              "value": 0.5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.35,
+              "value": 255
+            },
+            {
+              "frame": 1.65,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "diffusion2": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 1.25,
+              "value": 0
+            },
+            {
+              "frame": 1.9,
+              "value": 0.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.25,
+              "value": 0
+            },
+            {
+              "frame": 1.9,
+              "value": 0.2
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 1.65,
+              "value": 255
+            },
+            {
+              "frame": 1.9,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "light1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "9727cf5e-a10e-4d46-a92d-daeb1ab53f8c"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "ef1cf1c3-88f7-47a3-a79a-59edbbf81b1e"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "f2aac572-1371-43a9-9ae6-e1770410391b"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "a2e0dcf9-8cdc-43df-bef9-708696b9c31b"
+                }
+              },
+              {
+                "frame": 0.25,
+                "value": {
+                  "__uuid__": "102effa1-6be8-4204-bd8b-1683773f0960"
+                }
+              },
+              {
+                "frame": 0.3,
+                "value": {
+                  "__uuid__": "8f21508d-61a7-409d-a591-72c4ffc89d3e"
+                }
+              },
+              {
+                "frame": 0.35,
+                "value": {
+                  "__uuid__": "699e522d-8c10-4111-84b4-c71ce2e5043f"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "65830120-7896-498d-b140-d1cc76784808"
+                }
+              },
+              {
+                "frame": 0.45,
+                "value": {
+                  "__uuid__": "a00393c2-b92d-4fae-95e2-3a6d80131780"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "8cd86148-569a-4e95-8baf-8448573f8910"
+                }
+              },
+              {
+                "frame": 0.55,
+                "value": {
+                  "__uuid__": "35abb850-47af-422b-8b6e-a9e17af3879e"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "70d57813-52ed-428e-97a1-54a042f99fa8"
+                }
+              },
+              {
+                "frame": 0.65,
+                "value": {
+                  "__uuid__": "8963a000-6a74-49d3-8c86-d42dc357d49b"
+                }
+              },
+              {
+                "frame": 0.7,
+                "value": {
+                  "__uuid__": "26f276af-fca3-457b-965f-83ba52b953f4"
+                }
+              },
+              {
+                "frame": 0.75,
+                "value": {
+                  "__uuid__": "de817905-ba30-4735-8b5d-e8426eff1f6f"
+                }
+              },
+              {
+                "frame": 0.8,
+                "value": {
+                  "__uuid__": "c5449442-7204-41dc-a136-4076d87c769e"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.05,
+              "value": 255
+            },
+            {
+              "frame": 0.8,
+              "value": 255
+            },
+            {
+              "frame": 0.85,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

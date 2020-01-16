@@ -1,0 +1,83 @@
+
+artilleryTexture.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bullet1
+  rotate: false
+  xy: 2, 89
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+bullet2
+  rotate: false
+  xy: 89, 89
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+bullet3
+  rotate: true
+  xy: 2, 2
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+bullet4
+  rotate: false
+  xy: 176, 89
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+bullet5
+  rotate: false
+  xy: 263, 89
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+bullet6
+  rotate: true
+  xy: 144, 2
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+bullet7
+  rotate: false
+  xy: 350, 89
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+bullet8
+  rotate: true
+  xy: 286, 2
+  size: 85, 140
+  orig: 85, 140
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 437, 147
+  size: 109, 82
+  orig: 109, 82
+  offset: 0, 0
+  index: -1
+pao
+  rotate: false
+  xy: 548, 181
+  size: 120, 48
+  orig: 120, 48
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 437, 75
+  size: 91, 70
+  orig: 91, 70
+  offset: 0, 0
+  index: -1

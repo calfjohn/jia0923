@@ -1,0 +1,275 @@
+package protocol;
+import "base.proto";
+
+// 竞技场排行
+message Arena_Rank_Info_ {
+	optional int64 UserID = 1;
+	optional int32 RankNo = 2;	// 排行
+	optional string Name = 3;
+	optional int32 Score = 4;	// 积分
+	optional int32 Country = 5;	// 国家
+	optional int32 MaxChapter = 6;	// 最大章节数
+	repeated int32 Formation = 7;	// 阵容
+}
+
+message Arena_Monster_Info_ {
+	optional int32 FamilyID = 1;	// 家族id
+	repeated int32 SkillLv = 2;// 被动技能等级
+    repeated int32 TalentLv = 3;// 觉醒等级
+}
+
+message Arena_Player_Info{//竞技场的玩家数据
+	optional int64 Uid = 1;//用户ID
+	optional string Name = 2;//用户昵称
+	optional int32 Score = 3;//积分
+	optional int32 Div = 4;//段位
+	optional Role_Info_ Role = 5;
+	repeated Arena_Monster_Info_ Formation = 6;	// 阵容
+	optional int32 Country = 7;	// 国家
+	optional int32 Streak = 8;	// 服务器用。连胜，连败纪录（负数连败）
+	optional int32 IconID = 9;
+	optional string IconUrl = 10;
+	optional int32 Gold = 11;
+	optional int32 MaxChapter = 12;	// 最大章节数
+	optional int64 RegTime = 13;	// 注册日期
+}
+
+// 请求 排行榜
+message Req_Arena_Rank_ {
+	optional int64 UserID = 1;
+	optional int32 BeginRank = 2;	// 起始排名
+	optional int32 Type = 3;	// 1：世界排行 2：好友排行
+	repeated int64 FriendIDs = 4;	// 好友id
+}
+
+// 响应 排行榜
+message Resp_Arena_Rank_ {
+	optional int64 UserID = 1;
+	repeated Arena_Rank_Info_ Rank = 2;
+	optional int32 Type = 3;	// 1：世界排行 2：好友排行
+}
+
+message Req_Arena_OpenTime_ {}
+
+message Resp_Arena_OpenTime_ {
+	optional int64 OpenTime = 1;	// 竞技场开放时间
+	optional int64 CloseTime = 2;	// 竞技场开放时间
+}
+
+//请求竞技场信息
+message Req_Arena_Info_{
+	optional int64 UserID = 1;	// 服务端用
+}
+
+//响应竞技场信息
+message Resp_Arena_Info_{
+	optional int32 ArenaScore = 1;	// 积分
+	optional int64 EndTime = 2;	//	赛季结束时间
+	repeated Arena_Reward_ ArenaRewards = 3;
+	optional int64 UserID = 4;	// 服务端用
+	optional int32 SeasonID = 5;	// 赛季编号
+	optional int32 Rank = 6;	// 排名
+	optional int32 GameNum = 7;	// 总场次
+	optional int32 GameWin = 8;	// 胜利场次
+	optional int32 ChestIcon = 9;	// 宝箱icon
+	repeated Reward_Info_ ChestRewards = 10;// 宝箱展示
+	repeated Reward_Info_ Rewards = 11;	// 其他奖励
+	optional int64 OpenTime = 12;	// 竞技场开放时间
+	optional int64 CloseTime = 13;	// 竞技场开放时间
+	optional int32 Honor = 14;
+	optional int32 DailyHonor = 15;	// 日获得荣耀
+	optional int32 DailyHonorMax = 16;	// 日获得荣耀上限
+	optional int64 NextRefreshTime = 17;	// 荣耀商店下次刷新时间
+	optional int32 BoxIcon = 18;	// 宝箱icon
+	optional int32 MaxStar = 19;	// 最大星星
+	optional int32 Star = 20;	// 当前拥有星星
+	optional int32 OldScore = 21;	// 上赛季积分
+	optional int32 Vit = 22;	// 竞技场消耗体力
+}
+
+// 请求 竞技场荣耀商店
+message Req_Honor_Shop_ {
+	optional int64 UserID = 1;	// 服务端用
+	optional int32 LastScore = 2;	// 上次刷新的积分
+}
+
+// 响应 荣耀商店
+message Resp_Honor_Shop_ {
+	optional int64 UserID = 1;	// 服务端用
+	repeated Reward_Info_ Items = 2;
+	repeated int32 Price = 3;	// 价钱
+	repeated int32 BuyTimes = 4;// 剩余购买次数
+	repeated int32 Limit = 5;	// 购买次数上限
+	repeated int32 ItemID = 6;	// 商品ID
+	optional int64 NextRefreshTime = 7;	// 荣耀商店下次刷新时间
+}
+
+// 请求 荣耀商店购买
+message Req_Honor_Buy_ {
+	optional int32 ItemID = 1;
+	optional int32 ItemType = 2;
+	optional int32 BaseID = 3;	// 客户端用
+}
+
+// 响应 荣耀商店购买
+message Resp_Honor_Buy_ {
+	repeated Reward_Info_ Rewards = 1;	// 获得的物品
+	optional int32 BuyTimes = 2;// 剩余购买次数
+	optional int32 ItemID = 3;	// 商品ID
+	optional int32 Honor = 4;
+}
+
+// 竞技场奖励
+message Arena_Reward_ {
+	optional int32 Score = 1;	// 积分下限
+	optional int32 DivName = 2;
+	optional string DicIcon = 3;
+	repeated Reward_Info_ Rewards = 4;	// 段位奖励
+	optional int32 Segment = 5;	// 基础段位（客户端用）
+	optional int32 StarNum = 6;	// 星星数（客户端用）
+}
+
+//请求竞技场匹配
+message Req_Arena_Match_{
+	optional int32 OpType = 1;//操作类型 0x00: 取消匹配 0x01:请求匹配
+	optional int64 UserID = 2;	// 服务端用
+	optional Arena_Player_Info PlayerInfo = 3;	// 服务端用
+}
+
+//响应竞技场匹配( 只有两边都匹配成功的时候才会 下发 )
+message Resp_Arena_Match_{
+	optional int32 RoomID = 1;//房间ID( 0x00:表示匹配失败 )
+	optional int32 RoundNum = 2;//回合总数
+	optional Arena_Player_Info PlayerRed = 3;//红方数据
+	optional Arena_Player_Info PlayerBlud = 4;//蓝方数据
+	repeated  int32 HeroIDs = 5;//默认给的英雄家族ID
+	optional int64 UserID = 6;	// 服务端用
+}
+
+//请求战斗开始( 加载进度条 结束以后发送 )
+message Req_Arena_Start_{
+	optional int64 UserID = 1;	// 服务端用
+}
+
+//响应战斗开始
+message Resp_Arena_Start_{
+	optional int32 Step = 1;//步数
+	optional int64 EndTime = 2;//第一回合的结束时间
+	optional TableInfo_ TableInfo = 3;//沙盘的数据( 注：仅仅只是初始化的数据而已 )
+	optional int64 UserID = 4;	// 服务端用
+}
+
+// 请求 战斗中消除（生成怪）
+message Req_Arena_GenMonster_ {
+	optional int64 UserID = 1;
+	optional int32 Step = 2;	// 当前是第几步
+	repeated BattleHeroInfo_ HeroInfos = 3;
+}
+
+// 转发 战斗中消除
+message Fw_Arena_GenMonster_ {
+	optional int64 UserID = 1;
+	optional int32 Step = 2;	// 当前是第几步
+	repeated BattleHeroInfo_ HeroInfos = 3;
+}
+
+//请求回合结束（消除结束，准备开始战斗）
+message Req_Arena_Round_{
+	optional TableInfo_ TableInfo = 1;//沙盘数据
+	repeated BattleHeroInfo_ HeroInfos = 2;//战斗中的英雄数据
+	optional int64 UserID = 3;	// 服务端用
+	optional int32 Power = 4;	// 战力
+}
+
+//响应回合结束( 只有两边都结束， 或者倒计时结束才会下发 )
+message Resp_Arena_Round_{
+	optional int64 Victor = 1;// 获胜方
+	repeated BattleHeroInfo_ HeroRed = 2;//红方英雄数据( 同步数据用 )
+	repeated BattleHeroInfo_ HeroBlud = 3;//蓝方英雄数据( 同步数据用 )
+	optional int64 RandSed = 4;// 客户端用来计算战斗的随机种子
+	optional int64 UserID = 5;	// 服务端用
+}
+
+// 请求 战斗结束（客户端表现结束）
+message Req_Arena_Round_End_ {
+	// 先由客户端计算战斗结果，并上报
+	optional int32 Ret = 1;//结果 0:输 1:胜利
+	optional int64 UserID = 2;	// 服务端用
+}
+
+// 响应 战斗结束（客户端表现结束）
+message Resp_Arena_Round_End_ {
+	optional int32 Step = 1;//步数
+	optional int64 EndTime = 2;//下一回合的结束时间
+	optional int64 UserID = 3;	// 服务端用
+	optional int64 RoundVictorUid = 4;// 当前回合获胜方UId
+}
+
+message Req_Arena_Exit_{
+	optional int64 UserID = 1;	// 服务端用
+}
+
+//响应战斗结束
+message Resp_Arena_End_{
+	optional int64 WinUid = 1;
+	optional int32 WinScore = 2;//胜利者的积分
+	optional int32 WinGold = 3;//胜利者的金币
+	optional int64 LostUid = 4;
+	optional bool Escape = 5; //失败方 是逃跑
+	optional int32 LoseScore = 6;//失败者的积分
+	optional int32 LoseGold = 7;//失败者的金币
+	optional int64 UserID = 8;	// 服务端用
+	optional Chest_Info_ ChestInfo = 9;// 获胜方获得的宝箱
+	optional int32 DescID = 10;	// 奖励描述字段
+	optional int32 LoseStar = 11;	// 失败星星
+	optional int32 WinStar = 12;	// 获胜星星
+}
+
+//回复 玩家 竞技场数据更新
+message Resp_PlayerUpdate_Arena_{
+    optional int32 Score = 1;
+	optional int32 Honor = 2;
+	optional int32 DailyHonor = 3;
+	optional int64 UserID = 4;	// 服务端用
+	optional int32 Rank = 5;	// 排名
+	optional int32 GameNum = 6;	// 总场次
+	optional int32 GameWin = 7;	// 胜利场次
+	optional int32 Star = 8;	// 当前拥有星星
+	optional int32 Vit = 9;		// 竞技场消耗体力
+}
+
+// 请求 竞技场断线重连
+message Req_Arena_Reconn_ {
+	optional int64 UserID = 1;
+}
+
+// 响应 竞技场断线重连
+message Resp_Arena_Reconn_ {
+	optional int64 UserID = 1;
+	optional int32 RoomID = 2;//房间ID
+	optional Arena_Player_Info PlayerRed = 3;//红方数据
+	optional Arena_Player_Info PlayerBlue = 4;//蓝方数据
+	repeated int32 Ret = 5;//结果 0x00:未开始 0x01:红方胜利 0x02:蓝方胜利
+	optional int32 Step = 6;	// 消除总步数
+	optional int32 RemainStep = 7;// 剩余的消除步数
+	optional int64 EndTime = 8;//回合的结束时间
+	optional int32 Status = 9;	// 状态：0 none 1 在消除 2 在战斗
+	repeated BattleHeroInfo_ Heroes = 10;//我方英雄数据
+}
+
+// 请求 竞技场断线后重新开始
+message Req_Arena_Reconn_Start_ {
+	optional int64 UserID = 1;
+}
+
+// 请求 竞技场宝箱领取
+message Req_Recv_Arena_Box_ {
+
+}
+
+// 响应 竞技场宝箱领取
+message Resp_Recv_Arena_Box_ {
+	// optional Chest_Info_ ChestInfo = 1;// 获胜方获得的宝箱
+	optional int32 ChestIcon = 1;	// 宝箱icon
+	repeated Reward_Info_ ChestRewards = 2;// 宝箱展示
+}

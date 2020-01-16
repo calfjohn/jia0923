@@ -1,0 +1,213 @@
+package protocol;
+import "base.proto";
+
+//==================== 好友 相关 协议
+
+message Friend_Info_{
+    optional int64 Uid = 1;//用户ID
+    optional bool GiftSend = 2;//是否已经赠送过体力
+    optional int32 GiftState = 3;//是否存在体力可以领取
+}
+
+message Req_Friend_Info_{//请求好友数据
+}
+
+message Resp_Friend_Info_{//返回好友数据
+	optional int32 GiftSendNum = 1;//礼品赠送次数
+	optional int32 GiftSendNumMax = 2;//礼品每日赠送的最大次数
+	optional int32 GiftRecvNum = 3;//礼品领取次数
+	optional int32 GiftRecvNumMax = 4;//礼品每日领取的最大次数
+    repeated Friend_Info_ Infos = 5;//好友数据列表
+    repeated int64 Applies = 6;//申请的用户列表
+    optional int32 FriendNumMax = 7;// 好友列表上限
+}
+
+message Req_Friend_Apply_{//请求添加好友
+	optional int64 SrcUid = 1;//发起 用户ID【服务端专用】
+    optional int64 DecUid = 2;//目标 用户ID
+    optional int32 Type = 3;    // 0:普通加好友 1：邀请码添加
+}
+
+message Resp_Friend_Apply_{//响应请求添加好友
+	optional int64 SrcUid = 1;//发起 用户ID
+	optional int64 DecUid = 2;//目标 用户ID
+    optional int32 Type = 3;    // 0:普通加好友 1：邀请码添加
+}
+
+message Req_Friend_ApplyRet_{//客户端好友申请反馈（同意 / 拒绝）
+	optional int64 SrcUid = 1;//操作 用户ID【服务端专用】
+	optional string SrcName = 2;//操作 用户昵称【服务端专用】
+	optional int64 DecUid = 3;//目标 用户ID
+	optional int32 Ret = 4;//操作类型 0x00:拒绝 0x01:同意
+}
+
+message Resp_Friend_ApplyRet_{//相应 客户端好友申请反馈（同意 / 拒绝）
+	optional int64 SrcUid = 1;//操作 用户ID【服务端专用】
+	optional string SrcName = 2;//操作 用户昵称【服务端专用】
+	optional int64 DecUid = 3;//目标 用户ID
+	optional int32 Ret = 4;//操作类型 0x00:拒绝 0x01:同意
+}
+
+message Req_Friend_Find_{//请求好友查找
+	optional string Name = 1;//昵称【允许模糊查找】
+	optional int64 Uid = 2;//用户ID查找【精确查找】
+}
+
+message Resp_Friend_Find_{//返回好友查找
+	repeated Player_Info_ Infos = 1;
+}
+
+message Resp_PlayerUpdate_Friend_{//响应更新好友数据
+	optional int32 GiftSendNum = 1;//礼品赠送次数
+	optional int32 GiftRecvNum = 2;//礼品领取次数
+	repeated Friend_Info_ Infos = 3;//好友数据列表
+    repeated int64 Applies = 4;//申请的用户列表
+    repeated Friend_Info_ ChannelFriends = 5;// 渠道好友数据
+}
+
+//请求好友删除
+message Req_Friend_Del_{
+    optional int64 SrcUid = 1;//自己用户ID【服务器专用！！！】
+    optional int64 DecUid = 2; //用户ID
+}
+
+//响应好友删除
+message Resp_Friend_Del_{
+    optional int64 SrcUid = 1;//用户ID【服务器专用】
+    optional int64 DecUid = 2;//目标用户
+}
+
+//客户端请求好友礼品赠送
+message Req_Friend_GiftSend_{
+	optional int64 SrcUid = 1;//源用户ID【服务器专用】
+	repeated int64 DecUid = 2;//目标用户ID
+}
+
+//响应 客户端请求好友体力赠送
+message Resp_Friend_GiftSend_{
+	optional int64 Uid = 1;//用户ID【服务器专用】
+	optional int64 DecUid = 2;//目标用户ID
+}
+
+// 请求 好友推荐
+message Req_Friend_Recomm_ {}
+
+// 响应 好友推荐
+message Resp_Friend_Recomm_ {
+    repeated int64 UserID = 1;
+    repeated string Name = 2;
+    repeated int32 IconID = 3;
+    repeated string IconUrl = 4;
+    repeated int32 Lv = 5;
+}
+
+//客户端请求好友礼品领取
+message Req_Friend_GiftRecv_{
+	repeated int64 UserID = 1;//用户ID
+}
+// 响应 好友礼品领取
+message Resp_Friend_GiftRecv_ {
+    repeated Friend_Info_ Info = 1;
+}
+
+// 请求 宝箱助力
+message Req_Chest_Help_ {
+    optional int32 Idx = 1;    // 宝箱位置
+}
+
+// 响应 宝箱助力
+message Resp_Chest_Help_ {
+    optional int64 Timestemp = 1;   // 链接时间戳
+    optional int32 Idx = 2;  // 宝箱位置
+    optional Chest_Info_ ChestInfo = 3;//宝箱数据
+}
+// 请求 分享
+message Req_Share_ {
+    optional int32 Type = 1;    // 分享类型 1:关卡步数 2：体力 3：世界boss
+}
+
+// 响应 分享
+message Resp_Share_ {
+    optional int32 Type = 1;
+    optional int64 Timestemp = 2; // 链接时间戳
+    repeated Reward_Info_ Rewards = 3;// 分享奖励
+}
+
+// 请求 点击分享
+message Req_Click_Share_ {
+    optional int64 Timestemp = 1;   // 链接时间戳
+    optional int64 UserID = 2;  // 发送链接的用户
+    optional int64 ClickUID = 3;    // 点击链接的用户
+}
+
+// 响应 点击分享
+message Resp_Click_Share_ {
+    optional int64 Timestemp = 1;   // 链接时间戳
+    optional int64 UserID = 2;  // 发送链接的用户
+    optional int64 ClickUID = 3;    // 点击链接的用户
+}
+
+// 请求 观看广告
+message Req_Watch_Adv_ {
+    optional int32 Type = 1;    // 类型 1：关卡沙盘 2:每日任务
+}
+
+// 响应 观看广告
+message Resp_Watch_Adv_ {
+    repeated Reward_Info_ Rewards = 1;// 分享奖励
+    optional int32 Type = 2;    // 类型 1：关卡沙盘
+}
+
+// 请求 分享小游戏数据
+message Req_Share_GameInfo_ {}
+
+// 响应 分享小游戏数据
+message Resp_Share_GameInfo_ {
+    optional int32 Step = 1;
+    repeated int32 Score = 2;
+    optional TableInfo_ TableInfo = 3;
+    repeated int32 FamilyIDs = 4;
+}
+
+// 请求 获取FB好友数据
+message Req_Get_Channel_Friends_ {
+    repeated string Account = 1;  // FB玩家账号
+    optional int32 Channel = 2;    // 渠道
+}
+
+// 响应 获取渠道好友数据
+message Resp_Get_Channel_Friends_ {
+    repeated Friend_Info_ Friends = 1;
+    repeated string Account = 2;
+    repeated int32 MaxChapter = 3;  // 渠道好友最大章节
+}
+
+// 请求 记录渠道好友数据
+message Req_Set_Channel_Friends_ {
+    repeated string Account = 1;  // FB玩家账号
+}
+
+// 请求 好友邀请数据
+message Req_Friend_Invite_Info_ {}
+
+// 响应 好友邀请数据
+message Resp_Friend_Invite_Info_ {
+    optional int32 RecMax = 1;    // 领取上限
+    repeated int32 Lv = 2;  // 等级
+    repeated string Name = 3;
+    repeated int32 State = 4;   // 0:未上线 1：可领 2：已领
+    repeated int64 Uid = 5;
+    optional int64 MyInviter = 6;   // 我的邀请人
+    repeated Reward_Info_ Rewards = 7;// 奖励
+}
+
+// 请求 领取邀请奖励
+message Req_Recv_Invite_ {
+    optional int64 Uid = 1;
+}
+// 响应 领取邀请码奖励
+message Resp_Recv_Invite_ {
+    optional int64 Uid = 1;
+    repeated Reward_Info_ Rewards = 2;
+    optional int32 State = 3;
+}

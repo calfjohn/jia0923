@@ -1,0 +1,69 @@
+
+105b.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 2, 2
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 77, 26
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: false
+  xy: 62, 10
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: true
+  xy: 114, 45
+  size: 16, 11
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 21, 11
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+yezi0
+  rotate: false
+  xy: 2, 29
+  size: 73, 32
+  orig: 73, 32
+  offset: 0, 0
+  index: -1
+yezi1
+  rotate: true
+  xy: 41, 13
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+yezi2
+  rotate: false
+  xy: 114, 28
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+yezi3
+  rotate: true
+  xy: 81, 9
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1

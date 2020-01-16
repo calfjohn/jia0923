@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "47755d89-cd3d-4d3d-acdb-e555f3d95813",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "roleAdventurer1": {
+      "ver": "1.0.4",
+      "uuid": "81154e97-3ba2-4bab-b4a1-53d0e1e78853",
+      "rawTextureUuid": "47755d89-cd3d-4d3d-acdb-e555f3d95813",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -48,
+      "offsetY": -11,
+      "trimX": 0,
+      "trimY": 35,
+      "width": 174,
+      "height": 362,
+      "rawWidth": 270,
+      "rawHeight": 410,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

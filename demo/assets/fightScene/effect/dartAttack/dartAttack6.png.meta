@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "24d5f58c-c326-4c83-963a-c1685b9deaee",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "dartAttack6": {
+      "ver": "1.0.4",
+      "uuid": "23025814-cc74-4467-b589-99c11f65c1b7",
+      "rawTextureUuid": "24d5f58c-c326-4c83-963a-c1685b9deaee",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -5,
+      "offsetY": 42,
+      "trimX": 24,
+      "trimY": 38,
+      "width": 142,
+      "height": 40,
+      "rawWidth": 200,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

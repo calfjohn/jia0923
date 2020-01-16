@@ -1,0 +1,361 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "poisoningAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.9,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "bone": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                41,
+                -76
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                41,
+                -13
+              ],
+              "motionPath": []
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.4,
+              "value": 255
+            },
+            {
+              "frame": 3,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.6
+            },
+            {
+              "frame": 2,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.6
+            },
+            {
+              "frame": 2,
+              "value": 1.6
+            },
+            {
+              "frame": 3,
+              "value": 1.6
+            }
+          ]
+        }
+      },
+      "bone1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.9,
+              "value": [
+                -52,
+                -49
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 3.6,
+              "value": [
+                -53,
+                52
+              ],
+              "motionPath": []
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.9,
+              "value": 0.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.9,
+              "value": 0.8
+            },
+            {
+              "frame": 2.9,
+              "value": 0.7
+            },
+            {
+              "frame": 3.6,
+              "value": 0.7
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.9,
+              "value": 0
+            },
+            {
+              "frame": 2.55,
+              "value": 255
+            },
+            {
+              "frame": 3.6,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "bone2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -25.7,
+                -68.5
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                -19.7,
+                58.8
+              ],
+              "motionPath": []
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1.4,
+              "value": 255
+            },
+            {
+              "frame": 3,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.4
+            },
+            {
+              "frame": 2,
+              "value": 0.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.4
+            },
+            {
+              "frame": 2,
+              "value": 1.4
+            }
+          ]
+        }
+      },
+      "bone3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -22.9,
+                -9
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                -19.7,
+                58.8
+              ]
+            },
+            {
+              "frame": 2.05,
+              "value": [
+                -25.7,
+                -68.5
+              ]
+            },
+            {
+              "frame": 2.5,
+              "value": [
+                -25.7,
+                -68.5
+              ]
+            },
+            {
+              "frame": 3.9,
+              "value": [
+                -22.9,
+                -9
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 0
+            },
+            {
+              "frame": 2.5,
+              "value": 0
+            },
+            {
+              "frame": 3.9,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.68
+            },
+            {
+              "frame": 2,
+              "value": 0.4
+            },
+            {
+              "frame": 2.5,
+              "value": 0.2
+            },
+            {
+              "frame": 3.9,
+              "value": 0.68
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.1
+            },
+            {
+              "frame": 2,
+              "value": 0.7
+            },
+            {
+              "frame": 2.5,
+              "value": 0.2
+            },
+            {
+              "frame": 3.9,
+              "value": 1.1
+            }
+          ]
+        }
+      },
+      "smoke": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 3.9,
+              "value": 5
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2.2,
+              "value": 255
+            },
+            {
+              "frame": 3.9,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 3.9,
+              "value": [
+                -1,
+                11
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 3.9,
+              "value": 5
+            }
+          ]
+        }
+      },
+      "smoke1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 2.2,
+              "value": 0
+            },
+            {
+              "frame": 3.9,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

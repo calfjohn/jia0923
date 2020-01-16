@@ -1,0 +1,175 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "textEff",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2,
+  "sample": 12,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "textEff": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "64ea7c38-a101-472b-a8c8-cbf565a2bd64"
+                }
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": {
+                  "__uuid__": "4fa1cac7-c399-4565-9c8c-1c307709a95d"
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__uuid__": "d95c57ca-368c-4abb-abe8-60c4655607b2"
+                }
+              },
+              {
+                "frame": 0.25,
+                "value": {
+                  "__uuid__": "92127d62-3f1e-4dba-b1ba-6e203c843f5f"
+                }
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__uuid__": "64a8a3df-896f-45ee-9eb8-44dbf38ba36c"
+                }
+              },
+              {
+                "frame": 0.4166666666666667,
+                "value": {
+                  "__uuid__": "a91b7f92-07a8-41b9-be71-53c044896752"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "star1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 2
+            },
+            {
+              "frame": 0.75,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 2
+            },
+            {
+              "frame": 0.75,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "star2": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.16666666666666666,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.16666666666666666,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "star3": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 2
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 2
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

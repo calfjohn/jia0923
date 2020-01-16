@@ -1,0 +1,28 @@
+{
+"skeleton": { "hash": "29A+m5DkNuWk6msn3mofAacfc2o", "spine": "3.5.51", "width": 40, "height": 40, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "glasses1", "parent": "root" }
+],
+"slots": [
+	{ "name": "glasses1", "bone": "glasses1", "attachment": "glasses1" },
+	{ "name": "eyepatch", "bone": "glasses1", "attachment": "eyepatch" },
+	{ "name": "eyepatch1", "bone": "glasses1", "attachment": "eyepatch1" }
+],
+"skins": {
+	"default": {
+		"eyepatch": {
+			"eyepatch": { "width": 40, "height": 40 }
+		},
+		"eyepatch1": {
+			"eyepatch1": { "width": 40, "height": 40 }
+		},
+		"glasses1": {
+			"glasses1": { "width": 40, "height": 40 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

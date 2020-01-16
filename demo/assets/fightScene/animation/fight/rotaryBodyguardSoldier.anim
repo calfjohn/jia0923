@@ -1,0 +1,481 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rotaryBodyguardSoldier",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.16,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "darts1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "ae8a37d9-12cb-44cd-ac5a-fddace35b128"
+                }
+              },
+              {
+                "frame": 0.04,
+                "value": {
+                  "__uuid__": "afbe97dd-8c26-4bb5-85a4-0964bdbaac53"
+                }
+              },
+              {
+                "frame": 0.08,
+                "value": {
+                  "__uuid__": "74c54f4f-82f6-48d7-97ac-a9d94bc5f8bd"
+                }
+              },
+              {
+                "frame": 0.12,
+                "value": {
+                  "__uuid__": "ece0a474-459a-400b-93c0-a1022bbc5ea7"
+                }
+              },
+              {
+                "frame": 0.16,
+                "value": {
+                  "__uuid__": "7085809c-22db-4d60-9750-71f6793ef602"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "3a5e2f6e-2563-485b-b59b-d62681490ef9"
+                }
+              },
+              {
+                "frame": 0.24,
+                "value": {
+                  "__uuid__": "58ef375a-21b4-4c4a-98ec-f0346862a937"
+                }
+              },
+              {
+                "frame": 0.28,
+                "value": {
+                  "__uuid__": "5af5fefb-4ea7-4198-a517-b14ed4ad412a"
+                }
+              },
+              {
+                "frame": 0.32,
+                "value": {
+                  "__uuid__": "b55cb798-5d1c-4f75-8ec2-004d414a5a30"
+                }
+              },
+              {
+                "frame": 0.36,
+                "value": {
+                  "__uuid__": "4e306d9d-5c66-4934-9021-d2e05cbe0de1"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.36,
+              "value": 255
+            },
+            {
+              "frame": 0.4,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "darts3": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 2.44,
+                "value": {
+                  "__uuid__": "57c4bdd4-0aa4-4cde-afbf-bde52fec0bf6"
+                }
+              },
+              {
+                "frame": 2.48,
+                "value": {
+                  "__uuid__": "7c535a12-fa03-4eae-b638-f11e8b52fe89"
+                }
+              },
+              {
+                "frame": 2.52,
+                "value": {
+                  "__uuid__": "0d6bc068-b821-49e4-bcf2-1a6280fb2a72"
+                }
+              },
+              {
+                "frame": 2.56,
+                "value": {
+                  "__uuid__": "d80d432b-37dd-436a-92bd-2af235d37924"
+                }
+              },
+              {
+                "frame": 2.6,
+                "value": {
+                  "__uuid__": "5ca06148-227f-4c2a-a908-a86cd0664eeb"
+                }
+              },
+              {
+                "frame": 2.64,
+                "value": {
+                  "__uuid__": "812e6e41-9a0d-4db2-ad39-fcc40064b1ec"
+                }
+              },
+              {
+                "frame": 2.68,
+                "value": {
+                  "__uuid__": "eeba982f-0b11-4f99-9a95-9e2d9e106b02"
+                }
+              },
+              {
+                "frame": 2.72,
+                "value": {
+                  "__uuid__": "15ef1ad2-1237-4c15-bc6a-8fd87e1624ae"
+                }
+              },
+              {
+                "frame": 2.76,
+                "value": {
+                  "__uuid__": "ffee86bf-b725-4bab-be02-3f7e3c8dfa1e"
+                }
+              },
+              {
+                "frame": 2.8,
+                "value": {
+                  "__uuid__": "3d442cbb-9159-439f-851a-efc64dca183f"
+                }
+              },
+              {
+                "frame": 2.84,
+                "value": {
+                  "__uuid__": "df226cc1-8c78-49dd-b4af-9716e3f65afd"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.4,
+              "value": 0
+            },
+            {
+              "frame": 2.44,
+              "value": 255
+            },
+            {
+              "frame": 2.84,
+              "value": 255
+            },
+            {
+              "frame": 2.88,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "darts2": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.8,
+                "value": {
+                  "__uuid__": "ae8a37d9-12cb-44cd-ac5a-fddace35b128"
+                }
+              },
+              {
+                "frame": 0.84,
+                "value": {
+                  "__uuid__": "afbe97dd-8c26-4bb5-85a4-0964bdbaac53"
+                }
+              },
+              {
+                "frame": 0.88,
+                "value": {
+                  "__uuid__": "74c54f4f-82f6-48d7-97ac-a9d94bc5f8bd"
+                }
+              },
+              {
+                "frame": 0.92,
+                "value": {
+                  "__uuid__": "ece0a474-459a-400b-93c0-a1022bbc5ea7"
+                }
+              },
+              {
+                "frame": 0.96,
+                "value": {
+                  "__uuid__": "7085809c-22db-4d60-9750-71f6793ef602"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "3a5e2f6e-2563-485b-b59b-d62681490ef9"
+                }
+              },
+              {
+                "frame": 1.04,
+                "value": {
+                  "__uuid__": "58ef375a-21b4-4c4a-98ec-f0346862a937"
+                }
+              },
+              {
+                "frame": 1.08,
+                "value": {
+                  "__uuid__": "5af5fefb-4ea7-4198-a517-b14ed4ad412a"
+                }
+              },
+              {
+                "frame": 1.12,
+                "value": {
+                  "__uuid__": "b55cb798-5d1c-4f75-8ec2-004d414a5a30"
+                }
+              },
+              {
+                "frame": 1.16,
+                "value": {
+                  "__uuid__": "4e306d9d-5c66-4934-9021-d2e05cbe0de1"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.76,
+              "value": 0
+            },
+            {
+              "frame": 0.8,
+              "value": 255
+            },
+            {
+              "frame": 1.16,
+              "value": 255
+            },
+            {
+              "frame": 1.2,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dartAttack1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "e9f21ed5-cf0a-406f-b28f-28d6cd57f702"
+                }
+              },
+              {
+                "frame": 0.44,
+                "value": {
+                  "__uuid__": "a83dac6e-c685-4d2d-a113-1ad108f3135c"
+                }
+              },
+              {
+                "frame": 0.48,
+                "value": {
+                  "__uuid__": "e831457f-ea36-41f1-b01d-6e2b7511b73e"
+                }
+              },
+              {
+                "frame": 0.52,
+                "value": {
+                  "__uuid__": "ffd762df-0255-4a30-992d-413b92beb49a"
+                }
+              },
+              {
+                "frame": 0.56,
+                "value": {
+                  "__uuid__": "63853965-6c30-439f-914a-18e3e4374a93"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "23025814-cc74-4467-b589-99c11f65c1b7"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.36,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 255
+            },
+            {
+              "frame": 0.6,
+              "value": 255
+            },
+            {
+              "frame": 0.64,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dartAttack2": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 1.2,
+                "value": {
+                  "__uuid__": "e9f21ed5-cf0a-406f-b28f-28d6cd57f702"
+                }
+              },
+              {
+                "frame": 1.24,
+                "value": {
+                  "__uuid__": "a83dac6e-c685-4d2d-a113-1ad108f3135c"
+                }
+              },
+              {
+                "frame": 1.28,
+                "value": {
+                  "__uuid__": "e831457f-ea36-41f1-b01d-6e2b7511b73e"
+                }
+              },
+              {
+                "frame": 1.32,
+                "value": {
+                  "__uuid__": "ffd762df-0255-4a30-992d-413b92beb49a"
+                }
+              },
+              {
+                "frame": 1.36,
+                "value": {
+                  "__uuid__": "63853965-6c30-439f-914a-18e3e4374a93"
+                }
+              },
+              {
+                "frame": 1.4,
+                "value": {
+                  "__uuid__": "23025814-cc74-4467-b589-99c11f65c1b7"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.16,
+              "value": 0
+            },
+            {
+              "frame": 1.2,
+              "value": 255
+            },
+            {
+              "frame": 1.4,
+              "value": 255
+            },
+            {
+              "frame": 1.44,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dartAttackBig1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 2.84,
+                "value": {
+                  "__uuid__": "2dc7c58a-2d42-4e9d-9886-b8444b23a9f5"
+                }
+              },
+              {
+                "frame": 2.88,
+                "value": {
+                  "__uuid__": "8e9d7301-b133-45b0-957b-457ded2f726f"
+                }
+              },
+              {
+                "frame": 2.92,
+                "value": {
+                  "__uuid__": "b4a795ad-d30e-4414-8cac-34be2502976e"
+                }
+              },
+              {
+                "frame": 2.96,
+                "value": {
+                  "__uuid__": "99d8e460-4515-4492-b5ba-134b35e2d1e6"
+                }
+              },
+              {
+                "frame": 3,
+                "value": {
+                  "__uuid__": "44ec9e6f-2ffe-4320-a1b4-24048eee8212"
+                }
+              },
+              {
+                "frame": 3.04,
+                "value": {
+                  "__uuid__": "2b2bc9c5-d544-4841-b570-68ab654964fe"
+                }
+              },
+              {
+                "frame": 3.08,
+                "value": {
+                  "__uuid__": "4960d90d-ba2e-47cc-8e53-fc9fbff96774"
+                }
+              },
+              {
+                "frame": 3.12,
+                "value": {
+                  "__uuid__": "1705c625-77ae-4fbb-af30-05c22873eb22"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.8,
+              "value": 0
+            },
+            {
+              "frame": 2.84,
+              "value": 255
+            },
+            {
+              "frame": 3.12,
+              "value": 255
+            },
+            {
+              "frame": 3.16,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

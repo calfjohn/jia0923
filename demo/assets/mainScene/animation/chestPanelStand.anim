@@ -1,0 +1,134 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "chestPanelStand",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 4.983333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "dkPlate/crystalMove/crystal1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/crystal": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "492d7bc9-739e-4fc1-a1aa-095479dcebe2"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -30
+              ]
+            },
+            {
+              "frame": 2.4833333333333334,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 4.983333333333333,
+              "value": [
+                0,
+                -30
+              ]
+            }
+          ]
+        }
+      },
+      "wt": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "dkPlate/crystalMove/colcor": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "btnYellowglow1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "shrink/btnLeft/layout": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "shrink": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "btnYellowBlue": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "btnYellowBlue/Particle": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

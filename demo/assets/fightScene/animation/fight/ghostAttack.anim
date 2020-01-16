@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ghostAttack",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "ghost1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "f12dfabb-1a37-4b1c-a386-eb72e2169c98"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "289b6b2e-e52a-421b-a11c-1c57ace716c4"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "5d4faeac-e9fa-4004-a40b-12b12f4d8580"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "5d4faeac-e9fa-4004-a40b-12b12f4d8580"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.05,
+              "value": 255
+            },
+            {
+              "frame": 0.15,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,1 @@
+# .\ossutil64\ossutil64.exe cp -r ..\build\ZCode oss://aliens-resource/public/ZCode

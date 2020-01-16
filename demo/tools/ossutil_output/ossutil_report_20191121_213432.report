@@ -1,0 +1,1 @@
+# .\ossutil64\ossutil64.exe cp -r ..\build\web-mobile oss://aliens-resource/ZCode

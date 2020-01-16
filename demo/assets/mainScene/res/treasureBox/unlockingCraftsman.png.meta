@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "02023c02-381b-4326-a3b9-3febf7e2ced4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "unlockingCraftsman": {
+      "ver": "1.0.4",
+      "uuid": "d21dd303-6723-4b82-8812-bb4bbca20d49",
+      "rawTextureUuid": "02023c02-381b-4326-a3b9-3febf7e2ced4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 51,
+      "height": 48,
+      "rawWidth": 51,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+"skeleton": { "hash": "dU17qDptnxh1D5tcsOb5VrHJuDw", "spine": "3.5.51", "width": 0, "height": 0, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "rotation": 288.75 }
+],
+"slots": [
+	{ "name": "hat2", "bone": "bone" }
+],
+"animations": {
+	"animation": {}
+}
+}

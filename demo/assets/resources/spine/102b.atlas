@@ -1,0 +1,97 @@
+
+102b.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lshou1
+  rotate: false
+  xy: 54, 33
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+Lshou2
+  rotate: true
+  xy: 50, 20
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+Ltui1
+  rotate: true
+  xy: 79, 52
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+Rshou1
+  rotate: true
+  xy: 116, 48
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+Rshou2
+  rotate: true
+  xy: 81, 35
+  size: 5, 9
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: true
+  xy: 97, 53
+  size: 9, 17
+  orig: 9, 17
+  offset: 0, 0
+  index: -1
+dengpao
+  rotate: false
+  xy: 67, 35
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+kua
+  rotate: false
+  xy: 37, 2
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+shengzi
+  rotate: false
+  xy: 81, 42
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 37, 11
+  size: 11, 17
+  orig: 11, 17
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 30
+  size: 50, 32
+  orig: 50, 32
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 2, 8
+  size: 33, 20
+  orig: 33, 20
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 54, 51
+  size: 23, 11
+  orig: 23, 11
+  offset: 0, 0
+  index: -1

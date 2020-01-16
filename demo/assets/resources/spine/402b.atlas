@@ -1,0 +1,41 @@
+
+402b.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lyan
+  rotate: false
+  xy: 104, 107
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+cao
+  rotate: true
+  xy: 40, 14
+  size: 49, 31
+  orig: 49, 31
+  offset: 0, 0
+  index: -1
+lian
+  rotate: true
+  xy: 2, 2
+  size: 61, 36
+  orig: 61, 36
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 65
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 74, 54
+  size: 72, 28
+  orig: 72, 28
+  offset: 0, 0
+  index: -1

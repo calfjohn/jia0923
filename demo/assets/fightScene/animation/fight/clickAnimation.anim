@@ -1,0 +1,135 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "clickAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.05,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "click/light1": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.3,
+              "value": 0.5
+            },
+            {
+              "frame": 0.45,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.3,
+              "value": 0.5
+            },
+            {
+              "frame": 0.45,
+              "value": 1
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.25,
+              "value": 0
+            },
+            {
+              "frame": 0.3,
+              "value": 255
+            },
+            {
+              "frame": 0.45,
+              "value": 0
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.275,
+                "value": {
+                  "__uuid__": "a3f1b484-f8d8-47e4-b874-eaa9aa486c74"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "click/light2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.65,
+              "value": 255
+            },
+            {
+              "frame": 1.05,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.25,
+              "value": 0
+            },
+            {
+              "frame": 1.05,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.25,
+              "value": 0
+            },
+            {
+              "frame": 1.05,
+              "value": 1
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.25,
+                "value": {
+                  "__uuid__": "e7d488c9-1452-4f9c-a41d-6f7ff5aba558"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "finger": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.25,
+              "value": 0.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.25,
+              "value": 0.5
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

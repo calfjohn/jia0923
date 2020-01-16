@@ -1,0 +1,69 @@
+
+heidongTexture.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heidong01
+  rotate: false
+  xy: 2, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong02
+  rotate: false
+  xy: 89, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong03
+  rotate: false
+  xy: 176, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong04
+  rotate: false
+  xy: 263, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong05
+  rotate: false
+  xy: 350, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong06
+  rotate: false
+  xy: 437, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong07
+  rotate: false
+  xy: 524, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong08
+  rotate: false
+  xy: 611, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+heidong09
+  rotate: false
+  xy: 698, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1

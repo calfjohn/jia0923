@@ -1,0 +1,153 @@
+
+103c.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ljia
+  rotate: false
+  xy: 2, 2
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+Ljia2
+  rotate: true
+  xy: 133, 2
+  size: 31, 34
+  orig: 31, 34
+  offset: 0, 0
+  index: -1
+Lshou
+  rotate: false
+  xy: 202, 10
+  size: 22, 28
+  orig: 22, 28
+  offset: 0, 0
+  index: -1
+Ltui1
+  rotate: false
+  xy: 177, 35
+  size: 19, 3
+  orig: 19, 3
+  offset: 0, 0
+  index: -1
+Ltui2
+  rotate: false
+  xy: 54, 6
+  size: 4, 5
+  orig: 4, 5
+  offset: 0, 0
+  index: -1
+Ltui3
+  rotate: true
+  xy: 54, 2
+  size: 2, 5
+  orig: 2, 5
+  offset: 0, 0
+  index: -1
+Ltui4
+  rotate: true
+  xy: 19, 2
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+Rcibang1
+  rotate: false
+  xy: 133, 35
+  size: 42, 27
+  orig: 42, 27
+  offset: 0, 0
+  index: -1
+Rcibang2
+  rotate: false
+  xy: 2, 18
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+Rjia
+  rotate: false
+  xy: 45, 5
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+Rtui1
+  rotate: false
+  xy: 54, 13
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+Rtui2
+  rotate: false
+  xy: 226, 13
+  size: 20, 4
+  orig: 20, 4
+  offset: 0, 0
+  index: -1
+Rtui3
+  rotate: false
+  xy: 61, 13
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+Rtui4
+  rotate: false
+  xy: 33, 5
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+naodai
+  rotate: false
+  xy: 45, 20
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+pidai
+  rotate: false
+  xy: 202, 2
+  size: 19, 6
+  orig: 19, 6
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: false
+  xy: 90, 21
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+shengti1
+  rotate: false
+  xy: 219, 40
+  size: 34, 22
+  orig: 34, 22
+  offset: 0, 0
+  index: -1
+shengti2
+  rotate: false
+  xy: 169, 2
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 226, 19
+  size: 26, 19
+  orig: 26, 19
+  offset: 0, 0
+  index: -1
+weijing
+  rotate: false
+  xy: 177, 40
+  size: 40, 22
+  orig: 40, 22
+  offset: 0, 0
+  index: -1

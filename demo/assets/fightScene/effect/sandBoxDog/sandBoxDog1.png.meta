@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "1b43028d-04eb-455d-8adb-ae3ebd18f2f3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "sandBoxDog1": {
+      "ver": "1.0.4",
+      "uuid": "e5d0fb11-cddf-4bd6-b529-4cdb26a2bd8d",
+      "rawTextureUuid": "1b43028d-04eb-455d-8adb-ae3ebd18f2f3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -17,
+      "offsetY": -11.5,
+      "trimX": 4,
+      "trimY": 23,
+      "width": 83,
+      "height": 77,
+      "rawWidth": 125,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

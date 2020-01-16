@@ -1,0 +1,133 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "burstEffect7",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.225,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "burstEffect/burstEffect1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0.025,
+                "value": {
+                  "__uuid__": "56909720-15a9-4ff4-b238-6d9efbac9a33"
+                }
+              },
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "1fac0d88-b194-4252-a282-656c12f2db76"
+                }
+              },
+              {
+                "frame": 0.075,
+                "value": {
+                  "__uuid__": "833679aa-c912-49bc-96c4-9d7f80bc836c"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "6faee7be-c848-4d2f-aceb-69dd1b9b048b"
+                }
+              },
+              {
+                "frame": 0.125,
+                "value": {
+                  "__uuid__": "d2c5e116-aa41-4d79-b9c3-ac5fa4506570"
+                }
+              },
+              {
+                "frame": 0.15,
+                "value": {
+                  "__uuid__": "ecbecc4d-dc26-4830-8149-fe693a8a1818"
+                }
+              },
+              {
+                "frame": 0.175,
+                "value": {
+                  "__uuid__": "787df3ed-19cb-470e-9838-e363554726d6"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "4a518168-b0d7-4243-b9c5-e422ecc5aa28"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.025,
+              "value": 255
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.225,
+              "value": 0
+            }
+          ],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

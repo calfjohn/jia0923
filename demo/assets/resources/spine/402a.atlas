@@ -1,0 +1,55 @@
+
+402a.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lyan
+  rotate: false
+  xy: 202, 42
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+Ryan
+  rotate: true
+  xy: 74, 16
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+cao
+  rotate: false
+  xy: 224, 49
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+cao1
+  rotate: false
+  xy: 2, 2
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 150, 31
+  size: 50, 29
+  orig: 50, 29
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 15
+  size: 70, 45
+  orig: 70, 45
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 74, 33
+  size: 74, 27
+  orig: 74, 27
+  offset: 0, 0
+  index: -1

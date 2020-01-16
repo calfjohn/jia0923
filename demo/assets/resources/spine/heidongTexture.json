@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "ynZHwGDLcbwJoCVT3I1xzkKmUJI", "spine": "3.5.51", "width": 85, "height": 85, "images": "./image/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": 34.85 }
+],
+"slots": [
+	{ "name": "bone", "bone": "bone", "attachment": "heidong09" }
+],
+"skins": {
+	"default": {
+		"bone": {
+			"heidong01": { "width": 85, "height": 85 },
+			"heidong02": { "width": 85, "height": 85 },
+			"heidong03": { "width": 85, "height": 85 },
+			"heidong04": { "width": 85, "height": 85 },
+			"heidong05": { "width": 85, "height": 85 },
+			"heidong06": { "width": 85, "height": 85 },
+			"heidong07": { "width": 85, "height": 85 },
+			"heidong08": { "width": 85, "height": 85 },
+			"heidong09": { "width": 85, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"atk": {
+		"slots": {
+			"bone": {
+				"attachment": [
+					{ "time": 0, "name": "heidong01" },
+					{ "time": 0.0667, "name": "heidong02" },
+					{ "time": 0.1333, "name": "heidong03" },
+					{ "time": 0.2333, "name": "heidong04" },
+					{ "time": 0.3333, "name": "heidong05" },
+					{ "time": 0.4, "name": "heidong06" },
+					{ "time": 0.4667, "name": "heidong07" },
+					{ "time": 0.5333, "name": "heidong08" },
+					{ "time": 0.6, "name": "heidong09" }
+				]
+			}
+		}
+	},
+	"std": {
+		"slots": {
+			"bone": {
+				"attachment": [
+					{ "time": 0, "name": "heidong01" },
+					{ "time": 0.1, "name": "heidong02" },
+					{ "time": 0.2, "name": "heidong03" },
+					{ "time": 0.3, "name": "heidong04" },
+					{ "time": 0.3667, "name": "heidong05" },
+					{ "time": 0.4667, "name": "heidong06" },
+					{ "time": 0.5333, "name": "heidong07" },
+					{ "time": 0.6333, "name": "heidong08" },
+					{ "time": 0.7333, "name": "heidong09" }
+				]
+			}
+		}
+	}
+}
+}

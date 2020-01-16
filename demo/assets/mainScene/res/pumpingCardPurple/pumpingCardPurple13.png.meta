@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "a21bfea5-d229-4ef1-b954-5d6be90bb3e1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "pumpingCardPurple13": {
+      "ver": "1.0.4",
+      "uuid": "17623f46-f4aa-4513-9183-ec2e4a53bb0b",
+      "rawTextureUuid": "a21bfea5-d229-4ef1-b954-5d6be90bb3e1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": -0.5,
+      "trimX": 16,
+      "trimY": 1,
+      "width": 204,
+      "height": 223,
+      "rawWidth": 240,
+      "rawHeight": 224,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

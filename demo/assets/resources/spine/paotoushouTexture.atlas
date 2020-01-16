@@ -1,0 +1,55 @@
+
+paotoushouTexture.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boxing1
+  rotate: true
+  xy: 2, 2
+  size: 118, 143
+  orig: 118, 143
+  offset: 0, 0
+  index: -1
+boxing2
+  rotate: true
+  xy: 147, 2
+  size: 118, 143
+  orig: 118, 143
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 384, 83
+  size: 85, 37
+  orig: 85, 37
+  offset: 0, 0
+  index: -1
+gaizi
+  rotate: false
+  xy: 292, 16
+  size: 90, 40
+  orig: 90, 40
+  offset: 0, 0
+  index: -1
+quantou
+  rotate: false
+  xy: 429, 33
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+tanhuang
+  rotate: false
+  xy: 384, 32
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1
+waike
+  rotate: false
+  xy: 292, 58
+  size: 90, 62
+  orig: 90, 62
+  offset: 0, 0
+  index: -1

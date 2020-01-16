@@ -1,0 +1,140 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "numLabelS1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.1,
+  "sample": 10,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "labelNode": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.5
+            },
+            {
+              "frame": 0.3,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 1.5
+            },
+            {
+              "frame": 0.3,
+              "value": 1.2
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.4,
+              "value": [
+                0,
+                42.54545454545455
+              ]
+            }
+          ]
+        }
+      },
+      "labelNode1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            },
+            {
+              "frame": 0.8,
+              "value": 255
+            },
+            {
+              "frame": 1.1,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 2
+            },
+            {
+              "frame": 0.3,
+              "value": 1.2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.2,
+              "value": 2
+            },
+            {
+              "frame": 0.3,
+              "value": 1.2
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 1.1,
+              "value": [
+                0,
+                117
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "comps": {}
+  },
+  "events": []
+}

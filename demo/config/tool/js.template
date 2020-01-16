@@ -1,0 +1,30 @@
+//此文件为工具生成，不允许修改
+window.jsonTables = window.jsonTables || {};
+window.tb = window.tb || {};
+
+
+//枚举
+<table>
+//[${table_alias}:${field_alias}]
+<enum>tb.${enum_name} = ${enum_value}; //${enum_alias}
+</enum> </table>
+//表格名常量
+jsonTables.TABLE = { <table>
+    ${table_uppername}:"${table_name}", // [${table_uppername}] </table>
+};
+
+//表格字段常量
+<table>
+//[${table_alias}]
+jsonTables.CONFIG_${table_uppername} = { <field>
+    ${field_fixname}:"${field_name}", //${field_alias} </field>
+};
+</table>
+
+//表格数据
+<table>
+jsonTables[jsonTables.TABLE.${table_uppername}] = ${table_data}
+</table>
+
+//对配置表进行优化 加快索引速度
+jsonTables.fixTable()

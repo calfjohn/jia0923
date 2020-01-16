@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "1bc138bb-358e-4446-aba3-0c50cd48af6f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "leagueTalk1": {
+      "ver": "1.0.4",
+      "uuid": "3b8a2c98-50f8-4393-ac60-2f17850cf1eb",
+      "rawTextureUuid": "1bc138bb-358e-4446-aba3-0c50cd48af6f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 160,
+      "height": 59,
+      "rawWidth": 160,
+      "rawHeight": 59,
+      "borderTop": 44,
+      "borderBottom": 15,
+      "borderLeft": 80,
+      "borderRight": 54,
+      "subMetas": {}
+    }
+  }
+}

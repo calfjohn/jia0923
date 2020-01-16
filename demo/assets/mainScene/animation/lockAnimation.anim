@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "lockAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.8333333333333333,
+  "sample": 6,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "key1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                0,
+                3.3
+              ]
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "key2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                0,
+                3.3
+              ]
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

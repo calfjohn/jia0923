@@ -1,0 +1,335 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "yunAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5833333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "0",
+  "curveData": {
+    "paths": {
+      "clound21": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -231,
+                96
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                -1797,
+                70
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "clound23": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -257,
+                70
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                -1711,
+                70
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2.5
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.5
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "clound25": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                672,
+                92
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                2037,
+                163
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "clound26": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                658,
+                -239
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                1778,
+                -160
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 3
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "clound22": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -253,
+                -160
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                -1913,
+                -160
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 3
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 4
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "cloud20": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -371,
+                276
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                -2012,
+                254
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 3
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 1.5
+            }
+          ]
+        }
+      },
+      "cloud27": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                592,
+                269
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                1829,
+                344
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "clound24": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                691,
+                -83
+              ]
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": [
+                1879,
+                -35
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 2.5
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 2.5
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

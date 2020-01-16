@@ -1,0 +1,139 @@
+
+fengmofashiTexture.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird1
+  rotate: false
+  xy: 2, 23
+  size: 90, 103
+  orig: 90, 103
+  offset: 0, 0
+  index: -1
+bird2
+  rotate: false
+  xy: 302, 52
+  size: 100, 74
+  orig: 100, 74
+  offset: 0, 0
+  index: -1
+bozi
+  rotate: false
+  xy: 723, 71
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+chibang1
+  rotate: false
+  xy: 723, 88
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+chibang2
+  rotate: false
+  xy: 404, 60
+  size: 79, 66
+  orig: 79, 66
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 363, 6
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: false
+  xy: 94, 39
+  size: 99, 87
+  orig: 99, 87
+  offset: 0, 0
+  index: -1
+maozi2
+  rotate: true
+  xy: 302, 2
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1
+pifeng1
+  rotate: false
+  xy: 655, 71
+  size: 66, 55
+  orig: 66, 55
+  offset: 0, 0
+  index: -1
+pifeng2
+  rotate: true
+  xy: 195, 50
+  size: 76, 105
+  orig: 76, 105
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: true
+  xy: 485, 83
+  size: 43, 95
+  orig: 43, 95
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 582, 71
+  size: 71, 55
+  orig: 71, 55
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: true
+  xy: 2, 2
+  size: 19, 21
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+toushi
+  rotate: false
+  xy: 790, 97
+  size: 50, 29
+  orig: 50, 29
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 891, 103
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: true
+  xy: 485, 63
+  size: 18, 36
+  orig: 18, 36
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 94, 2
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 145, 3
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 842, 100
+  size: 26, 47
+  orig: 26, 47
+  offset: 0, 0
+  index: -1

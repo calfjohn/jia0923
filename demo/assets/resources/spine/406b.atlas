@@ -1,0 +1,146 @@
+
+406b.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lerhuang
+  rotate: true
+  xy: 69, 51
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+Lhuxi
+  rotate: false
+  xy: 244, 40
+  size: 29, 34
+  orig: 29, 34
+  offset: 0, 0
+  index: -1
+Ljianbu2
+  rotate: false
+  xy: 370, 83
+  size: 44, 37
+  orig: 44, 37
+  offset: 0, 0
+  index: -1
+Ljianjia
+  rotate: true
+  xy: 318, 82
+  size: 38, 50
+  orig: 38, 50
+  offset: 0, 0
+  index: -1
+Lshou1
+  rotate: false
+  xy: 312, 54
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+Lshoubi
+  rotate: true
+  xy: 262, 85
+  size: 35, 54
+  orig: 35, 54
+  offset: 0, 0
+  index: -1
+Ltui11
+  rotate: false
+  xy: 458, 80
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+Rerhuang
+  rotate: false
+  xy: 343, 65
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+Rhuxi
+  rotate: false
+  xy: 275, 51
+  size: 35, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1
+Rjianjia
+  rotate: false
+  xy: 69, 64
+  size: 68, 56
+  orig: 68, 56
+  offset: 0, 0
+  index: -1
+Rshoubi3
+  rotate: true
+  xy: 205, 76
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+Rshoubiu2
+  rotate: true
+  xy: 2, 2
+  size: 47, 61
+  orig: 47, 61
+  offset: 0, 0
+  index: -1
+Rtui222
+  rotate: false
+  xy: 139, 55
+  size: 37, 24
+  orig: 37, 24
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: true
+  xy: 489, 97
+  size: 23, 12
+  orig: 23, 12
+  offset: 0, 0
+  index: -1
+jiao1
+  rotate: true
+  xy: 489, 97
+  size: 23, 12
+  orig: 23, 12
+  offset: 0, 0
+  index: -1
+qunbai1
+  rotate: false
+  xy: 205, 42
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 416, 80
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 139, 81
+  size: 64, 39
+  orig: 64, 39
+  offset: 0, 0
+  index: -1
+xiongbu
+  rotate: false
+  xy: 2, 51
+  size: 65, 69
+  orig: 65, 69
+  offset: 0, 0
+  index: -1
+zuiba1
+  rotate: true
+  xy: 178, 51
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+portalIce.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bing1
+  rotate: false
+  xy: 154, 2
+  size: 106, 95
+  orig: 106, 95
+  offset: 0, 0
+  index: -1
+bing2
+  rotate: true
+  xy: 325, 82
+  size: 105, 122
+  orig: 105, 122
+  offset: 0, 0
+  index: -1
+bing3
+  rotate: false
+  xy: 435, 271
+  size: 72, 110
+  orig: 72, 110
+  offset: 0, 0
+  index: -1
+bing4
+  rotate: true
+  xy: 435, 383
+  size: 125, 63
+  orig: 125, 63
+  offset: 0, 0
+  index: -1
+dongnei
+  rotate: false
+  xy: 2, 35
+  size: 150, 152
+  orig: 150, 152
+  offset: 0, 0
+  index: -1
+lubiao
+  rotate: true
+  xy: 154, 99
+  size: 88, 169
+  orig: 88, 169
+  offset: 0, 0
+  index: -1
+lubiao1
+  rotate: false
+  xy: 435, 211
+  size: 63, 58
+  orig: 63, 58
+  offset: 0, 0
+  index: -1
+niaogutou
+  rotate: false
+  xy: 262, 62
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+niaotou
+  rotate: true
+  xy: 2, 2
+  size: 31, 40
+  orig: 31, 40
+  offset: 0, 0
+  index: -1
+niaowei
+  rotate: false
+  xy: 435, 193
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 189
+  size: 431, 319
+  orig: 431, 319
+  offset: 0, 0
+  index: -1

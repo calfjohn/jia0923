@@ -1,0 +1,159 @@
+package protocol;
+import "base.proto";
+//==================== 矿战 相关 协议
+//
+message Mine_Player_Info_ {
+    optional int32 UserID = 1;
+    optional string Nickname = 2;
+    optional Role_Info_ Role = 3;
+}
+// 请求 矿山信息
+message Req_Get_MineInfo_ {
+    optional int64 UserID = 1;
+}
+// 响应 矿山信息
+message Resp_Get_MineInfo_ {
+    optional int64 UserID = 1;
+    optional int32 CurLv = 2;  // 当前矿山等级
+    optional int32 CurOutput = 3;   // 当前产量
+    optional int64 BeginTime = 4;   // 开采开始时间
+    optional int64 EndTime = 5; // 开采结束时间
+    optional int32 PlunderNum = 6;  // 掠夺次数
+    optional int64 NextPlunderTime = 7; // 下次掠夺恢复时间
+    optional int32 NextLvOutput = 8;    // 下级矿山产量
+    optional int32 UpgradeBadge = 9;    // 升级所需徽章
+    repeated BattleHeroInfo_ Heroes = 10;    // 上场的英雄
+    optional TableInfo_ TableInfo = 11;//沙盘数据
+    optional int32 Step = 12;   // 消除步数
+    optional int32 MaxPlunderNum = 13;  // 最大掠夺次数
+    optional int64 CollectTime = 14;    // 可收集矿的时间
+    optional int64 MiningCDTime = 15;   // 开采CD时间
+    optional int32 RefreshPaice = 16;   // 刷新花费钻石
+    optional int32 BeRob = 17;  // 被掠夺的金币
+}
+
+// 请求 矿山升级
+message Req_Mine_Upgrade_ {
+    optional int32 TargetLv = 1;    // 目标等级
+}
+
+// 响应 矿山升级
+message Resp_Mine_Upgrade_ {
+    optional int32 CurLv = 1;  // 当前矿山等级
+    optional int32 CurOutput = 2;   // 当前产量
+    optional int32 NextLvOutput = 3;    // 下级矿山产量
+    optional int32 UpgradeBadge = 4;    // 升级所需徽章
+}
+
+// 请求 保存矿山英雄（开采）
+message Req_Save_MineHeroes_ {
+    optional int64 UserID = 1;
+    repeated BattleHeroInfo_ Heroes = 2;    // 上场的英雄
+    optional Mine_Player_Info_ Player = 3;  // 主角信息
+    optional int32 MineLv = 4;
+}
+
+// 响应 保存矿山英雄（开采）
+message Resp_Save_MineHeroes_ {
+    optional int64 UserID = 1;
+    optional int64 BeginTime = 2;   // 开采开始时间
+    optional int64 EndTime = 3; // 开采结束时间
+    optional int64 CollectTime = 4;//可收集时间
+    repeated BattleHeroInfo_ Heroes = 5;    // 上场的英雄
+    optional int64 MiningCDTime = 6;   // 开采CD时间
+    repeated Reward_Info_ Rewards = 7; // 额外奖励
+}
+
+// 请求 刷新矿战对手
+message Req_Refresh_MineEnemy_ {
+    optional int64 UserID = 1;
+    optional int32 Type = 2;    // 0:默认 1:使用钻石刷新
+    optional int32 MineLv = 3;  // 矿山等级
+    repeated int64 EnemyUid = 4;    // 服务器用。近几次对手id（防重复）
+}
+
+// 响应 刷新矿战对手
+message Resp_Refresh_MineEnemy_ {
+    optional int64 UserID = 1;      // 服务端专用
+    optional string Name = 2;    // 名字
+    optional int32 MineLv = 3;  // 对手 矿山等级
+    optional int32 Output = 4;  // 对手 矿山产量
+    optional int32 GetGold = 5; // 掠夺可获得的金币
+    optional int32 GetExp = 6;  // 获得的经验
+    repeated BattleHeroInfo_ Heroes = 7;    // 上场的英雄
+    optional Role_Info_ Role = 8;    // 对手 主角信息
+    optional int64 DefUserID = 9;   // 对手id
+}
+
+// 请求 矿山收集
+message Req_Mine_Collect_ {
+    optional int64 UserID = 1;
+}
+
+// 响应 矿山收集
+message Resp_Mine_Collect_ {
+    optional int64 UserID = 1;
+    optional int32 Gold = 2;
+}
+
+// 请求 掠夺战结果
+message Req_Battle_Result_ {
+    optional int64 UserID = 1;
+    optional int32 Result = 2;  // 0：success 1：failed
+    optional int32 MineLv = 3;  // 矿山等级
+    optional int32 GetGold = 4; // 获得的金币
+    optional int32 GetExp = 5;  // 获得的经验
+    optional int64 DefUserID = 6;   // 防守方用户ID
+    optional string Name = 7;   // 服务器用
+    optional int32 InfoID = 8; // 情报 id -1 表非复仇
+}
+
+// 响应 掠夺战结果
+message Resp_Battle_Result_ {
+    optional int64 UserID = 1;
+    optional int32 GetGold = 2;
+    optional int32 GetBadge = 3;
+    optional int32 GetExp = 4;
+    optional int32 MineLv = 5;  // 矿山等级
+    repeated Reward_Info_ Rewards = 6; // 额外奖励
+}
+
+// 响应 掠夺
+message Resp_Plunder_Mine_ {
+    optional int32 PlunderNum = 1;  // 掠夺次数
+    optional int64 NextPlunderTime = 2; // 下次掠夺恢复时间
+}
+
+// 请求 矿山情报操作
+message Req_MineInfo_Op_ {
+    optional int64 UserID = 1;
+    optional int32 InfoID = 2;
+    optional int64 EnemyUid = 3;    // 服务端专用
+}
+
+// 响应 反击
+message Resp_MineInfo_Op_ {
+    optional int64 UserID = 1;
+    optional int32 InfoType = 2;    // 情报类型 0：胜 1：败
+    optional int32 GetGold = 3; // 可获得的金币
+    optional int32 GetExp = 4;  // 可获得的经验
+    optional int32 GetBadge = 5; // 可获得的徽章
+    optional string Name = 6;    // 反击对手的名字
+    optional int32 MineLv = 7;  // 反击对手 矿山等级
+    optional int32 Output = 8;  // 反击对手 矿山产量
+    repeated BattleHeroInfo_ Heroes = 9;    // 上场的英雄
+    optional Role_Info_ Role = 10;    // 对手 主角信息
+    optional int64 DefUserID = 11;   // 对手id
+}
+
+// 推送矿山情报
+message Resp_Mine_Info_ {
+    optional int64 UserID = 1;
+    repeated int32 InfoType = 2;    // 情报类型 0：胜 1：败
+    repeated string AtkName = 3;
+    repeated int64 AtkUserID = 4;
+    repeated int32 Gold = 5;
+    repeated int32 Badge = 6;   // 获得的徽章
+    repeated int32 Status = 7;  // 1:未领（反击） 2：已领（反击）
+    repeated int32 InfoID = 8;  // 情报id
+}

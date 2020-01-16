@@ -1,0 +1,13 @@
+
+coinSilver.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coinSilver
+  rotate: false
+  xy: 2, 2
+  size: 235, 235
+  orig: 235, 235
+  offset: 0, 0
+  index: -1

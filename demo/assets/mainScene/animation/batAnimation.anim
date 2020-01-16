@@ -1,0 +1,62 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "batAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.9,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -1183,
+            -705
+          ],
+          "motionPath": [
+            [
+              -58,
+              57,
+              -646,
+              -226,
+              514,
+              333
+            ]
+          ]
+        },
+        {
+          "frame": 2.9,
+          "value": [
+            1139,
+            413
+          ],
+          "motionPath": []
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 5
+        },
+        {
+          "frame": 2.9,
+          "value": 0.5
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 5
+        },
+        {
+          "frame": 2.9,
+          "value": 0.5
+        }
+      ]
+    }
+  },
+  "events": []
+}

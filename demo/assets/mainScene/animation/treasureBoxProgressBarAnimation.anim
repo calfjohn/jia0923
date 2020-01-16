@@ -1,0 +1,129 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "treasureBoxProgressBarAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.75,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "bbec9fe3-448f-41ae-b545-14dd37696c9c"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "d21ad943-e20b-402d-aac4-77490c5963dd"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "e6426706-cb60-4662-81c6-1b5546d66159"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "33a0c250-cf6f-4d40-a240-c3d1f70be19f"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "0050c41d-6c98-414e-9870-0871d3352f5f"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "b5494b97-9337-414e-a984-1edb611342a6"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "c49ba564-dab8-4a2d-a318-e41e242c00b1"
+            }
+          },
+          {
+            "frame": 0.35,
+            "value": {
+              "__uuid__": "39f36156-5623-4803-88ea-578b3e6805d8"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "0c1960e5-0636-48e6-a1ac-993a16f1a881"
+            }
+          },
+          {
+            "frame": 0.45,
+            "value": {
+              "__uuid__": "e5bcd381-2095-4f6a-817d-4494fa146baf"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "b47ef8f7-f047-40bd-99e3-10d33552f155"
+            }
+          },
+          {
+            "frame": 0.55,
+            "value": {
+              "__uuid__": "8d847db9-a7ea-4d1d-82d8-c1a9ae1130e0"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "e158ff2e-c545-4a2e-9e5e-c669a8d22770"
+            }
+          },
+          {
+            "frame": 0.65,
+            "value": {
+              "__uuid__": "1fd85787-1a4e-4b0e-afdf-22b8a114c9c6"
+            }
+          },
+          {
+            "frame": 0.7,
+            "value": {
+              "__uuid__": "20118364-7f6d-4a3c-b1cc-a41a384d376c"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.05,
+          "value": 255
+        },
+        {
+          "frame": 0.7,
+          "value": 255
+        },
+        {
+          "frame": 0.75,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

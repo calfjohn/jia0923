@@ -1,0 +1,425 @@
+
+goodpandoraTexture.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozi
+  rotate: false
+  xy: 84, 770
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+ci2
+  rotate: true
+  xy: 971, 750
+  size: 52, 34
+  orig: 52, 34
+  offset: 0, 0
+  index: -1
+ci3
+  rotate: false
+  xy: 890, 820
+  size: 64, 48
+  orig: 64, 48
+  offset: 0, 0
+  index: -1
+ci5
+  rotate: true
+  xy: 971, 804
+  size: 59, 37
+  orig: 59, 37
+  offset: 0, 0
+  index: -1
+ci6
+  rotate: false
+  xy: 890, 870
+  size: 82, 49
+  orig: 82, 49
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: true
+  xy: 956, 827
+  size: 41, 13
+  orig: 41, 13
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: false
+  xy: 76, 795
+  size: 14, 23
+  orig: 14, 23
+  offset: 0, 0
+  index: -1
+fa4
+  rotate: false
+  xy: 39, 791
+  size: 16, 27
+  orig: 16, 27
+  offset: 0, 0
+  index: -1
+fa5
+  rotate: true
+  xy: 2, 826
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+fa6
+  rotate: false
+  xy: 2, 791
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+fa7
+  rotate: false
+  xy: 1007, 725
+  size: 14, 27
+  orig: 14, 27
+  offset: 0, 0
+  index: -1
+hezi
+  rotate: true
+  xy: 100, 759
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+heziGlow
+  rotate: false
+  xy: 890, 921
+  size: 84, 75
+  orig: 84, 75
+  offset: 0, 0
+  index: -1
+jiao2
+  rotate: true
+  xy: 92, 788
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: -1
+jiao3
+  rotate: true
+  xy: 86, 827
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+mao2
+  rotate: false
+  xy: 2, 727
+  size: 47, 21
+  orig: 47, 21
+  offset: 0, 0
+  index: -1
+qun
+  rotate: true
+  xy: 976, 932
+  size: 64, 43
+  orig: 64, 43
+  offset: 0, 0
+  index: -1
+qun1
+  rotate: false
+  xy: 1010, 820
+  size: 8, 43
+  orig: 8, 43
+  offset: 0, 0
+  index: -1
+qun2
+  rotate: true
+  xy: 51, 728
+  size: 20, 47
+  orig: 20, 47
+  offset: 0, 0
+  index: -1
+rotate1
+  rotate: false
+  xy: 2, 846
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate10
+  rotate: false
+  xy: 631, 694
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate11
+  rotate: true
+  xy: 853, 528
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate12
+  rotate: true
+  xy: 154, 306
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate13
+  rotate: false
+  xy: 154, 542
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate14
+  rotate: true
+  xy: 154, 84
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate15
+  rotate: false
+  xy: 306, 390
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate16
+  rotate: false
+  xy: 376, 542
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate17
+  rotate: false
+  xy: 598, 542
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate18
+  rotate: false
+  xy: 528, 390
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate19
+  rotate: false
+  xy: 750, 376
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate2
+  rotate: false
+  xy: 224, 846
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate20
+  rotate: true
+  xy: 306, 168
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate21
+  rotate: false
+  xy: 458, 238
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate22
+  rotate: false
+  xy: 680, 224
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate23
+  rotate: false
+  xy: 458, 86
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate24
+  rotate: true
+  xy: 680, 2
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate25
+  rotate: true
+  xy: 832, 2
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate3
+  rotate: false
+  xy: 446, 846
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate4
+  rotate: false
+  xy: 668, 846
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate5
+  rotate: true
+  xy: 2, 503
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate6
+  rotate: true
+  xy: 2, 281
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate7
+  rotate: true
+  xy: 2, 59
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate8
+  rotate: false
+  xy: 187, 694
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate9
+  rotate: false
+  xy: 409, 694
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 44, 752
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: true
+  xy: 57, 794
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: false
+  xy: 84, 755
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
+shou3
+  rotate: false
+  xy: 1010, 790
+  size: 11, 28
+  orig: 11, 28
+  offset: 0, 0
+  index: -1
+shou4
+  rotate: true
+  xy: 65, 823
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+shou5
+  rotate: true
+  xy: 92, 804
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+shou6
+  rotate: true
+  xy: 34, 826
+  size: 18, 29
+  orig: 18, 29
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 750
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 976, 865
+  size: 39, 65
+  orig: 39, 65
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 144, 727
+  size: 21, 41
+  orig: 21, 41
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: false
+  xy: 956, 788
+  size: 13, 37
+  orig: 13, 37
+  offset: 0, 0
+  index: -1
+tui3
+  rotate: true
+  xy: 100, 727
+  size: 21, 42
+  orig: 21, 42
+  offset: 0, 0
+  index: -1
+tui4
+  rotate: false
+  xy: 1007, 754
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+
+goodpandoraTexture2.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rotate26
+  rotate: false
+  xy: 2, 2
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1
+rotate27
+  rotate: false
+  xy: 224, 2
+  size: 220, 150
+  orig: 220, 150
+  offset: 0, 0
+  index: -1

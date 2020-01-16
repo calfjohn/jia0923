@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "ad7794e8-e9f0-4b01-a9a4-5d56fc39f2d8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "soldierTrajectory2": {
+      "ver": "1.0.4",
+      "uuid": "e4666aaa-f1bb-4d58-a95f-8a47050cd209",
+      "rawTextureUuid": "ad7794e8-e9f0-4b01-a9a4-5d56fc39f2d8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 13.5,
+      "offsetY": 0,
+      "trimX": 27,
+      "trimY": 0,
+      "width": 143,
+      "height": 104,
+      "rawWidth": 170,
+      "rawHeight": 104,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

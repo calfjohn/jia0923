@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "4dcbb4e7-94c4-4005-899d-612ff5290999",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "equip_icon_2006": {
+      "ver": "1.0.4",
+      "uuid": "aadcf7eb-bbde-4323-ac7b-6b57d90bfd79",
+      "rawTextureUuid": "4dcbb4e7-94c4-4005-899d-612ff5290999",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 5,
+      "trimY": 4,
+      "width": 71,
+      "height": 72,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

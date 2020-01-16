@@ -1,0 +1,117 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "burstEffect5",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.12,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "accumulation/accumulationEffect1": {
+        "props": {
+          "opacity": []
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": []
+          }
+        }
+      },
+      "burstEffect/burstEffect1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "7e82d5e6-e2b3-4a50-ba26-a63919d1d41f"
+                }
+              },
+              {
+                "frame": 0.02,
+                "value": {
+                  "__uuid__": "83cf212c-f67e-4765-8837-eb6f62a1f58a"
+                }
+              },
+              {
+                "frame": 0.04,
+                "value": {
+                  "__uuid__": "000a0a5a-7709-41cd-825c-15a0b6a829eb"
+                }
+              },
+              {
+                "frame": 0.06,
+                "value": {
+                  "__uuid__": "7dec0d95-c153-4f62-a42e-cc3350252b8d"
+                }
+              },
+              {
+                "frame": 0.08,
+                "value": {
+                  "__uuid__": "09d9da9d-3952-400f-91c5-786bb1c37710"
+                }
+              },
+              {
+                "frame": 0.1,
+                "value": {
+                  "__uuid__": "09d9da9d-3952-400f-91c5-786bb1c37710"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.08,
+              "value": 255
+            },
+            {
+              "frame": 0.1,
+              "value": 0
+            }
+          ],
+          "scaleX": [],
+          "scaleY": []
+        }
+      },
+      "processEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "burstEffect": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            }
+          ]
+        }
+      },
+      "accumulation": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

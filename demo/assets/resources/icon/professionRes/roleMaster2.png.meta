@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "924fe609-a327-4f36-83ab-3f6d9cb68231",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "roleMaster2": {
+      "ver": "1.0.4",
+      "uuid": "d6d09a86-d8aa-440d-8ff4-385e8fc0af10",
+      "rawTextureUuid": "924fe609-a327-4f36-83ab-3f6d9cb68231",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -33.5,
+      "offsetY": 1.5,
+      "trimX": 0,
+      "trimY": 8,
+      "width": 203,
+      "height": 391,
+      "rawWidth": 270,
+      "rawHeight": 410,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
